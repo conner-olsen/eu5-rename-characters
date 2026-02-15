@@ -98,7 +98,7 @@
 					}
 
 					blockoverride "entry_text" {
-						text = "RCH_RENAME_CHARACTER"
+						text = "RCH_CHOOSE_NEW_CHARACTER_NAME"
 					}
 				}
 			}

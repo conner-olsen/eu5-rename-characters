@@ -128,11 +128,9 @@ window = {
                             using = button_resize_to_fit_text
                             using = snd_UI_popup_confirm
 
-                            # RCH-MODIFICATION: Bypass C++ Check
-                            # 1. Execute the rename command using the Country Tag and the text Variable
-                            # And set rac_custom_name_set, now only using the name without prefixes.
-                            onclick = "[ExecuteConsoleCommand( Concatenate( 'effect character:', Concatenate( GetVariableSystem.Get('rch_character_to_rename'), Concatenate( ' = { set_first_name = \"', Concatenate( GetVariableSystem.Get('rch_new_name'), '\" }' ) ) ) ) )]"
-                            # 2. Close the window
+                            # RCH: Rename the character
+                            onclick = "[ExecuteConsoleCommand( Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, Concatenate( ' = { var:rch_character_to_rename = { set_nickname = \"\" set_first_name = \"', Concatenate( GetVariableSystem.Get('rch_new_name'), '\" } }' ) ) ) ) )]"
+                            # Close the window
 							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
 
                             input_action = "confirm"
@@ -195,7 +193,7 @@ window = {
 									fontsize = 19
 									default_format = "#subtle_name"
 									align = center
-									text = "CHANGE_NAME_SUBTITLE"
+									text = "RCH_CHANGE_CHARACTER_NAME_SUBTITLE"
 								}
 
 								textbox = {

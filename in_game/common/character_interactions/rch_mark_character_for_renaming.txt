@@ -1,0 +1,42 @@
+﻿rch_mark_character_for_renaming = {
+	on_own_nation = yes
+	message = yes
+	potential = {
+		always = yes
+	}
+	ai_tick = never
+	allow = {
+		always = yes
+	}
+	select_trigger = {
+		looking_for_a = character
+		source = actor
+		target_flag = recipient
+		name = "choose_character"
+		pre_evaluation_sort_value = {
+			value = age_in_years
+		}
+		pre_evaluation_number_to_evaluate_fully = 5
+		column = {
+			data = name
+		}
+		visible = {
+			always = yes
+		}
+		enabled = {
+			always = yes
+		}
+	}
+	effect = {
+		scope:actor = {
+			set_variable = {
+				name = rch_character_to_rename
+				value = scope:recipient
+			}
+		}
+		scope:recipient = {
+			set_first_name = "Marked-Firstname"
+			set_nickname = "Marked-Lastname"
+		}
+	}
+}
