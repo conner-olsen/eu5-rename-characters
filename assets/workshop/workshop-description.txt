@@ -9,7 +9,7 @@ Allows you to rename characters via the right-click context menu.
 [h1]To Use:[/h1]
 [olist]
  [*][b]Right Click Any Character:[/b] This will open the context menu for character interactions.
- [*][b]Mark Character:[/b] First Select the "Mark Character for Renaming" interaction.
+ [*][b]Mark Character:[/b] Select the "Mark Character for Renaming" interaction.
  [*][b]Rename Character:[/b] Then select the "Rename Character" interaction.
  [*][b]Choose A New Name:[/b] Fill in the text box with the new name and click "Rename Character".
 [/olist]
