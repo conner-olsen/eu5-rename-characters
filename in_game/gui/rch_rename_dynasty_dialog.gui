@@ -1,5 +1,5 @@
 window = {
-	name = "rch_rename_character_dialog"
+	name = "rch_rename_dynasty_dialog"
 	parentanchor = center
 	allow_outside = yes
 	size = { 400 300 }
@@ -46,18 +46,19 @@ window = {
 								size = { 300 30 }
 
 								blockoverride "editbox_label" {
-									text = "RCH_EDITBOX_DEFAULT"
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
 								}
 
                                 blockoverride "editbox_properties" {
                                     name = "new_name"
                                     tooltipwidget = {
                                         LeftClickButtonTooltip = {
-                                            blockoverride "onclick_text" { text = "RCH_EDIT_CHARACTER_NAME" }
+                                            blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
                                         }
                                     }
                                     # RCH: Save the text to a variable every time you type
-                                    ontextchanged = "[GetVariableSystem.Set('rch_new_name', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+                                    # ontextchanged = "[SelectLocalization(GetVariableSystem.Exists('rch_renaming_dynsty_1',GetVariableSystem.Set('rch_new_dynasty_name_1', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self)), GetVariableSystem.Set('rch_new_dynasty_name_2', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self)))]"
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_1', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
 
                                     maxcharacters = 42
                                 }
@@ -72,7 +73,7 @@ window = {
 
                     # RCH: Debug Text
                     # text_single = {
-                    #     raw_text = "TEXT: [GetVariableSystem.Get('rch_new_name')] PLAYER: [GetPlayer.GetTag] TARGET: [GetVariableSystem.Get('rch_character_to_rename')] FIRST_NAME: "
+                    #     raw_text = "TEXT: [GetVariableSystem.Get('rch_new_dynasty_name_1')] PLAYER: [GetPlayer.GetTag] TARGET: [GetVariableSystem.Get('rch_dynasty_to_rename')] FIRST_NAME: "
                     #     align = center
                     #     default_format = "#low"
                     # }
@@ -89,7 +90,7 @@ window = {
 							}
 
 							# block "decline_input_action" {
-							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
+							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_dynasty_dialog')]"
 							# }
 						}
 
@@ -101,10 +102,10 @@ window = {
                             using = button_resize_to_fit_text
                             using = snd_UI_popup_confirm
 
-                            # RCH: Rename the character
-                            onclick = "[ExecuteConsoleCommand( Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, Concatenate( ' = { var:rch_marked_character = { set_nickname = \"\" set_first_name = \"', Concatenate( GetVariableSystem.Get('rch_new_name'), '\" } remove_variable = rch_marked_character }' ) ) ) ) )]"
+                            # RCH: Rename the dynasty
+                            onclick = "[ExecuteConsoleCommand( 'effect rch_rename_dynasty' )]"
                             # Close the window
-							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
+							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_dynasty_dialog')]"
 
                             input_action = "confirm"
                             use_global_input_instance = yes
@@ -166,7 +167,7 @@ window = {
 									fontsize = 19
 									default_format = "#subtle_name"
 									align = center
-									text = "RCH_CHANGE_CHARACTER_NAME_SUBTITLE"
+									text = "RCH_CHANGE_DYNASTY_NAME_SUBTITLE"
 								}
 
 								textbox = {
@@ -177,7 +178,7 @@ window = {
 									default_format = "#yellow_titles"
 									fontsize = 22
 									align = center|nobaseline
-									text = "RCH_CHANGE_CHARACTER_NAME_TITLE"
+									text = "RCH_CHANGE_DYNASTY_NAME_TITLE"
 								}
 							}
 						}
@@ -226,7 +227,7 @@ window = {
 
 			input_action = "close_window"
 			use_global_input_instance = yes
-			onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
+			onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_dynasty_dialog')]"
 			# using = snd_UI_confirm
 			using = bg_circle_piechart
 		}

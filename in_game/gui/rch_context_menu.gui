@@ -75,7 +75,7 @@
 				}
 			}
 
-			# RCH-CHANGE: Add rename dialog option
+			# RCH-CHANGE: Add rename character dialog option
 			block "rch_rename_character_entry" {
 				ContextMenuEntry = {
 					visible = "[Character.IsValid]"
@@ -92,6 +92,27 @@
 
 					blockoverride "entry_text" {
 						text = "RCH_RENAME_CHARACTER_MENU_ITEM_TEXT"
+					}
+				}
+			}
+
+			# RCH-CHANGE: Add rename dynasty dialog option
+			block "rch_rename_dynasty_entry" {
+				ContextMenuEntry = {
+					visible = "[Character.IsValid]"
+
+					blockoverride "onclick" {
+						onclick = "[GetVariableSystem.Set('rch_dynasty_to_rename', Character.GetDynasty.GetNameWithNoTooltip)]"
+						onclick = "[ExecuteConsoleCommand('GUI.CreateWidget gui/rch_rename_dynasty_dialog.gui rch_rename_dynasty_dialog')]"
+						tooltip_enabled = no
+					}
+
+					blockoverride "entry_icon_texture" {
+						texture = "gfx/interface/icons/character_interactions/_default.dds"
+					}
+
+					blockoverride "entry_text" {
+						text = "RCH_RENAME_DYNASTY_MENU_ITEM_TEXT"
 					}
 				}
 			}

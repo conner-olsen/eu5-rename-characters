@@ -15,6 +15,9 @@ Allows you to rename characters via the right-click context menu.
 [/olist]
 Note: Unfortunately, I could not find a way to make this into a single interaction. This is the best I could do to make it work within the EU5 modding system.
 
+[h1]Note on Renaming Dynasties:[/h1]
+I've looked in to doing so, but I don't believe it's possible. There isn't any effect available, nor any vanilla case of a dynasty changing name. The only possible workaround I could find is founding a new dynasty that has a dynamic name, then moving all the characters over. It should work, but the coat of arms would be changed as well
+
 [h1]Native Localizations:[/h1]
 [list]
  [*][b]English:[/b] Primary

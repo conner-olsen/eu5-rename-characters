@@ -1,0 +1,101 @@
+﻿rch_test = {
+	c:SCA = {
+		ruler = {
+			dynasty = {
+				prev = {
+					found_dynasty = rch_renameable_dynasty_1
+					change_dynasty = dynasty:rch_renameable_dynasty_1
+				}
+				every_character_in_dynasty = {
+					change_dynasty = dynasty:rch_renameable_dynasty_1
+				}
+				# set_government_name = test
+				# set_dynasty_name_type = "test"
+				# set_nickname_if_none_present = "test"
+			}
+		}
+	}
+}
+
+rch_rename_dynasty = {
+	var:rch_marked_character = {
+		dynasty = {
+			rch_try_rename_dynasty = { num = 1 }
+			rch_try_rename_dynasty = { num = 2 }
+			rch_try_rename_dynasty = { num = 3 }
+			rch_try_rename_dynasty = { num = 4 }
+			rch_try_rename_dynasty = { num = 5 }
+			rch_try_rename_dynasty = { num = 6 }
+			rch_try_rename_dynasty = { num = 7 }
+			rch_try_rename_dynasty = { num = 8 }
+			rch_try_rename_dynasty = { num = 9 }
+			rch_try_rename_dynasty = { num = 10 }
+		}
+	}
+	remove_variable = rch_marked_character
+	remove_variable = rch_dynasty_renamed
+	rch_clear_dynasty_to_be_renamed = yes
+}
+
+rch_try_rename_dynasty = {
+	if = {
+		limit = {
+			NOT = { has_variable = rch_dynasty_renamed }
+			OR = {
+				NOT = { has_global_variable = rch_using_renamable_dynasty_$num$ }
+				this = dynasty:rch_renameable_dynasty_$num$
+			}
+		}
+		if = {
+			limit = {
+				NOT = { has_global_variable = rch_using_renamable_dynasty_$num$ }
+			}
+			prev = { found_dynasty = rch_renameable_dynasty_$num$ }
+		}
+		every_character_in_dynasty = {
+			change_dynasty = dynasty:rch_renameable_dynasty_$num$
+		}
+		set_global_variable = {  rch_using_renamable_dynasty_$num$ }
+		set_variable = rch_dynasty_renamed
+	}
+}
+
+rch_clear_dynasty_to_be_renamed = {
+	remove_global_variable = rch_renaming_dynsty_1
+	remove_global_variable = rch_renaming_dynsty_2
+	remove_global_variable = rch_renaming_dynsty_3
+	remove_global_variable = rch_renaming_dynsty_4
+	remove_global_variable = rch_renaming_dynsty_5
+	remove_global_variable = rch_renaming_dynsty_6
+	remove_global_variable = rch_renaming_dynsty_7
+	remove_global_variable = rch_renaming_dynsty_8
+	remove_global_variable = rch_renaming_dynsty_9
+	remove_global_variable = rch_renaming_dynsty_10
+}
+
+rch_set_dynasty_to_be_renamed = {
+	rch_try_set_dynasty_to_be_renamed = { num =  1 }
+	rch_try_set_dynasty_to_be_renamed = { num =  2 }
+	rch_try_set_dynasty_to_be_renamed = { num =  3 }
+	rch_try_set_dynasty_to_be_renamed = { num =  4 }
+	rch_try_set_dynasty_to_be_renamed = { num =  5 }
+	rch_try_set_dynasty_to_be_renamed = { num =  6 }
+	rch_try_set_dynasty_to_be_renamed = { num =  7 }
+	rch_try_set_dynasty_to_be_renamed = { num =  8 }
+	rch_try_set_dynasty_to_be_renamed = { num =  9 }
+	rch_try_set_dynasty_to_be_renamed = { num =  10 }
+}
+
+rch_try_set_dynasty_to_be_renamed = {
+	var:rch_marked_character = {
+		if = {
+			limit = {
+				OR = {
+					NOT = { has_global_variable = rch_using_renamable_dynasty_$num$ }
+					this = dynasty:rch_renameable_dynasty_$num$
+				}
+			}
+			set_global_variable = { rch_renaming_dynsty_$num$ }
+		}
+	}
+}
