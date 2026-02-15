@@ -78,7 +78,7 @@
 			# RCH-CHANGE: Add rename dialog option
 			block "rch_rename_character_entry" {
 				ContextMenuEntry = {
-					visible = "[Character.HasDynasty]"
+					visible = "[Character.IsValid]"
 
 					blockoverride "onclick" {
 						onclick = "[GetVariableSystem.Set('rch_character_to_rename', Character.GetFirstNameForEditbox)]"
@@ -86,15 +86,8 @@
 						tooltip_enabled = no
 					}
 
-					blockoverride "entry_icon" {
-						dynasty_shield_small = {
-							datacontext = "[Character.GetDynasty]"
-							blockoverride "click" {}
-							blockoverride "show_as_button" { visible = no }
-							blockoverride "show_as_icon" { visible = yes }
-							blockoverride "tooltip" { tooltip_enabled = no }
-							blockoverride "contextmenu" {}
-						}
+					blockoverride "entry_icon_texture" {
+						texture = "gfx/interface/icons/character_interactions/_default.dds"
 					}
 
 					blockoverride "entry_text" {

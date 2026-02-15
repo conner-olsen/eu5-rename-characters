@@ -46,7 +46,6 @@ window = {
 								size = { 300 30 }
 
 								blockoverride "editbox_label" {
-									# text = "[Localize('RENAME')] [SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), GetVariableSystem.Get('rch_character_to_rename'), Localize('rch_no_marked_character'))]"
 									text = "RCH_EDITBOX_DEFAULT"
 								}
 
@@ -54,7 +53,7 @@ window = {
                                     name = "new_name"
                                     tooltipwidget = {
                                         LeftClickButtonTooltip = {
-                                            blockoverride "onclick_text" { text = "EDIT_COUNTRY_NAME" }
+                                            blockoverride "onclick_text" { text = "RCH_EDIT_CHARACTER_NAME" }
                                         }
                                     }
                                     # RCH: Save the text to a variable every time you type
@@ -71,12 +70,12 @@ window = {
 					margin = { 0 10 }
 					spacing = 50
 
-                    # RCH-MODIFICATION: Debug Text
-                    text_single = {
-                        raw_text = "TEXT: [GetVariableSystem.Get('rch_new_name')] PLAYER: [GetPlayer.GetTag] TARGET: [GetVariableSystem.Get('rch_character_to_rename')] FIRST_NAME: "
-                        align = center
-                        default_format = "#low"
-                    }
+                    # RCH: Debug Text
+                    # text_single = {
+                    #     raw_text = "TEXT: [GetVariableSystem.Get('rch_new_name')] PLAYER: [GetPlayer.GetTag] TARGET: [GetVariableSystem.Get('rch_character_to_rename')] FIRST_NAME: "
+                    #     align = center
+                    #     default_format = "#low"
+                    # }
 					block "message_template_buttons" {
 						button_regular_diamond = {
 							name = "decline_button"
@@ -86,7 +85,7 @@ window = {
 							using = snd_UI_close
 
 							block "decline_title" {
-								text = "CANCEL_BUTTON"
+								text = "RCH_CLOSE_BUTTON"
 							}
 
 							# block "decline_input_action" {
@@ -98,7 +97,7 @@ window = {
                             enabled = yes
                             name = "accept_button"
                             tooltip_enabled = no
-                            text = "CHANGE_THE_NAME"
+                            text = "RCH_CHANGE_THE_NAME"
                             using = button_resize_to_fit_text
                             using = snd_UI_popup_confirm
 
