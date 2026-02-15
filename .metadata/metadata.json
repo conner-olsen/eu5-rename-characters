@@ -1,10 +1,10 @@
 ﻿{
-  "name": "[Mod Name] Dev",
-  "id": "[modname].dev",
-  "version": "0.1",
+  "name": "Rename Characters Dev",
+  "id": "rename.characters.dev",
+  "version": "1.0",
   "game_id": "eu5",
   "supported_game_version": "1.0.*",
-  "short_description": "[Short Description]",
+  "short_description": "Allows you to rename characters.",
   "tags": [
     "Government and Estates",
     "Trade and Economics",

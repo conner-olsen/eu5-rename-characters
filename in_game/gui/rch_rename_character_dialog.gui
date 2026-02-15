@@ -1,9 +1,9 @@
 window = {
-	name = "rename_dialog"
+	name = "rch_rename_character_dialog"
 	parentanchor = center
 	allow_outside = yes
 	size = { 400 300 }
-	
+
 	vbox = {
 		block "msg_size" {
 			minimumsize = { 600 300 }
@@ -26,12 +26,12 @@ window = {
 
 				widget = {
 					allow_outside = yes
-	
+
 					block "desc_spacing" {
 						size = { 1 1 }
 					}
 				}
-	
+
 				vbox = {
 					layoutpolicy_horizontal = expanding
 					margin = {30 0}
@@ -39,14 +39,14 @@ window = {
 						hbox = {
 							layoutpolicy_horizontal = expanding
 							margin = {5 0}
-							using = message_text_box_background		
+							using = message_text_box_background
 							visible = yes
 
 							editbox_single = {
 								size = { 300 30 }
 
 								blockoverride "editbox_label" {
-									text = "[Localize('RENAME')] [RenameDialog.GetCountry.GetName]"
+									text = "[Localize('RENAME')] [GetVariableSystem.Get('rch_character_to_rename')]"
 								}
 
                                 blockoverride "editbox_properties" {
@@ -57,7 +57,7 @@ window = {
                                         }
                                     }
                                     # MODIFICATION: Save the text to a variable every time you type
-                                    ontextchanged = "[GetVariableSystem.Set('renaming_new_name', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+                                    ontextchanged = "[GetVariableSystem.Set('rch_new_name', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
 
                                     maxcharacters = 42
                                 }
@@ -65,10 +65,10 @@ window = {
 							# Keeping in case we desire random naming in the future...
 							# icon_button_small_round = {
 							#	position = { 270 00 }
-							#	size = { 30 30 }			
+							#	size = { 30 30 }
 							#	tooltipwidget = {
 							#		LeftClickButtonTooltip = {
-							#			blockoverride "onclick_text" { text = "EDIT_NEWBORN_RANDOM_FIRST_NAME" } 
+							#			blockoverride "onclick_text" { text = "EDIT_NEWBORN_RANDOM_FIRST_NAME" }
 							#		}
 							#	}
 							#	onclick = "[RenameDialog.GiveRandomName]"
@@ -81,12 +81,12 @@ window = {
 					margin = { 0 10 }
 					spacing = 50
 
-                    # MODIFICATION: Debug Text
-                    # text_single = {
-                    #     raw_text = "TEXT: [GetVariableSystem.Get('renaming_new_name')] DEBUG: 'PLAYER: [GetPlayer.GetTag] TARGET: [RenameDialog.GetCountry.GetDiplomacy.GetTopOverlord.IsValid]' TRIBUTARY: [EqualTo_string(RenameDialog.GetCountry.GetDiplomacy.GetSubjectType.GetNameKey, 'tributary')] ISEQUAL: [And3(RenameDialog.GetCountry.GetDiplomacy.GetTopOverlord.IsValid, EqualTo_string(GetPlayer.GetTag, RenameDialog.GetCountry.GetDiplomacy.GetTopOverlordOrThis.GetTag), Not(EqualTo_string(RenameDialog.GetCountry.GetDiplomacy.GetSubjectType.GetNameKey, 'tributary')))]"
-                    #     align = center
-                    #     default_format = "#low"
-                    # }
+                    # RCH-MODIFICATION: Debug Text
+                    text_single = {
+                        raw_text = "TEXT: [GetVariableSystem.Get('rch_new_name')] PLAYER: [GetPlayer.GetTag] TARGET: [GetVariableSystem.Get('rch_character_to_rename')] FIRST_NAME: "
+                        align = center
+                        default_format = "#low"
+                    }
 					block "message_template_buttons" {
 						button_regular_diamond = {
 							name = "decline_button"
@@ -94,29 +94,29 @@ window = {
 							text = "MESSAGEPOPUP_DECLINE"
 							using = button_resize_to_fit_text
 							using = snd_UI_close
-			
+
 							block "decline_title" {
 								text = "CANCEL_BUTTON"
 							}
-			
+
 							# block "decline_input_action" {
-								onclick = "[DialogConfig.OnDecline]"
+							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
 							# }
 						}
-					
+
 						button_regular_diamond = {
 							name = "goto_button"
 							tooltip_enabled = no
 							using = button_resize_to_fit_text
-			
+
 							block "goto_title" {
 								text = "GOTO_GOTO"
 							}
-			
+
 							block "goto_visible" {
 								visible = "[RenameDialog.GetCountry.IsValid]"
 							}
-			
+
 							onclick = "[ShowForeignCountry(RenameDialog.GetCountry)]"
 						}
 
@@ -128,25 +128,25 @@ window = {
                             using = button_resize_to_fit_text
                             using = snd_UI_popup_confirm
 
-                            # MODIFICATION: Bypass C++ Check
+                            # RCH-MODIFICATION: Bypass C++ Check
                             # 1. Execute the rename command using the Country Tag and the text Variable
                             # And set rac_custom_name_set, now only using the name without prefixes.
-                            onclick = "[ExecuteConsoleCommand( Concatenate( 'effect c:', Concatenate( RenameDialog.GetCountry.GetTag, Concatenate( ' = { change_country_name = \"', Concatenate( GetVariableSystem.Get('renaming_new_name'), '\" set_variable = rac_custom_name_set }' ) ) ) ) )]"
+                            onclick = "[ExecuteConsoleCommand( Concatenate( 'effect character:', Concatenate( GetVariableSystem.Get('rch_character_to_rename'), Concatenate( ' = { set_first_name = \"', Concatenate( GetVariableSystem.Get('rch_new_name'), '\" }' ) ) ) ) )]"
                             # 2. Close the window
-                            onclick = "[DialogConfig.OnAccept]"
+							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
 
                             input_action = "confirm"
                             use_global_input_instance = yes
                         }
-					}	
+					}
 				}
 			}
 
 			hbox = {
-				
+
 				using = bg_age_event_title
 				layoutpolicy_horizontal = expanding
-	
+
 				blockoverride "bg_event_title_texture" {
 					texture = "gfx/interface/component_tiles/bg_big_round_corners_up.dds"
 					texture_density = 2
@@ -155,11 +155,11 @@ window = {
 					margin = {3 0}
 					margin_bottom = -2
 				}
-				
+
 				widget = {
 					layoutpolicy_vertical = expanding
 					size = {5 -1}
-					
+
 					AgeEventDecorationTop = {
 						size = {64 52}
 						position = { -10 -2 }
@@ -178,31 +178,31 @@ window = {
 					layoutpolicy_horizontal = expanding
 					margin = { 40 20 }
 					spacing = 15
-					
+
 					block "message_decoration_left" {}
-	
+
 					block "message_title_content" {
 						hbox = {
-							
+
 							vbox = {
-									
+
 								textbox = {
 									using = text_multi_template
-	
+
 									name = "subtitle"
-									
+
 									autoresize = yes
 									fontsize = 19
 									default_format = "#subtle_name"
 									align = center
 									text = "CHANGE_NAME_SUBTITLE"
 								}
-	
+
 								textbox = {
 									using = text_multi_template
-	
+
 									autoresize = yes
-	
+
 									default_format = "#yellow_titles"
 									fontsize = 22
 									align = center|nobaseline
@@ -211,7 +211,7 @@ window = {
 							}
 						}
 					}
-	
+
 					block "message_decoration_right" {}
 				}
 
@@ -242,7 +242,7 @@ window = {
 		parentanchor = top|right
 		position = {-10 5}
 		size = {55 55}
-		
+
 		# Avoiding using cancel input action in go-to button
 		button_close_alt = {
 			name = "dummy_button"
@@ -255,7 +255,7 @@ window = {
 
 			input_action = "close_window"
 			use_global_input_instance = yes
-			onclick = "[DialogConfig.OnDecline]"
+			onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
 			# using = snd_UI_confirm
 			using = bg_circle_piechart
 		}

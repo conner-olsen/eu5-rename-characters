@@ -75,6 +75,34 @@
 				}
 			}
 
+			# RCH-CHANGE: Add rename dialog option
+			block "rch_rename_character_entry" {
+				ContextMenuEntry = {
+					visible = "[Character.HasDynasty]"
+
+					blockoverride "onclick" {
+						onclick = "[GetVariableSystem.Set('rch_character_to_rename', Character.GetID)]"
+						onclick = "[ExecuteConsoleCommand('GUI.CreateWidget gui/rch_rename_character_dialog.gui rch_rename_character_dialog')]"
+						tooltip_enabled = no
+					}
+
+					blockoverride "entry_icon" {
+						dynasty_shield_small = {
+							datacontext = "[Character.GetDynasty]"
+							blockoverride "click" {}
+							blockoverride "show_as_button" { visible = no }
+							blockoverride "show_as_icon" { visible = yes }
+							blockoverride "tooltip" { tooltip_enabled = no }
+							blockoverride "contextmenu" {}
+						}
+					}
+
+					blockoverride "entry_text" {
+						text = "RCH_RENAME_CHARACTER"
+					}
+				}
+			}
+
 			ContextMenuEntryListSubSection = {
 				datacontext = "[GetCharacterQuickActions(Character.Self)]"
 				datacontext = "[Pin('character_actions')]"
