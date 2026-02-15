@@ -1,0 +1,56 @@
+===WORKSHOP_TITLE===
+Karakterleri Yeniden Adlandır / Rename Characters
+===WORKSHOP_DESCRIPTION===
+[i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
+
+[h1]Genel Bakış:[/h1]
+Karakterleri sağ tık içerik menüsü aracılığıyla yeniden adlandırmanıza olanak tanır.
+
+[h1]Özellikler:[/h1]
+[olist]
+ [*][b]Karakterleri Yeniden Adlandırmaya İzin Ver:[/b] Sağ tık içerik menüsü aracılığıyla herhangi bir karakterin adını değiştirebilirsiniz.
+[/olist]
+
+[h1]Kullanımı:[/h1]
+[olist]
+ [*][b]Herhangi Bir Karaktere Sağ Tıklayın:[/b] Bu, karakter etkileşimleri için içerik menüsünü açacaktır.
+ [*][b]Karakteri İşaretle:[/b] "Karakteri Yeniden Adlandırmak İçin İşaretle" etkileşimini seçin.
+ [*][b]Karakteri Yeniden Adlandır:[/b] Ardından "Karakteri Yeniden Adlandır" etkileşimini seçin.
+ [*][b]Yeni Bir İsim Seçin:[/b] Metin kutusuna yeni ismi girin ve "Adını Değiştir!" düğmesine tıklayın.
+[/olist]
+Not: Maalesef bunu tek bir etkileşim haline getirmenin bir yolunu bulamadım. EU5 modlama sisteminde çalışmasını sağlamak için yapabildiğimin en iyisi bu.
+
+[h1]Ana Dilde Yerelleştirmeler:[/h1]
+[list]
+ [*][b]İngilizce:[/b] Birincil
+[/list]
+
+[h1]DeepL ile Çevrilen Yerelleştirmeler:[/h1]
+[list]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
+[/list]
+
+[h1]Değişiklik Günlüğü:[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Atölye sayfasındaki Değişiklik Notlarına[/url] göz atın.
+
+[h1]Uyumluluk:[/h1]
+[list]
+ [*]Başarımlarla uyumlu değildir.
+ [*]Kayıtlı oyunlarla tam uyumludur.
+ [*]Herhangi bir modla çalışmalıdır.
+ [*]Talep üzerine uyumluluk yamaları ekleyebilirim.
+[/list]
+
+Sabitlenmiş öneriler tartışmasına ek olarak, sorularınızı sorabilir, hataları bildirebilir veya [url=https://discord.gg/cgycfkdfSY]EU5 Topluluğu discord sunucusunun #utility-mods kanalında[/url] önerilerde bulunabilirsiniz. Ve eğer bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, beni Discord'da @arealconner üzerinden ekleyebilir veya pingleyebilirsiniz. Tüm katkılar memnuniyetle karşılanır.
+
+Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub'da[/url] mevcuttur.
+

@@ -1,0 +1,10 @@
+﻿l_korean:
+ RCH_RENAME_CHARACTER_MENU_ITEM_TEXT: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'RCH_RENAME_CHARACTER_TEXT', 'RCH_NO_MARKED_CHARACTER_TEXT')]"
+ RCH_CHANGE_CHARACTER_NAME_SUBTITLE: "인물 이름 변경"
+ RCH_EDITBOX_DEFAULT: " [SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'RCH_EDITBOX_PLACEHOLDER', 'RCH_NO_MARKED_CHARACTER_TEXT')]"
+ RCH_EDITBOX_PLACEHOLDER: "[Localize('RENAME')] [GetVariableSystem.Get('rch_character_to_rename')]"
+ RCH_RENAME_CHARACTER_TEXT: "인물 이름 변경"
+ RCH_NO_MARKED_CHARACTER_TEXT: "표시된 캐릭터가 없습니다!"
+ RCH_EDIT_CHARACTER_NAME: "우리는 [character|e]의 이름을 우리가 원하는 대로 개명할 수 있습니다. 만약 너무나 보잘것없는 이름을 선택한다면, 그것은 귀하의 품격에 좋지 못한 인상을 남길 것입니다."
+ RCH_CLOSE_BUTTON: "닫기"
+ RCH_CHANGE_THE_NAME: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'CHANGE_THE_NAME', 'RCH_NO_MARKED_CHARACTER_TEXT')]"

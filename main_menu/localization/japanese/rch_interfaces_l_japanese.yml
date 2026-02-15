@@ -1,0 +1,10 @@
+﻿l_japanese:
+ RCH_RENAME_CHARACTER_MENU_ITEM_TEXT: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'RCH_RENAME_CHARACTER_TEXT', 'RCH_NO_MARKED_CHARACTER_TEXT')]"
+ RCH_CHANGE_CHARACTER_NAME_SUBTITLE: "キャラクターの名前を変更する"
+ RCH_EDITBOX_DEFAULT: " [SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'RCH_EDITBOX_PLACEHOLDER', 'RCH_NO_MARKED_CHARACTER_TEXT')]"
+ RCH_EDITBOX_PLACEHOLDER: "[Localize('RENAME')] [GetVariableSystem.Get('rch_character_to_rename')]"
+ RCH_RENAME_CHARACTER_TEXT: "人物名の変更"
+ RCH_NO_MARKED_CHARACTER_TEXT: "マークされた人物がいません！"
+ RCH_EDIT_CHARACTER_NAME: "我らは[character|e]を望むままの名に改めることができる。あまりに矮小な名を選べば、汝自身の品格を貶めることになろう。"
+ RCH_CLOSE_BUTTON: "閉じる"
+ RCH_CHANGE_THE_NAME: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'CHANGE_THE_NAME', 'RCH_NO_MARKED_CHARACTER_TEXT')]"

@@ -1,0 +1,10 @@
+﻿l_german:
+ rch_mark_character_for_renaming_interaction: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'rch_character_marked_for_renaming_text', 'rch_mark_character_for_renaming_text') ]"
+ rch_mark_character_for_renaming_interaction_concept: "[character|e]"
+ rch_mark_character_for_renaming_interaction_act: "$rch_mark_character_for_renaming_interaction$"
+ rch_mark_character_for_renaming_interaction_desc_specific: "[SCOPE.sCharacter('recipient').GetName] wird zum Umbenennen markiert. Öffnet danach die Interaktion zum Umbenennen, um den Charakter tatsächlich umzubenennen."
+ rch_mark_character_for_renaming_interaction_desc: "[character|e] wird für die Umbenennung markiert."
+ rch_mark_character_for_renaming_interaction_past: "[SCOPE.sCharacter('recipient').GetName] wurde zur Umbenennung markiert."
+ rch_mark_character_for_renaming_interaction_act_past: "[SCOPE.sCharacter('recipient').GetName] wurde zur Umbenennung markiert."
+ rch_mark_character_for_renaming_text: "Charakter zum Umbenennen markieren"
+ rch_character_marked_for_renaming_text: "Markierten Charakter ändern"

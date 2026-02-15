@@ -1,0 +1,56 @@
+===WORKSHOP_TITLE===
+Renommer les personnages / Rename Characters
+===WORKSHOP_DESCRIPTION===
+[i]You are on the DeepL-Generated French Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
+
+[h1]Présentation :[/h1]
+Vous permet de renommer les personnages via le menu contextuel du clic droit.
+
+[h1]Caractéristiques :[/h1]
+[olist]
+ [*][b]Autoriser le renommage des personnages :[/b] Vous pouvez changer le nom de n'importe quel personnage via le menu contextuel du clic droit.
+[/olist]
+
+[h1]Utilisation :[/h1]
+[olist]
+ [*][b]Clic droit sur n'importe quel personnage :[/b] Cela ouvrira le menu contextuel des interactions de personnage.
+ [*][b]Marquer le personnage :[/b] Sélectionnez l'interaction "Marquer le personnage pour renommage".
+ [*][b]Renommer le personnage :[/b] Sélectionnez ensuite l'interaction "Renommer le personnage".
+ [*][b]Choisir un nouveau nom :[/b] Remplissez la zone de texte avec le nouveau nom et cliquez sur "Changer leur nom !".
+[/olist]
+Note : Malheureusement, je n'ai pas trouvé de moyen d'en faire une interaction unique. C'est le mieux que j'ai pu faire pour que cela fonctionne avec le système de modding d'EU5.
+
+[h1]Localisations natives :[/h1]
+[list]
+ [*][b]Anglais :[/b] Principal
+[/list]
+
+[h1]Localisations traduites via DeepL :[/h1]
+[list]
+ [*][b]Chinois / 中文[/b]
+ [*][b]Français / Français[/b]
+ [*][b]Allemand / Deutsch[/b]
+ [*][b]Japonais / 日本語[/b]
+ [*][b]Coréen / 한국어[/b]
+ [*][b]Polonais / Polski[/b]
+ [*][b]Portugais (Brésil) / Português (Brasil)[/b]
+ [*][b]Russe / Русский[/b]
+ [*][b]Espagnol / Español[/b]
+ [*][b]Turc / Türkçe[/b]
+[/list]
+
+[h1]Journal des modifications :[/h1]
+Voir les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]notes de mise à jour sur la page du workshop[/url].
+
+[h1]Compatibilité :[/h1]
+[list]
+ [*]Non compatible avec les succès (Achievements).
+ [*]Entièrement compatible avec les sauvegardes en cours.
+ [*]Devrait fonctionner avec n'importe quel mod.
+ [*]Je peux ajouter des patchs de compatibilité sur demande.
+[/list]
+
+En plus de la discussion épinglée pour les suggestions, vous pouvez également poser des questions, signaler des bugs ou faire des suggestions dans le [url=https://discord.gg/cgycfkdfSY]salon #utility-mods du serveur Discord de la communauté EU5[/url]. Et si vous souhaitez participer au développement de ce mod ou de l'un de mes autres mods, vous pouvez me mentionner ou m'ajouter sur Discord @arealconner. Toutes les contributions sont les bienvenues.
+
+Les versions source et de développement du mod sont disponibles sur [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
+

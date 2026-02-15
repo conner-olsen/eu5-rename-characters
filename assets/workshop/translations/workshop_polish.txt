@@ -1,0 +1,56 @@
+===WORKSHOP_TITLE===
+Zmiana nazwy postaci / Rename Characters
+===WORKSHOP_DESCRIPTION===
+[i]You are on the DeepL-Generated Polish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
+
+[h1]Przegląd:[/h1]
+Pozwala na zmianę imion postaci poprzez menu kontekstowe prawego przycisku myszy.
+
+[h1]Funkcje:[/h1]
+[olist]
+ [*][b]Umożliwia zmianę imion postaci:[/b] Możesz zmienić imię dowolnej postaci za pomocą menu kontekstowego prawego przycisku myszy.
+[/olist]
+
+[h1]Sposób użycia:[/h1]
+[olist]
+ [*][b]Kliknij prawym przyciskiem myszy na dowolną postać:[/b] Otworzy to menu kontekstowe interakcji z postacią.
+ [*][b]Oznacz postać:[/b] Wybierz interakcję „Oznacz postać do zmiany imienia” (Mark Character for Renaming).
+ [*][b]Zmień imię postaci:[/b] Następnie wybierz interakcję „Zmień imię postaci” (Rename Character).
+ [*][b]Wybierz nowe imię:[/b] Wpisz nowe imię w polu tekstowym i kliknij „Zmień ich imię!” (Change Their Name!).
+[/olist]
+Uwaga: Niestety nie udało mi się znaleźć sposobu, aby zamienić to w jedną interakcję. To najlepsze, co mogłem zrobić, aby działało to w ramach systemu modowania EU5.
+
+[h1]Rodzime lokalizacje:[/h1]
+[list]
+ [*][b]Angielski:[/b] Główny
+[/list]
+
+[h1]Lokalizacje przetłumaczone przez DeepL:[/h1]
+[list]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
+[/list]
+
+[h1]Dziennik zmian:[/h1]
+Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]notatki o zmianach na stronie warsztatu[/url].
+
+[h1]Kompatybilność:[/h1]
+[list]
+ [*]Brak kompatybilności z osiągnięciami.
+ [*]W pełni kompatybilny z zapisami gier (save game).
+ [*]Powinien działać z każdym modem.
+ [*]Mogę dodać patche kompatybilności na prośbę.
+[/list]
+
+Oprócz przypiętej dyskusji dotyczącej sugestii, możesz również zadawać pytania, zgłaszać błędy lub przesyłać sugestie na [url=https://discord.gg/cgycfkdfSY]kanale #utility-mods na serwerze Discord społeczności EU5[/url]. A jeśli jesteś zainteresowany udziałem w pracach nad tym lub jednym z moich innych modów, możesz oznaczyć lub dodać mnie na Discordzie @arealconner. Wszelki wkład jest mile widziany.
+
+Wersje źródłowe i deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-rename-characters]GitHubie.[/url]
+

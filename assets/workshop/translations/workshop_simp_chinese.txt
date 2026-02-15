@@ -1,0 +1,56 @@
+===WORKSHOP_TITLE===
+角色重命名 / Rename Characters
+===WORKSHOP_DESCRIPTION===
+[i]You are on the DeepL-Generated Simplified Chinese Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
+
+[h1]概述：[/h1]
+允许您通过右键上下文菜单重命名角色。
+
+[h1]功能特色：[/h1]
+[olist]
+ [*][b]允许重命名角色：[/b]您可以通过右键上下文菜单更改任何角色的名称。
+[/olist]
+
+[h1]使用方法：[/h1]
+[olist]
+ [*][b]右键点击任何角色：[/b]这将打开角色交互的上下文菜单。
+ [*][b]标记角色：[/b]选择“Mark Character for Renaming”（标记角色以重命名）交互。
+ [*][b]重命名角色：[/b]然后选择“Rename Character”（重命名角色）交互。
+ [*][b]选择新名称：[/b]在文本框中填写新名字，然后点击“Change Their Name!”（更改他们的名字！）。
+[/olist]
+注意：遗憾的是，我还没能找到将其整合为单一交互的方法。这是在 EU5 模组系统中使其生效的最佳实现方式。
+
+[h1]原生本地化：[/h1]
+[list]
+ [*][b]English：[/b]主要语言
+[/list]
+
+[h1]DeepL 翻译本地化：[/h1]
+[list]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
+[/list]
+
+[h1]更新日志：[/h1]
+请参阅[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]创意工坊页面上的更改说明[/url]。
+
+[h1]兼容性：[/h1]
+[list]
+ [*]不兼容成就。
+ [*]完全兼容存档。
+ [*]应与任何模组兼容。
+ [*]我可能会根据需求添加兼容性补丁。
+[/list]
+
+除了置顶的建议讨论区外，您还可以在 [url=https://discord.gg/cgycfkdfSY]EU5 社区 Discord 服务器的 #utility-mods 频道[/url]中提出任何问题、报告错误或提出建议。如果您有兴趣参与本模组或我其他模组的开发，可以在 Discord 上 @arealconner 艾特或添加我。欢迎任何形式的贡献。
+
+该模组的源码和开发版本可在 [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] 上获取。
+

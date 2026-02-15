@@ -1,0 +1,10 @@
+﻿l_polish:
+ RCH_RENAME_CHARACTER_MENU_ITEM_TEXT: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'RCH_RENAME_CHARACTER_TEXT', 'RCH_NO_MARKED_CHARACTER_TEXT')]"
+ RCH_CHANGE_CHARACTER_NAME_SUBTITLE: "Zmień imię postaci"
+ RCH_EDITBOX_DEFAULT: " [SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'RCH_EDITBOX_PLACEHOLDER', 'RCH_NO_MARKED_CHARACTER_TEXT')]"
+ RCH_EDITBOX_PLACEHOLDER: "[Localize('RENAME')] [GetVariableSystem.Get('rch_character_to_rename')]"
+ RCH_RENAME_CHARACTER_TEXT: "Zmień nazwę postaci"
+ RCH_NO_MARKED_CHARACTER_TEXT: "Brak zaznaczonej postaci!"
+ RCH_EDIT_CHARACTER_NAME: "Możemy zmienić imię naszemu [character|e] na dowolne, jakie tylko zechcemy. Źle by to jednak świadczyło o twym charakterze, gdybyś wybrał imię zbyt błahe."
+ RCH_CLOSE_BUTTON: "Zamknij"
+ RCH_CHANGE_THE_NAME: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'CHANGE_THE_NAME', 'RCH_NO_MARKED_CHARACTER_TEXT')]"

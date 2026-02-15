@@ -1,0 +1,56 @@
+===WORKSHOP_TITLE===
+キャラクターの名前変更 / Rename Characters
+===WORKSHOP_DESCRIPTION===
+[i]You are on the DeepL-Generated Japanese Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
+
+[h1]概要:[/h1]
+右クリックのコンテキストメニューからキャラクターの名前を変更できるようになります。
+
+[h1]機能:[/h1]
+[olist]
+ [*][b]キャラクターの改名が可能:[/b] 右クリックのコンテキストメニューから、あらゆるキャラクターの名前を変更できます。
+[/olist]
+
+[h1]使用方法:[/h1]
+[olist]
+ [*][b]キャラクターを右クリック:[/b] キャラクター操作のコンテキストメニューが開きます。
+ [*][b]キャラクターをマーク:[/b] 「改名するキャラクターをマーク (Mark Character for Renaming)」を選択します。
+ [*][b]キャラクターを改名:[/b] 次に「キャラクターを改名 (Rename Character)」を選択します。
+ [*][b]新しい名前を選択:[/b] テキストボックスに新しい名前を入力し、「名前を変更する！ (Change Their Name!)」をクリックします。
+[/olist]
+注意: 残念ながら、これを1つのアクションにまとめる方法は見つかりませんでした。EU5のモッディングシステムの制限内で機能させるための最善の方法です。
+
+[h1]標準ローカライズ:[/h1]
+[list]
+ [*][b]英語:[/b] 主要
+[/list]
+
+[h1]DeepL翻訳によるローカライズ:[/h1]
+[list]
+ [*][b]中国語 / 中文[/b]
+ [*][b]フランス語 / Français[/b]
+ [*][b]ドイツ語 / Deutsch[/b]
+ [*][b]日本語 / 日本語[/b]
+ [*][b]韓国語 / 한국어[/b]
+ [*][b]ポーランド語 / Polski[/b]
+ [*][b]ポルトガル語 (ブラジル) / Português (Brasil)[/b]
+ [*][b]ロシア語 / Русский[/b]
+ [*][b]スペイン語 / Español[/b]
+ [*][b]トルコ語 / Türkçe[/b]
+[/list]
+
+[h1]更新履歴:[/h1]
+ワークショップページの[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]更新ノート[/url]をご覧ください。
+
+[h1]互換性:[/h1]
+[list]
+ [*]実績非対応。
+ [*]セーブデータとの完全な互換性あり。
+ [*]他のどのModとも併用できるはずです。
+ [*]要望があれば、互換パッチを追加する可能性があります。
+[/list]
+
+固定された提案用スレッドに加えて、[url=https://discord.gg/cgycfkdfSY]EU5 Community Discordサーバーの#utility-modsチャンネル[/url]でも質問、バグ報告、提案を受け付けています。また、このModや私の他のModの開発に興味がある方は、Discord (@arealconner) でメンションを送るか、フレンド登録をしてください。あらゆる貢献を歓迎します。
+
+Modのソースコードおよび開発版は[url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url]で公開されています。
+

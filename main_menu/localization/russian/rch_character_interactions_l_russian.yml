@@ -1,0 +1,10 @@
+﻿l_russian:
+ rch_mark_character_for_renaming_interaction: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'rch_character_marked_for_renaming_text', 'rch_mark_character_for_renaming_text') ]"
+ rch_mark_character_for_renaming_interaction_concept: "[character|e]"
+ rch_mark_character_for_renaming_interaction_act: "$rch_mark_character_for_renaming_interaction$"
+ rch_mark_character_for_renaming_interaction_desc_specific: "[SCOPE.sCharacter('recipient').GetName] будет помечен(а) для переименования. После этого откройте взаимодействие «Переименовать», чтобы переименовать персонажа."
+ rch_mark_character_for_renaming_interaction_desc: "[character|e] будет отмечен для переименования."
+ rch_mark_character_for_renaming_interaction_past: "[SCOPE.sCharacter('recipient').GetName] был помечен для переименования."
+ rch_mark_character_for_renaming_interaction_act_past: "[SCOPE.sCharacter('recipient').GetName] отмечен(а) для переименования."
+ rch_mark_character_for_renaming_text: "Отметить персонажа для переименования"
+ rch_character_marked_for_renaming_text: "Изменить отмеченного персонажа"

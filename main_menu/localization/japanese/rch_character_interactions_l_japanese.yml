@@ -1,0 +1,10 @@
+﻿l_japanese:
+ rch_mark_character_for_renaming_interaction: "[SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), 'rch_character_marked_for_renaming_text', 'rch_mark_character_for_renaming_text') ]"
+ rch_mark_character_for_renaming_interaction_concept: "[character|e]"
+ rch_mark_character_for_renaming_interaction_act: "$rch_mark_character_for_renaming_interaction$"
+ rch_mark_character_for_renaming_interaction_desc_specific: "[SCOPE.sCharacter('recipient').GetName]は改名の対象としてマークされます。その後、名前変更のインタラクションを開いて実際にキャラクターの名前を変更してください。"
+ rch_mark_character_for_renaming_interaction_desc: "[character|e]は名前変更の対象としてマークされます。"
+ rch_mark_character_for_renaming_interaction_past: "[SCOPE.sCharacter('recipient').GetName]が改名の対象としてマークされました。"
+ rch_mark_character_for_renaming_interaction_act_past: "[SCOPE.sCharacter('recipient').GetName]は改名の対象となりました。"
+ rch_mark_character_for_renaming_text: "キャラクターを改名対象に指定"
+ rch_character_marked_for_renaming_text: "マークされたキャラクターの変更"
