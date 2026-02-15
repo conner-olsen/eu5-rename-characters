@@ -1,10 +1,10 @@
-﻿rch_mark_character_for_renaming = {
+﻿rch_mark_character_for_renaming_interaction = {
+	ai_tick = never
+	message = no
 	on_own_nation = yes
-	message = yes
 	potential = {
 		always = yes
 	}
-	ai_tick = never
 	allow = {
 		always = yes
 	}
@@ -13,10 +13,6 @@
 		source = actor
 		target_flag = recipient
 		name = "choose_character"
-		pre_evaluation_sort_value = {
-			value = age_in_years
-		}
-		pre_evaluation_number_to_evaluate_fully = 5
 		column = {
 			data = name
 		}
@@ -30,13 +26,13 @@
 	effect = {
 		scope:actor = {
 			set_variable = {
-				name = rch_character_to_rename
+				name = rch_marked_character
 				value = scope:recipient
 			}
-		}
-		scope:recipient = {
-			set_first_name = "Marked-Firstname"
-			set_nickname = "Marked-Lastname"
+			set_global_variable = {
+				name = rch_marked_character
+				value = scope:recipient
+			}
 		}
 	}
 }

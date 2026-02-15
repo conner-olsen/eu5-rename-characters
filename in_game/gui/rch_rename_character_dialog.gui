@@ -46,7 +46,8 @@ window = {
 								size = { 300 30 }
 
 								blockoverride "editbox_label" {
-									text = "[Localize('RENAME')] [GetVariableSystem.Get('rch_character_to_rename')]"
+									# text = "[Localize('RENAME')] [SelectLocalization(GetPlayer.HasVariable('rch_marked_character'), GetVariableSystem.Get('rch_character_to_rename'), Localize('rch_no_marked_character'))]"
+									text = "RCH_EDITBOX_DEFAULT"
 								}
 
                                 blockoverride "editbox_properties" {
@@ -56,23 +57,12 @@ window = {
                                             blockoverride "onclick_text" { text = "EDIT_COUNTRY_NAME" }
                                         }
                                     }
-                                    # MODIFICATION: Save the text to a variable every time you type
+                                    # RCH: Save the text to a variable every time you type
                                     ontextchanged = "[GetVariableSystem.Set('rch_new_name', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
 
                                     maxcharacters = 42
                                 }
 							}
-							# Keeping in case we desire random naming in the future...
-							# icon_button_small_round = {
-							#	position = { 270 00 }
-							#	size = { 30 30 }
-							#	tooltipwidget = {
-							#		LeftClickButtonTooltip = {
-							#			blockoverride "onclick_text" { text = "EDIT_NEWBORN_RANDOM_FIRST_NAME" }
-							#		}
-							#	}
-							#	onclick = "[RenameDialog.GiveRandomName]"
-							# }
 						}
 					}
 				}
@@ -104,22 +94,6 @@ window = {
 							# }
 						}
 
-						button_regular_diamond = {
-							name = "goto_button"
-							tooltip_enabled = no
-							using = button_resize_to_fit_text
-
-							block "goto_title" {
-								text = "GOTO_GOTO"
-							}
-
-							block "goto_visible" {
-								visible = "[RenameDialog.GetCountry.IsValid]"
-							}
-
-							onclick = "[ShowForeignCountry(RenameDialog.GetCountry)]"
-						}
-
                         button_regular_diamond = {
                             enabled = yes
                             name = "accept_button"
@@ -129,7 +103,7 @@ window = {
                             using = snd_UI_popup_confirm
 
                             # RCH: Rename the character
-                            onclick = "[ExecuteConsoleCommand( Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, Concatenate( ' = { var:rch_character_to_rename = { set_nickname = \"\" set_first_name = \"', Concatenate( GetVariableSystem.Get('rch_new_name'), '\" } }' ) ) ) ) )]"
+                            onclick = "[ExecuteConsoleCommand( Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, Concatenate( ' = { var:rch_marked_character = { set_nickname = \"\" set_first_name = \"', Concatenate( GetVariableSystem.Get('rch_new_name'), '\" } remove_variable = rch_marked_character }' ) ) ) ) )]"
                             # Close the window
 							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_character_dialog')]"
 

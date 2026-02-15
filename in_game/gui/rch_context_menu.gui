@@ -81,7 +81,7 @@
 					visible = "[Character.HasDynasty]"
 
 					blockoverride "onclick" {
-						onclick = "[GetVariableSystem.Set('rch_character_to_rename', Character.GetID)]"
+						onclick = "[GetVariableSystem.Set('rch_character_to_rename', Character.GetFirstNameForEditbox)]"
 						onclick = "[ExecuteConsoleCommand('GUI.CreateWidget gui/rch_rename_character_dialog.gui rch_rename_character_dialog')]"
 						tooltip_enabled = no
 					}
@@ -98,7 +98,7 @@
 					}
 
 					blockoverride "entry_text" {
-						text = "RCH_CHOOSE_NEW_CHARACTER_NAME"
+						text = "RCH_RENAME_CHARACTER_MENU_ITEM_TEXT"
 					}
 				}
 			}
