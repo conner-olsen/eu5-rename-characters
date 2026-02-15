@@ -15,12 +15,12 @@ Allows you to rename characters via the right-click context menu.
 [/olist]
 Note: Unfortunately, I could not find a way to make this into a single interaction. This is the best I could do to make it work within the EU5 modding system.
 
-[h2]Native Localizations:[/h2]
+[h1]Native Localizations:[/h1]
 [list]
  [*][b]English:[/b] Primary
 [/list]
 
-[h2]DeepL-Translated Localizations:[/h2]
+[h1]DeepL-Translated Localizations:[/h1]
 [list]
  [*][b]Chinese / 中文[/b]
  [*][b]French / Français[/b]
