@@ -1,34 +1,32 @@
 ===WORKSHOP_TITLE===
-Zmiana nazwy postaci / Rename Characters & Dynasties
+Zmiana nazw postaci i dynastii / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Polish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Przegląd:[/h1]
 Pozwala na zmianę imion postaci oraz nazw dynastii poprzez menu kontekstowe prawego przycisku myszy.
 
-[h1]Cechy:[/h1]
+[h1]Funkcje:[/h1]
 [olist]
- [*][b]Zmiana imion postaci:[/b] Możesz zmienić imię dowolnej postaci poprzez menu kontekstowe prawego przycisku myszy.
+ [*][b]Zmiana imion postaci:[/b] Możesz zmienić imię dowolnej postaci za pomocą menu kontekstowego prawego przycisku myszy.
  [*][b]Zmiana nazw dynastii:[/b] Możesz zmienić nazwę dowolnej dynastii poprzez menu kontekstowe prawego przycisku myszy na dowolnej postaci.
 [/olist]
 
-[h1]Sposób użycia:[/h1]
+[h1]Jak używać:[/h1]
 [olist]
- [*][b]Kliknij prawym przyciskiem myszy na dowolną postać:[/b] To otworzy menu kontekstowe interakcji z postacią.
+ [*][b]Kliknij prawym przyciskiem myszy na dowolną postać:[/b] Otworzy to menu kontekstowe interakcji z postacią.
  [*][b]Oznacz postać:[/b] Wybierz interakcję "Mark Character for Renaming".
- [*][b]Zmień imię postaci:[/b] Następnie wybierz interakcję "Rename Character".
- [*][b]Wybierz nowe imię:[/b] Wpisz nową nazwę w polu tekstowym i kliknij "Change Their Name!".
+ [*][b]Wybierz zmianę imienia/dynastii:[/b] Wybierz interakcję "Rename Character" lub "Rename Dynasty".
+ [*][b]Wybierz nową nazwę:[/b] Wpisz nową nazwę w polu tekstowym i kliknij "Change Their Name!".
 [/olist]
-Proces zmiany nazwy dynastii jest taki sam, wystarczy zamiast tego nacisnąć przycisk "Rename Dynasty".
-
-Uwaga: Niestety nie udało mi się stworzyć z tego pojedynczej interakcji. To najlepszy sposób, w jaki mogłem to zrealizować w systemie modowania EU5.
+Uwaga: Niestety nie udało mi się znaleźć sposobu, aby uczynić to pojedynczą interakcją. Jest to najlepsze rozwiązanie, jakie mogłem stworzyć w ramach systemu modowania EU5.
 
 [h1]Ważna uwaga dotycząca zmiany nazw dynastii:[/h1]
-Technicznie nie jest możliwe zmienienie nazwy jakiejkolwiek istniejącej dynastii. To, co faktycznie się dzieje, to założenie nowej dynastii, której nazwę można zmienić, a następnie przeniesienie do niej wszystkich postaci. Jednak nie obejmie to zmarłych postaci i zmieni herb twojej dynastii.
+Technicznie nie jest możliwe zmienienie nazwy istniejącej dynastii. W rzeczywistości dochodzi do założenia nowej dynastii, której nazwę można zmienić, a następnie przeniesienia do niej wszystkich postaci. Nie obejmuje to jednak zmarłych postaci i spowoduje zmianę herbu twojej dynastii.
 
-Gdy twoja dynastia zostanie już zmieniona (/zastąpiona tą o zmienialnej nazwie), wtedy można je zmieniać bez problemu (bez kolejnych zmian herbu czy utraty zmarłych postaci).
+Po zmianie nazwy dynastii (zastąpieniu jej tą, której nazwę można edytować), nazwy można już zmieniać bez problemów (brak dalszych zmian herbu czy utraty zmarłych postaci).
 
-Istnieje również limit 10 zmienionych dynastii. Mogę dodać ich więcej na życzenie; to po prostu kwestia dodawania ich pojedynczo. Obecnie tylko pierwsza dynastia ma wybrany przeze mnie herb, a pozostałe używają tego samego, generycznego herbu. Przyjmę wszelkie sugestie dotyczące lepszych herbów dla pozostałych 9 dynastii (wyślij definicję lub stwórz pull request z nowym herbem).
+Ponadto istnieje limit 10 zmienionych dynastii. Mogę dodać więcej na życzenie; to tylko kwestia wprowadzania ich po kolei. Obecnie tylko pierwsza dynastia ma wybrany przeze mnie herb, a pozostałe używają tego samego, generycznego herbu. Chętnie przyjmę sugestie dotyczące lepszych herbów dla pozostałych 9 dynastii (wyślij definicję lub stwórz PR z nowym herbem).
 
 [h1]Rodzime lokalizacje:[/h1]
 [list]
@@ -50,17 +48,17 @@ Istnieje również limit 10 zmienionych dynastii. Mogę dodać ich więcej na ż
 [/list]
 
 [h1]Dziennik zmian:[/h1]
-Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Change Notes na stronie warsztatu[/url].
+Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]notatki o zmianach na stronie warsztatu[/url].
 
 [h1]Kompatybilność:[/h1]
 [list]
  [*]Niekompatybilny z osiągnięciami.
  [*]W pełni kompatybilny z zapisami gry.
  [*]Powinien działać z każdym modem.
- [*]Mogę dodać patche kompatybilności na prośbę.
+ [*]Mogę dodać patche kompatybilności na prośbę użytkowników.
 [/list]
 
-Oprócz przypiętej dyskusji o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub zgłaszać sugestie na kanale [url=https://discord.gg/cgycfkdfSY]#utility-mods na serwerze discord społeczności EU5[/url]. A jeśli jesteś zainteresowany dołączeniem do prac nad tym lub jednym z moich innych modów, możesz oznaczyć mnie lub dodać na Discordzie @arealconner. Wszelki wkład jest mile widziany.
+Oprócz przypiętej dyskusji dotyczącej sugestii, możesz również zadawać pytania, zgłaszać błędy lub sugerować nowości na [url=https://discord.gg/cgycfkdfSY]kanale #utility-mods serwera Discord społeczności EU5[/url]. Jeśli jesteś zainteresowany współtworzeniem tego lub innych moich modów, możesz oznaczyć mnie lub dodać na Discordzie @arealconner. Wszelka pomoc jest mile widziana.
 
-Źródło i wersje deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
+Kod źródłowy oraz wersje deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-rename-characters]GitHubie.[/url]
 

@@ -1,66 +1,64 @@
 ===WORKSHOP_TITLE===
-Karakterleri Yeniden Adlandır / Rename Characters & Dynasties
+Karakterleri ve Hanedanları Yeniden Adlandır / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Genel Bakış:[/h1]
-Sağ tık bağlam menüsü aracılığıyla karakterleri ve hanedanları yeniden adlandırmanıza olanak tanır.
+Karakterleri ve hanedanları sağ tık bağlam menüsü aracılığıyla yeniden adlandırmanıza olanak tanır.
 
 [h1]Özellikler:[/h1]
 [olist]
- [*][b]Karakterleri Yeniden Adlandırma:[/b] Herhangi bir karakterin adını sağ tık bağlam menüsü aracılığıyla değiştirebilirsiniz.
- [*][b]Hanedanları Yeniden Adlandırma:[/b] Herhangi bir karakter üzerindeki sağ tık bağlam menüsü aracılığıyla herhangi bir hanedanın adını değiştirebilirsiniz.
+ [*][b]Karakterlerin Yeniden Adlandırılmasına İzin Ver:[/b] Sağ tık bağlam menüsü aracılığıyla herhangi bir karakterin adını değiştirebilirsiniz.
+ [*][b]Hanedanların Yeniden Adlandırılmasına İzin Ver:[/b] Herhangi bir karakter üzerindeki sağ tık bağlam menüsü aracılığıyla herhangi bir hanedanın adını değiştirebilirsiniz.
 [/olist]
 
-[h1]Kullanım:[/h1]
+[h1]Kullanımı:[/h1]
 [olist]
- [*][b]Herhangi Bir Karaktere Sağ Tıklayın:[/b] Bu, karakter etkileşimleri için bağlam menüsünü açacaktır.
- [*][b]Karakteri İşaretle:[/b] "Mark Character for Renaming" (Karakteri Yeniden Adlandırmak İçin İşaretle) etkileşimini seçin.
- [*][b]Karakteri Yeniden Adlandır:[/b] Ardından "Rename Character" (Karakteri Yeniden Adlandır) etkileşimini seçin.
- [*][b]Yeni Bir İsim Seçin:[/b] Metin kutusunu yeni isimle doldurun ve "Change Their Name!" (Adlarını Değiştir!) düğmesine tıklayın.
+ [*][b]Herhangi Bir Karakterin Üzerine Sağ Tıklayın:[/b] Bu, karakter etkileşimleri için bağlam menüsünü açacaktır.
+ [*][b]Karakteri İşaretle:[/b] "Karakteri Yeniden Adlandırmak İçin İşaretle" etkileşimini seçin.
+ [*][b]Karakteri/Hanedanı Yeniden Adlandır'ı Seçin:[/b] "Karakteri Yeniden Adlandır" veya "Hanedanı Yeniden Adlandır" etkileşimini seçin.
+ [*][b]Yeni Bir İsim Seçin:[/b] Metin kutusuna yeni ismi yazın ve "İsimlerini Değiştir!" butonuna tıklayın.
 [/olist]
-Hanedanları yeniden adlandırma işlemi de aynıdır, sadece bunun yerine "Rename Dynasty" (Hanedanı Yeniden Adlandır) düğmesine basmanız yeterlidir.
-
-Not: Maalesef bunu tek bir etkileşim haline getirmenin bir yolunu bulamadım. EU5 modlama sistemi dahilinde çalışmasını sağlamak için yapabileceğim en iyi şey buydu.
+Not: Maalesef bunu tek bir etkileşim haline getirmenin bir yolunu bulamadım. EU5 modlama sistemi dahilinde çalışmasını sağlamak için yapabildiğim en iyi şey bu.
 
 [h1]Hanedanları Yeniden Adlandırma Hakkında Önemli Not:[/h1]
-Mevcut herhangi bir hanedanı yeniden adlandırmak teknik olarak mümkün değildir. Aslında gerçekleşen şey, yeniden adlandırılabilen yeni bir hanedan kurmak ve ardından tüm karakterleri bu hanedana taşımaktır. Ancak bu işlem ölmüş karakterleri kapsamaz ve hanedan ambleminizi değiştirir.
+Mevcut herhangi bir hanedanı yeniden adlandırmak teknik olarak mümkün değildir. Gerçekte olan şey, yeniden adlandırılabilen yeni bir hanedanın kurulması ve ardından tüm karakterlerin bu hanedana taşınmasıdır. Ancak bu, ölen karakterleri içermeyecek ve hanedanınızın amblemini değiştirecektir.
 
-Hanedanınız bir kez yeniden adlandırıldığında (/yeniden adlandırılabilir olanla değiştirildiğinde), bunlar artık sorunsuz bir şekilde yeniden adlandırılabilir (artık amblem değişikliği olmaz veya ölmüş karakterler kaybolmaz).
+Hanedanınız yeniden adlandırıldıktan (yeniden adlandırılabilir olanla değiştirildikten) sonra, bunlar artık herhangi bir sorun olmadan (amblemler değişmeden veya ölen karakterleri kaybetmeden) yeniden adlandırılabilir.
 
-Ayrıca, 10 adet yeniden adlandırılmış hanedan sınırı vardır. İstenirse daha fazla ekleyebilirim; sadece bunları tek tek eklemek gerekiyor. Şu anda sadece ilk hanedanın benim seçtiğim bir amblemi var, geri kalanlar ise aynı genel amblemi kullanıyor. Diğer 9 hanedan için daha iyi amblem önerilerini kabul ediyorum (ya tanımı gönderin ya da yeni amblemle bir PR oluşturun).
+Ayrıca, yeniden adlandırılmış hanedan limiti 10'dur. Talep edilirse daha fazla ekleyebilirim; bu sadece onları tek tek ekleme meselesidir. Şu anda sadece ilk hanedanın benim seçtiğim bir amblemi var, geri kalanlar ise aynı genel amblemi kullanıyor. Diğer 9 hanedan için daha iyi amblem önerilerini kabul ediyorum (tanımı gönderebilir veya yeni amblemle bir pr oluşturabilirsiniz).
 
 [h1]Orijinal Yerelleştirmeler:[/h1]
 [list]
- [*][b]English:[/b] Primary
+ [*][b]İngilizce:[/b] Birincil
 [/list]
 
-[h1]DeepL ile Çevrilmiş Yerelleştirmeler:[/h1]
+[h1]DeepL ile Çevrilen Yerelleştirmeler:[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Çince / 中文[/b]
+ [*][b]Fransızca / Français[/b]
+ [*][b]Almanca / Deutsch[/b]
+ [*][b]Japonca / 日本語[/b]
+ [*][b]Korece / 한국어[/b]
+ [*][b]Lehçe / Polski[/b]
+ [*][b]Portekizce (Brezilya) / Português (Brasil)[/b]
+ [*][b]Rusça / Русский[/b]
+ [*][b]İspanyolca / Español[/b]
+ [*][b]Türkçe / Türkçe[/b]
 [/list]
 
 [h1]Değişiklik Günlüğü:[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Atölye sayfasındaki Değişiklik Notlarına[/url] göz atın.
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Workshop sayfasındaki Değişiklik Notlarına[/url] göz atın.
 
 [h1]Uyumluluk:[/h1]
 [list]
- [*]Başarım Uyumlu Değildir.
- [*]Kayıtlı oyunlarla tamamen uyumludur.
+ [*]Başarımlar (Achievement) ile uyumlu değildir.
+ [*]Kayıtlı oyunlarla (Save game) tam uyumludur.
  [*]Herhangi bir modla çalışmalıdır.
- [*]Talep üzerine uyumluluk yamaları ekleyebilirim.
+ [*]İstek üzerine uyumluluk yamaları ekleyebilirim.
 [/list]
 
-Sabitlenmiş öneriler tartışmasına ek olarak, sorularınızı sorabilir, hataları bildirebilir veya [url=https://discord.gg/cgycfkdfSY]EU5 Topluluğu discord sunucusunun #utility-mods kanalında[/url] önerilerde bulunabilirsiniz. Ve eğer bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord üzerinden bana @arealconner adresinden ulaşabilir veya ekleyebilirsiniz. Tüm katkılar memnuniyetle karşılanır.
+Sabitlenen öneriler tartışmasına ek olarak, [url=https://discord.gg/cgycfkdfSY]EU5 Community Discord sunucusunun #utility-mods kanalında[/url] soru sorabilir, hata bildirebilir veya öneride bulunabilirsiniz. Ayrıca, bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord'da @arealconner üzerinden bana ulaşabilir veya beni ekleyebilirsiniz. Tüm katkılara açığım.
 
-Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub'da mevcuttur.[/url]
+Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] üzerinde mevcuttur.
 
