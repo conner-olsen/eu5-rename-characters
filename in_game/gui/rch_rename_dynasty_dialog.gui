@@ -41,9 +41,10 @@ window = {
 							margin = {5 0}
 							using = message_text_box_background
 							visible = yes
-
+							# Slot 1
 							editbox_single = {
 								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_1')]"
 
 								blockoverride "editbox_label" {
 									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
@@ -63,6 +64,168 @@ window = {
                                     maxcharacters = 42
                                 }
 							}
+							# Slot 2
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_2')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_2', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 3
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_3')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_3', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 4
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_4')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_4', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 5
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_5')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_5', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 6
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_6')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_6', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 7
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_7')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_7', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 8
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_8')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_8', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 9
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_9')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_9', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
+							# Slot 10
+							editbox_single = {
+								size = { 300 30 }
+								visible = "[GetPlayer.HasVariable('rch_renaming_dynasty_10')]"
+								blockoverride "editbox_label" {
+									text = "RCH_DYNASTY_EDITBOX_DEFAULT"
+								}
+								blockoverride "editbox_properties" {
+									name = "new_name"
+									tooltipwidget = {
+										LeftClickButtonTooltip = {
+											blockoverride "onclick_text" { text = "RCH_EDIT_DYNASTY_NAME" }
+										}
+									}
+									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_10', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
+									maxcharacters = 42
+								}
+							}
 						}
 					}
 				}
@@ -77,13 +240,16 @@ window = {
                     #     align = center
                     #     default_format = "#low"
                     # }
-					text_single = {
-						# raw_text = "COMMAND: [Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, Concatenate( ' = { rch_rename_dynasty = yes }' ) ) )]"
-						raw_text = "COMMAND: [Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, ' = { rch_rename_dynasty = yes }' ) )]"
-						# raw_text = "COMMAND: [Concatenate( 'effect c:', GetPlayer.GetTag)]"
-						align = center
-						default_format = "#low"
-					}
+					# text_single = {
+					# 	raw_text = "COMMAND: [Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, ' = { rch_rename_dynasty = yes }' ) )]"
+					# 	align = center
+					# 	default_format = "#low"
+					# }
+					# text_single = {
+					# 	raw_text = "1: [GetPlayer.HasVariable('rch_renaming_dynasty_1')] 2: [GetPlayer.HasVariable('rch_renaming_dynasty_2')]"
+					# 	align = center
+					# 	default_format = "#low"
+					# }
 					block "message_template_buttons" {
 						button_regular_diamond = {
 							name = "decline_button"
