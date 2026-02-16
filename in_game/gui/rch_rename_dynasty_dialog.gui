@@ -328,8 +328,17 @@ window = {
 
 					block "message_title_content" {
 						hbox = {
-
 							vbox = {
+								textbox = {
+									using = text_multi_template
+
+									autoresize = yes
+
+									default_format = "#yellow_titles"
+									fontsize = 22
+									align = center|nobaseline
+									text = "RCH_CHANGE_DYNASTY_NAME_TITLE"
+								}
 
 								textbox = {
 									using = text_multi_template
@@ -341,17 +350,6 @@ window = {
 									default_format = "#subtle_name"
 									align = center
 									text = "RCH_CHANGE_DYNASTY_NAME_SUBTITLE"
-								}
-
-								textbox = {
-									using = text_multi_template
-
-									autoresize = yes
-
-									default_format = "#yellow_titles"
-									fontsize = 22
-									align = center|nobaseline
-									text = "RCH_CHANGE_DYNASTY_NAME_TITLE"
 								}
 							}
 						}
@@ -404,13 +402,5 @@ window = {
 			# using = snd_UI_confirm
 			using = bg_circle_piechart
 		}
-	}
-
-	text_single= {
-		text = "RCH_RENAME_DYNASTY_TEXT"
-		size = { 120 30 }
-		position = { 0 0 }
-		parentanchor = top|hcenter
-		align = center|nobaseline
 	}
 }
