@@ -14,8 +14,6 @@ Allows you to rename characters and dynasties via the right-click context menu.
  [*][b]Select Rename Character/Dynasty:[/b] Select the "Rename Character" or "Rename Dynasty" interaction.
  [*][b]Choose a New Name:[/b] Fill in the text box with the new name and click "Change Their Name!".
 [/olist]
-The process for renaming dynasties is the same, just pressing the "Rename Dynasty" instead.
-
 Note: Unfortunately, I could not find a way to make this into a single interaction. This is the best I could do to make it work within the EU5 modding system.
 
 [h1]Important Note on Renaming Dynasties:[/h1]
