@@ -1,9 +1,10 @@
 ﻿[h1]Overview:[/h1]
-Allows you to rename characters via the right-click context menu.
+Allows you to rename characters and dynasties via the right-click context menu.
 
 [h1]Features:[/h1]
 [olist]
  [*][b]Allow Renaming Characters:[/b] You can change the name of any character via the right-click context menu.
+ [*][b]Allow Renaming Dynasties:[/b] You can change the name of any dynasty via the right-click context menu on any character.
 [/olist]
 
 [h1]To Use:[/h1]
@@ -13,10 +14,16 @@ Allows you to rename characters via the right-click context menu.
  [*][b]Rename Character:[/b] Then select the "Rename Character" interaction.
  [*][b]Choose a New Name:[/b] Fill in the text box with the new name and click "Change Their Name!".
 [/olist]
+The process for renaming dynasties is the same, just pressing the "Rename Dynasty" instead.
+
 Note: Unfortunately, I could not find a way to make this into a single interaction. This is the best I could do to make it work within the EU5 modding system.
 
-[h1]Note on Renaming Dynasties:[/h1]
-I've looked in to doing so, but I don't believe it's possible. There isn't any effect available, nor any vanilla case of a dynasty changing name. The only possible workaround I could find is founding a new dynasty that has a dynamic name, then moving all the characters over. It should work, but the coat of arms would be changed as well
+[h1]Important Note on Renaming Dynasties:[/h1]
+It is not technically possible to rename any existing dynasty. What is actually happening is the founding of a new dynasty that can be renamed, then moving all the characters into it. However, this will not include deceased characters, and it will change your dynasty's emblem.
+
+Once your dynasty is renamed (/replaced with the renamable one), then these actually can be renamed without issue (no more emblem changes or loss of deceased characters).
+
+Also, there is a limit of 10 renamed dynasties. I can add more if requested; it's just a matter of putting them in one at a time. Currently, only the first dynasty has an emblem I picked out, and the rest use the same generic emblem. I'll accept any suggestions for better emblems on the other 9 dynasties (either send the definition or make a pr with the new emblem).
 
 [h1]Native Localizations:[/h1]
 [list]
