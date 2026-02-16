@@ -11,7 +11,7 @@ Allows you to rename characters and dynasties via the right-click context menu.
 [olist]
  [*][b]Right Click Any Character:[/b] This will open the context menu for character interactions.
  [*][b]Mark Character:[/b] Select the "Mark Character for Renaming" interaction.
- [*][b]Rename Character:[/b] Then select the "Rename Character" interaction.
+ [*][b]Select Rename Character/Dynasty:[/b] Select the "Rename Character" or "Rename Dynasty" interaction.
  [*][b]Choose a New Name:[/b] Fill in the text box with the new name and click "Change Their Name!".
 [/olist]
 The process for renaming dynasties is the same, just pressing the "Rename Dynasty" instead.
