@@ -1,0 +1,11 @@
+﻿l_russian:
+ rch_renameable_dynasty_1: "[GetVariableSystem.Get('rch_new_dynasty_name_1')]"
+ rch_renameable_dynasty_2: "[GetVariableSystem.Get('rch_new_dynasty_name_2')]"
+ rch_renameable_dynasty_3: "[GetVariableSystem.Get('rch_new_dynasty_name_3')]"
+ rch_renameable_dynasty_4: "[GetVariableSystem.Get('rch_new_dynasty_name_4')]"
+ rch_renameable_dynasty_5: "[GetVariableSystem.Get('rch_new_dynasty_name_5')]"
+ rch_renameable_dynasty_6: "[GetVariableSystem.Get('rch_new_dynasty_name_6')]"
+ rch_renameable_dynasty_7: "[GetVariableSystem.Get('rch_new_dynasty_name_7')]"
+ rch_renameable_dynasty_8: "[GetVariableSystem.Get('rch_new_dynasty_name_8')]"
+ rch_renameable_dynasty_9: "[GetVariableSystem.Get('rch_new_dynasty_name_9')]"
+ rch_renameable_dynasty_10: "[GetVariableSystem.Get('rch_new_dynasty_name_10')]"

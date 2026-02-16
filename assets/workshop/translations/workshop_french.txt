@@ -1,56 +1,66 @@
 ===WORKSHOP_TITLE===
-Renommer les personnages / Rename Characters
+Renommer les personnages / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated French Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Présentation :[/h1]
-Vous permet de renommer les personnages via le menu contextuel du clic droit.
+[h1]Aperçu :[/h1]
+Permet de renommer les personnages et les dynasties via le menu contextuel du clic droit.
 
-[h1]Caractéristiques :[/h1]
+[h1]Fonctionnalités :[/h1]
 [olist]
- [*][b]Autoriser le renommage des personnages :[/b] Vous pouvez changer le nom de n'importe quel personnage via le menu contextuel du clic droit.
+ [*][b]Permettre de renommer les personnages :[/b] Vous pouvez changer le nom de n'importe quel personnage via le menu contextuel du clic droit.
+ [*][b]Permettre de renommer les dynasties :[/b] Vous pouvez changer le nom de n'importe quelle dynastie via le menu contextuel du clic droit sur n'importe quel personnage.
 [/olist]
 
 [h1]Utilisation :[/h1]
 [olist]
- [*][b]Clic droit sur n'importe quel personnage :[/b] Cela ouvrira le menu contextuel des interactions de personnage.
- [*][b]Marquer le personnage :[/b] Sélectionnez l'interaction "Marquer le personnage pour renommage".
- [*][b]Renommer le personnage :[/b] Sélectionnez ensuite l'interaction "Renommer le personnage".
- [*][b]Choisir un nouveau nom :[/b] Remplissez la zone de texte avec le nouveau nom et cliquez sur "Changer leur nom !".
+ [*][b]Faites un clic droit sur n'importe quel personnage :[/b] Cela ouvrira le menu contextuel pour les interactions de personnage.
+ [*][b]Marquer le personnage :[/b] Sélectionnez l'interaction "Mark Character for Renaming".
+ [*][b]Renommer le personnage :[/b] Sélectionnez ensuite l'interaction "Rename Character".
+ [*][b]Choisir un nouveau nom :[/b] Remplissez la zone de texte avec le nouveau nom et cliquez sur "Change Their Name!".
 [/olist]
-Note : Malheureusement, je n'ai pas trouvé de moyen d'en faire une interaction unique. C'est le mieux que j'ai pu faire pour que cela fonctionne avec le système de modding d'EU5.
+Le processus pour renommer les dynasties est le même, il suffit d'appuyer sur "Rename Dynasty" à la place.
+
+Note : Malheureusement, je n'ai pas trouvé de moyen d'en faire une seule interaction. C'est le mieux que j'ai pu faire pour que cela fonctionne dans le système de modding d'EU5.
+
+[h1]Note importante sur le renommage des dynasties :[/h1]
+Il n'est techniquement pas possible de renommer une dynastie existante. Ce qui se passe réellement, c'est la fondation d'une nouvelle dynastie qui peut être renommée, puis le transfert de tous les personnages vers celle-ci. Cependant, cela n'inclura pas les personnages décédés, et cela changera l'emblème de votre dynastie.
+
+Une fois que votre dynastie est renommée (ou remplacée par celle renommable), celle-ci peut alors être renommée sans problème (plus de changement d'emblème ou de perte de personnages décédés).
+
+De plus, il y a une limite de 10 dynasties renommées. Je peux en ajouter d'autres sur demande ; c'est juste une question de les intégrer une par une. Actuellement, seule la première dynastie a un emblème que j'ai choisi, et les autres utilisent le même emblème générique. J'accepterai toutes les suggestions pour de meilleurs emblèmes sur les 9 autres dynasties (soit en envoyant la définition, soit en faisant une PR avec le nouvel emblème).
 
 [h1]Localisations natives :[/h1]
 [list]
- [*][b]Anglais :[/b] Principal
+ [*][b]English :[/b] Primaire
 [/list]
 
-[h1]Localisations traduites via DeepL :[/h1]
+[h1]Localisations traduites par DeepL :[/h1]
 [list]
- [*][b]Chinois / 中文[/b]
- [*][b]Français / Français[/b]
- [*][b]Allemand / Deutsch[/b]
- [*][b]Japonais / 日本語[/b]
- [*][b]Coréen / 한국어[/b]
- [*][b]Polonais / Polski[/b]
- [*][b]Portugais (Brésil) / Português (Brasil)[/b]
- [*][b]Russe / Русский[/b]
- [*][b]Espagnol / Español[/b]
- [*][b]Turc / Türkçe[/b]
+ [*][b]Chinese / 中文[/b]
+ [*][b]French / Français[/b]
+ [*][b]German / Deutsch[/b]
+ [*][b]Japanese / 日本語[/b]
+ [*][b]Korean / 한국어[/b]
+ [*][b]Polish / Polski[/b]
+ [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
+ [*][b]Russian / Русский[/b]
+ [*][b]Spanish / Español[/b]
+ [*][b]Turkish / Türkçe[/b]
 [/list]
 
 [h1]Journal des modifications :[/h1]
-Voir les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]notes de mise à jour sur la page du workshop[/url].
+Consultez les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]notes de mise à jour sur la page du workshop[/url].
 
 [h1]Compatibilité :[/h1]
 [list]
  [*]Non compatible avec les succès (Achievements).
- [*]Entièrement compatible avec les sauvegardes en cours.
+ [*]Entièrement compatible avec les sauvegardes.
  [*]Devrait fonctionner avec n'importe quel mod.
  [*]Je peux ajouter des patchs de compatibilité sur demande.
 [/list]
 
-En plus de la discussion épinglée pour les suggestions, vous pouvez également poser des questions, signaler des bugs ou faire des suggestions dans le [url=https://discord.gg/cgycfkdfSY]salon #utility-mods du serveur Discord de la communauté EU5[/url]. Et si vous souhaitez participer au développement de ce mod ou de l'un de mes autres mods, vous pouvez me mentionner ou m'ajouter sur Discord @arealconner. Toutes les contributions sont les bienvenues.
+En plus de la discussion épinglée pour les suggestions, vous pouvez également poser des questions, signaler des bugs ou faire des suggestions dans le [url=https://discord.gg/cgycfkdfSY]canal #utility-mods du serveur Discord de la communauté EU5[/url]. Et si vous êtes intéressé par le développement de ce mod ou de l'un de mes autres mods, vous pouvez me contacter ou m'ajouter sur Discord @arealconner. Toutes les contributions sont les bienvenues.
 
-Les versions source et de développement du mod sont disponibles sur [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
+Le code source et les versions de développement du mod sont disponibles sur [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
 

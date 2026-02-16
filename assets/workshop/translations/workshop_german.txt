@@ -1,56 +1,66 @@
 ===WORKSHOP_TITLE===
-Charaktere umbenennen / Rename Characters
+Charaktere umbenennen / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated German Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Übersicht:[/h1]
-Ermöglicht es dir, Charaktere über das Rechtsklick-Kontextmenü umzubenennen.
+[h1]Überblick:[/h1]
+Ermöglicht es Ihnen, Charaktere und Dynastien über das Rechtsklick-Kontextmenü umzubenennen.
 
-[h1]Features:[/h1]
+[h1]Funktionen:[/h1]
 [olist]
- [*][b]Charaktere umbenennen:[/b] Du kannst den Namen jedes Charakters über das Rechtsklick-Kontextmenü ändern.
+ [*][b]Umbenennen von Charakteren:[/b] Sie können den Namen eines jeden Charakters über das Rechtsklick-Kontextmenü ändern.
+ [*][b]Umbenennen von Dynastien:[/b] Sie können den Namen jeder Dynastie über das Rechtsklick-Kontextmenü eines beliebigen Charakters ändern.
 [/olist]
 
-[h1]Anleitung:[/h1]
+[h1]Verwendung:[/h1]
 [olist]
  [*][b]Rechtsklick auf einen beliebigen Charakter:[/b] Dies öffnet das Kontextmenü für Charakterinteraktionen.
- [*][b]Charakter markieren:[/b] Wähle die Interaktion „Charakter zum Umbenennen markieren“.
- [*][b]Charakter umbenennen:[/b] Wähle dann die Interaktion „Charakter umbenennen“.
- [*][b]Einen neuen Namen wählen:[/b] Gib den neuen Namen in das Textfeld ein und klicke auf „Namen ändern!“.
+ [*][b]Charakter markieren:[/b] Wählen Sie die Interaktion „Charakter zum Umbenennen markieren“ (Mark Character for Renaming).
+ [*][b]Charakter umbenennen:[/b] Wählen Sie dann die Interaktion „Charakter umbenennen“ (Rename Character).
+ [*][b]Einen neuen Namen wählen:[/b] Geben Sie den neuen Namen in das Textfeld ein und klicken Sie auf „Namen ändern!“ (Change Their Name!).
 [/olist]
+Der Vorgang zum Umbenennen von Dynastien ist derselbe, drücken Sie stattdessen einfach auf „Dynastie umbenennen“ (Rename Dynasty).
+
 Hinweis: Leider konnte ich keinen Weg finden, dies in einer einzigen Interaktion zusammenzufassen. Dies ist die beste Lösung, um es innerhalb des EU5-Modding-Systems zum Laufen zu bringen.
 
-[h1]Native Lokalisierungen:[/h1]
+[h1]Wichtiger Hinweis zum Umbenennen von Dynastien:[/h1]
+Technisch gesehen ist es nicht möglich, eine bestehende Dynastie umzubenennen. Tatsächlich wird eine neue Dynastie gegründet, die umbenannt werden kann, und anschließend werden alle Charaktere in diese verschoben. Verstorbene Charaktere werden jedoch nicht übernommen, und das Wappen Ihrer Dynastie wird sich ändern.
+
+Sobald Ihre Dynastie umbenannt (bzw. durch die umbenennbare ersetzt) wurde, kann diese ohne Probleme erneut umbenannt werden (keine weiteren Wappenänderungen oder Verlust von verstorbenen Charakteren).
+
+Außerdem gibt es ein Limit von 10 umbenannten Dynastien. Ich kann auf Anfrage weitere hinzufügen; es geht lediglich darum, sie einzeln einzufügen. Derzeit hat nur die erste Dynastie ein von mir ausgewähltes Wappen, der Rest verwendet dasselbe generische Wappen. Ich nehme gerne Vorschläge für bessere Wappen für die anderen 9 Dynastien entgegen (senden Sie entweder die Definition oder erstellen Sie einen Pull Request mit dem neuen Wappen).
+
+[h1]Muttersprachliche Lokalisierungen:[/h1]
 [list]
  [*][b]Englisch:[/b] Primär
 [/list]
 
-[h1]Mit DeepL übersetzte Lokalisierungen:[/h1]
+[h1]Per DeepL übersetzte Lokalisierungen:[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Chinesisch / 中文[/b]
+ [*][b]Französisch / Français[/b]
+ [*][b]Deutsch / Deutsch[/b]
+ [*][b]Japanisch / 日本語[/b]
+ [*][b]Koreanisch / 한국어[/b]
+ [*][b]Polnisch / Polski[/b]
+ [*][b]Portugiesisch (Brasilien) / Português (Brasil)[/b]
+ [*][b]Russisch / Русский[/b]
+ [*][b]Spanisch / Español[/b]
+ [*][b]Türkisch / Türkçe[/b]
 [/list]
 
 [h1]Änderungsprotokoll:[/h1]
-Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Änderungsnotizen auf der Workshop-Seite[/url].
+Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Änderungshinweise auf der Workshop-Seite[/url].
 
 [h1]Kompatibilität:[/h1]
 [list]
- [*]Nicht mit Errungenschaften kompatibel.
- [*]Vollständig mit Spielständen kompatibel.
- [*]Sollte mit jeder Mod funktionieren.
- [*]Auf Anfrage füge ich eventuell Kompatibilitätspatches hinzu.
+ [*]Nicht kompatibel mit Errungenschaften (Achievements).
+ [*]Vollständig kompatibel mit Spielständen.
+ [*]Sollte mit jedem Mod funktionieren.
+ [*]Kompatibilitäts-Patches füge ich auf Anfrage eventuell hinzu.
 [/list]
 
-Zusätzlich zur angepinnten Diskussion für Vorschläge kannst du auch Fragen stellen, Fehler melden oder Vorschläge im [url=https://discord.gg/cgycfkdfSY]#utility-mods-Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn du daran interessiert bist, an der Entwicklung dieser oder einer meiner anderen Mods mitzuwirken, kannst du mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
+Zusätzlich zur angepinnten Vorschlags-Diskussion können Sie auch Fragen stellen, Fehler melden oder Vorschläge im [url=https://discord.gg/cgycfkdfSY]#utility-mods Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn Sie daran interessiert sind, an der Entwicklung dieses oder eines meiner anderen Mods mitzuwirken, können Sie mich auf Discord unter @arealconner anpingen oder hinzufügen. Alle Beiträge sind willkommen.
 
-Die Quell- und Entwicklerversionen der Mod sind auf [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub verfügbar.[/url]
+Die Quell- und Entwicklerversionen des Mods sind auf [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] verfügbar.
 

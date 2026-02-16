@@ -1,24 +1,34 @@
 ===WORKSHOP_TITLE===
-Renombrar Personajes / Rename Characters
+Renombrar Personajes / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Spanish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Resumen:[/h1]
-Permite cambiar el nombre de los personajes a través del menú contextual del botón derecho.
+[h1]Descripción general:[/h1]
+Te permite renombrar personajes y dinastías a través del menú contextual del clic derecho.
 
 [h1]Características:[/h1]
 [olist]
- [*][b]Permitir renombrar personajes:[/b] Puedes cambiar el nombre de cualquier personaje a través del menú contextual del botón derecho.
+ [*][b]Permitir renombrar personajes:[/b] Puedes cambiar el nombre de cualquier personaje a través del menú contextual del clic derecho.
+ [*][b]Permitir renombrar dinastías:[/b] Puedes cambiar el nombre de cualquier dinastía a través del menú contextual del clic derecho en cualquier personaje.
 [/olist]
 
-[h1]Modo de uso:[/h1]
+[h1]Cómo usar:[/h1]
 [olist]
- [*][b]Haz clic derecho en cualquier personaje:[/b] Esto abrirá el menú contextual para las interacciones de personajes.
+ [*][b]Clic derecho en cualquier personaje:[/b] Esto abrirá el menú contextual de interacciones de personajes.
  [*][b]Marcar personaje:[/b] Selecciona la interacción "Marcar personaje para renombrar".
  [*][b]Renombrar personaje:[/b] Luego selecciona la interacción "Renombrar personaje".
- [*][b]Elige un nuevo nombre:[/b] Escribe el nuevo nombre en el cuadro de texto y haz clic en "¡Cambiar su nombre!".
+ [*][b]Elegir un nuevo nombre:[/b] Escribe el nuevo nombre en el cuadro de texto y haz clic en "¡Cambiar su nombre!".
 [/olist]
-Nota: Lamentablemente, no pude encontrar la manera de convertir esto en una sola interacción. Es lo mejor que pude hacer para que funcione dentro del sistema de modding de EU5.
+El proceso para renombrar dinastías es el mismo, simplemente pulsando en su lugar "Renombrar dinastía".
+
+Nota: Lamentablemente, no he podido encontrar una forma de convertir esto en una sola interacción. Esto es lo mejor que he podido hacer para que funcione dentro del sistema de modding de EU5.
+
+[h1]Nota importante sobre el cambio de nombre de las dinastías:[/h1]
+Técnicamente no es posible renombrar ninguna dinastía existente. Lo que ocurre en realidad es la fundación de una nueva dinastía que puede ser renombrada, para luego trasladar a todos los personajes a ella. Sin embargo, esto no incluirá a los personajes fallecidos y cambiará el emblema de tu dinastía.
+
+Una vez que tu dinastía ha sido renombrada (o sustituida por la renombrable), estas pueden renombrarse sin problemas (sin más cambios de emblema ni pérdida de personajes fallecidos).
+
+Además, hay un límite de 10 dinastías renombradas. Puedo añadir más si se solicita; es solo cuestión de añadirlas una a una. Actualmente, solo la primera dinastía tiene un emblema que he elegido, y el resto utiliza el mismo emblema genérico. Aceptaré cualquier sugerencia para mejores emblemas en las otras 9 dinastías (ya sea enviando la definición o haciendo un pr con el nuevo emblema).
 
 [h1]Localizaciones nativas:[/h1]
 [list]
@@ -40,17 +50,17 @@ Nota: Lamentablemente, no pude encontrar la manera de convertir esto en una sola
 [/list]
 
 [h1]Registro de cambios:[/h1]
-Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]notas de cambios en la página de la workshop[/url].
+Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Notas de cambios en la página de la Workshop[/url].
 
 [h1]Compatibilidad:[/h1]
 [list]
  [*]No es compatible con logros.
  [*]Totalmente compatible con partidas guardadas.
  [*]Debería funcionar con cualquier mod.
- [*]Puedo añadir parches de compatibilidad a petición.
+ [*]Podría añadir parches de compatibilidad si se solicita.
 [/list]
 
-Además de la discusión de sugerencias fijada, también puedes hacer preguntas, informar de errores o hacer sugerencias en el [url=https://discord.gg/cgycfkdfSY]canal #utility-mods del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
+Además del hilo de discusión fijado para sugerencias, también puedes hacer preguntas, informar de errores o hacer sugerencias en el [url=https://discord.gg/cgycfkdfSY]canal #utility-mods del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
 
-Las versiones de código fuente y de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
+El código fuente y las versiones de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
 
