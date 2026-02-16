@@ -1,10 +1,10 @@
 ﻿{
-  "name": "Rename Characters Dev",
+  "name": "Rename Characters & Dynasties Dev",
   "id": "rename.characters.dev",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "game_id": "eu5",
   "supported_game_version": "1.1.*",
-  "short_description": "Allows you to rename characters.",
+  "short_description": "Allows you to rename characters and dynasties.",
   "tags": [
     "Characters",
     "Utilities",
