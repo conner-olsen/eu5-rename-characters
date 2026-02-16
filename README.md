@@ -1,15 +1,15 @@
-# \[Insert Mod Repo Name\]
+# eu5-rename-characters
 
-\[Insert Mod Repo Description\]
+Allows renaming characters in Europa Universalis 5.
 
 For a full current and upcoming feature list, see the steam page below.
-[![Steam Workshop](https://img.shields.io/badge/Steam%20Workshop-Subscribe-blue)](\[Insert Mod Workshop Link\])
+[![Steam Workshop](https://img.shields.io/badge/Steam%20Workshop-Subscribe-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3666710780)
 
 ## Installation
 
 ### Steam Workshop (Recommended)
 
-Subscribe on the [Steam Workshop](\[Insert Mod Workshop Link\]).
+Subscribe on the [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3666710780).
 
 ### Manual Installation
 
