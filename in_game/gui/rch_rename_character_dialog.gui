@@ -233,7 +233,7 @@ window = {
 	}
 
 	text_single= {
-		text = "[DialogConfig.GetTitle]"
+		text = "RCH_RENAME_CHARACTER_TEXT"
 		size = { 120 30 }
 		position = { 0 0 }
 		parentanchor = top|hcenter

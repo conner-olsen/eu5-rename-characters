@@ -1,0 +1,13 @@
+﻿# Just to make false warning about variables being set go away
+rch_dummy = {
+	set_global_variable = rch_using_renamable_dynasty_1
+	set_global_variable = rch_using_renamable_dynasty_2
+	set_global_variable = rch_using_renamable_dynasty_3
+	set_global_variable = rch_using_renamable_dynasty_4
+	set_global_variable = rch_using_renamable_dynasty_5
+	set_global_variable = rch_using_renamable_dynasty_6
+	set_global_variable = rch_using_renamable_dynasty_7
+	set_global_variable = rch_using_renamable_dynasty_8
+	set_global_variable = rch_using_renamable_dynasty_9
+	set_global_variable = rch_using_renamable_dynasty_10
+}

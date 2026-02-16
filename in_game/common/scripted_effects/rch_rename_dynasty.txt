@@ -18,29 +18,37 @@
 }
 
 rch_rename_dynasty = {
-	var:rch_marked_character = {
-		dynasty = {
-			rch_try_rename_dynasty = { num = 1 }
-			rch_try_rename_dynasty = { num = 2 }
-			rch_try_rename_dynasty = { num = 3 }
-			rch_try_rename_dynasty = { num = 4 }
-			rch_try_rename_dynasty = { num = 5 }
-			rch_try_rename_dynasty = { num = 6 }
-			rch_try_rename_dynasty = { num = 7 }
-			rch_try_rename_dynasty = { num = 8 }
-			rch_try_rename_dynasty = { num = 9 }
-			rch_try_rename_dynasty = { num = 10 }
-			remove_variable = rch_dynasty_renamed
+	if = {
+		limit = {
+			has_variable = rch_marked_character
 		}
+		save_scope_as = rch_player_scope
+		var:rch_marked_character = {
+			dynasty = {
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 1 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 2 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 3 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 4 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 5 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 6 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 7 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 8 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 9 }
+				rch_try_rename_dynasty = { player = scope:rch_player_scope num = 10 }
+			}
+		}
+		remove_variable = rch_dynasty_renamed
+		remove_variable = rch_marked_character
+		rch_clear_dynasty_to_be_renamed = yes
 	}
-	remove_variable = rch_marked_character
-	rch_clear_dynasty_to_be_renamed = yes
 }
 
 rch_try_rename_dynasty = {
 	if = {
 		limit = {
-			NOT = { has_variable = rch_dynasty_renamed }
+			$player$ = {
+				NOT = { has_variable = rch_dynasty_renamed }
+			}
 			OR = {
 				NOT = { has_global_variable = rch_using_renamable_dynasty_$num$ }
 				this = dynasty:rch_renameable_dynasty_$num$
@@ -51,26 +59,28 @@ rch_try_rename_dynasty = {
 				NOT = { has_global_variable = rch_using_renamable_dynasty_$num$ }
 			}
 			prev = { found_dynasty = rch_renameable_dynasty_$num$ }
-			set_global_variable = {  rch_using_renamable_dynasty_$num$ }
+			set_global_variable = rch_using_renamable_dynasty_$num$
 		}
 		every_character_in_dynasty = {
 			change_dynasty = dynasty:rch_renameable_dynasty_$num$
 		}
-		set_variable = rch_dynasty_renamed
+		$player$ = {
+			set_variable = rch_dynasty_renamed
+		}
 	}
 }
 
 rch_clear_dynasty_to_be_renamed = {
-	remove_global_variable = rch_renaming_dynasty_1
-	remove_global_variable = rch_renaming_dynasty_2
-	remove_global_variable = rch_renaming_dynasty_3
-	remove_global_variable = rch_renaming_dynasty_4
-	remove_global_variable = rch_renaming_dynasty_5
-	remove_global_variable = rch_renaming_dynasty_6
-	remove_global_variable = rch_renaming_dynasty_7
-	remove_global_variable = rch_renaming_dynasty_8
-	remove_global_variable = rch_renaming_dynasty_9
-	remove_global_variable = rch_renaming_dynasty_10
+	remove_variable = rch_renaming_dynasty_1
+	remove_variable = rch_renaming_dynasty_2
+	remove_variable = rch_renaming_dynasty_3
+	remove_variable = rch_renaming_dynasty_4
+	remove_variable = rch_renaming_dynasty_5
+	remove_variable = rch_renaming_dynasty_6
+	remove_variable = rch_renaming_dynasty_7
+	remove_variable = rch_renaming_dynasty_8
+	remove_variable = rch_renaming_dynasty_9
+	remove_variable = rch_renaming_dynasty_10
 }
 
 rch_set_dynasty_to_be_renamed = {
@@ -88,17 +98,21 @@ rch_set_dynasty_to_be_renamed = {
 }
 
 rch_try_set_dynasty_to_be_renamed = {
-	var:rch_marked_character = {
+	scope:recipient = {
 		if = {
 			limit = {
-				NOT = { has_variable = rch_dynasty_to_be_renamed_selected}
+				scope:actor = {
+					NOT = { has_variable = rch_dynasty_to_be_renamed_selected}
+				}
 				OR = {
 					NOT = { has_global_variable = rch_using_renamable_dynasty_$num$ }
 					dynasty = dynasty:rch_renameable_dynasty_$num$
 				}
 			}
-			set_global_variable = { rch_renaming_dynasty_$num$ }
-			set_variable = rch_dynasty_to_be_renamed_selected
+			scope:actor = {
+				set_variable = rch_renaming_dynasty_$num$
+				set_variable = rch_dynasty_to_be_renamed_selected
+			}
 		}
 	}
 }

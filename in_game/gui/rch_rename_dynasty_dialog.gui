@@ -73,10 +73,17 @@ window = {
 
                     # RCH: Debug Text
                     # text_single = {
-                    #     raw_text = "TEXT: [GetVariableSystem.Get('rch_new_dynasty_name_1')] PLAYER: [GetPlayer.GetTag] TARGET: [GetVariableSystem.Get('rch_dynasty_to_rename')] FIRST_NAME: "
+                    #     raw_text = "TEXT: [GetVariableSystem.Get('rch_new_dynasty_name_1')] PLAYER: [GetPlayer.GetTag] TARGET: [GetVariableSystem.Get('rch_dynasty_to_rename')]"
                     #     align = center
                     #     default_format = "#low"
                     # }
+					text_single = {
+						# raw_text = "COMMAND: [Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, Concatenate( ' = { rch_rename_dynasty = yes }' ) ) )]"
+						raw_text = "COMMAND: [Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, ' = { rch_rename_dynasty = yes }' ) )]"
+						# raw_text = "COMMAND: [Concatenate( 'effect c:', GetPlayer.GetTag)]"
+						align = center
+						default_format = "#low"
+					}
 					block "message_template_buttons" {
 						button_regular_diamond = {
 							name = "decline_button"
@@ -103,7 +110,7 @@ window = {
                             using = snd_UI_popup_confirm
 
                             # RCH: Rename the dynasty
-                            onclick = "[ExecuteConsoleCommand( 'effect rch_rename_dynasty' )]"
+							onclick = "[ExecuteConsoleCommand( Concatenate( 'effect c:', Concatenate( GetPlayer.GetTag, ' = { rch_rename_dynasty = yes }' ) ) )]"
                             # Close the window
 							onclick = "[ExecuteConsoleCommand('GUI.ClearWidgets rch_rename_dynasty_dialog')]"
 
@@ -234,7 +241,7 @@ window = {
 	}
 
 	text_single= {
-		text = "[DialogConfig.GetTitle]"
+		text = "RCH_RENAME_DYNASTY_TEXT"
 		size = { 120 30 }
 		position = { 0 0 }
 		parentanchor = top|hcenter
