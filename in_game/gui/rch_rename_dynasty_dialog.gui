@@ -57,7 +57,7 @@ window = {
                                         }
                                     }
                                     # RCH: Save the text to a variable every time you type
-                                    # ontextchanged = "[SelectLocalization(GetVariableSystem.Exists('rch_renaming_dynsty_1',GetVariableSystem.Set('rch_new_dynasty_name_1', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self)), GetVariableSystem.Set('rch_new_dynasty_name_2', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self)))]"
+                                    # ontextchanged = "[SelectLocalization(GetVariableSystem.Exists('rch_renaming_dynasty_1',GetVariableSystem.Set('rch_new_dynasty_name_1', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self)), GetVariableSystem.Set('rch_new_dynasty_name_2', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self)))]"
 									ontextchanged = "[GetVariableSystem.Set('rch_new_dynasty_name_1', GetTextFromSelfOrAnyChildEditbox(PdxGuiWidget.Self))]"
 
                                     maxcharacters = 42

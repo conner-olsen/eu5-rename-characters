@@ -29,9 +29,7 @@
 				name = rch_marked_character
 				value = scope:recipient
 			}
-			dynasty = {
-				rch_set_dynasty_to_be_renamed = yes
-			}
+			rch_set_dynasty_to_be_renamed = yes
 		}
 	}
 }
