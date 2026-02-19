@@ -78,7 +78,7 @@
 			# RCH-CHANGE: Add rename character dialog option
 			block "rch_rename_character_entry" {
 				ContextMenuEntry = {
-					visible = "[Character.IsValid]"
+					visible = "[And(GetPlayer.HasVariable('rch_marked_character'), Character.IsValid)]"
 
 					blockoverride "onclick" {
 						onclick = "[GetVariableSystem.Set('rch_character_to_rename', Character.GetFirstNameForEditbox)]"
@@ -99,7 +99,7 @@
 			# RCH-CHANGE: Add rename dynasty dialog option
 			block "rch_rename_dynasty_entry" {
 				ContextMenuEntry = {
-					visible = "[Character.IsValid]"
+					visible = "[And(GetPlayer.HasVariable('rch_marked_character'), Character.IsValid)]"
 
 					blockoverride "onclick" {
 						onclick = "[GetVariableSystem.Set('rch_dynasty_to_rename', Character.GetDynasty.GetNameWithNoTooltip)]"
