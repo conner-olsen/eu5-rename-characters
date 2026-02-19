@@ -9,9 +9,6 @@
 				every_character_in_dynasty = {
 					change_dynasty = dynasty:rch_renameable_dynasty_1
 				}
-				# set_government_name = test
-				# set_dynasty_name_type = "test"
-				# set_nickname_if_none_present = "test"
 			}
 		}
 	}
