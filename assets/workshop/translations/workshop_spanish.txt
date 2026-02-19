@@ -3,37 +3,48 @@ Renombrar personajes y dinastías / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Spanish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Resumen:[/h1]
-Permite renombrar personajes y dinastías a través del menú contextual del clic derecho.
+[h1]Descripción general:[/h1]
+Permite renombrar personajes y dinastías a través del menú contextual de clic derecho.
 
 [h1]Características:[/h1]
 [olist]
- [*][b]Permitir renombrar personajes:[/b] Puedes cambiar el nombre de cualquier personaje a través del menú contextual del clic derecho.
- [*][b]Permitir renombrar dinastías:[/b] Puedes cambiar el nombre de cualquier dinastía a través del menú contextual del clic derecho sobre cualquier personaje.
+ [*][b]Permitir renombrar personajes:[/b] Puedes cambiar el nombre de cualquier personaje a través del menú contextual de clic derecho.
+ [*][b]Permitir renombrar dinastías:[/b] Puedes cambiar el nombre de cualquier dinastía a través del menú contextual de clic derecho sobre cualquier personaje.
 [/olist]
 
-[h1]Instrucciones de uso:[/h1]
+[h1]Modo de uso:[/h1]
 [olist]
- [*][b]Haz clic derecho sobre cualquier personaje:[/b] Esto abrirá el menú contextual para las interacciones de personajes.
+ [*][b]Haz clic derecho en cualquier personaje:[/b] Esto abrirá el menú contextual de interacciones de personajes.
  [*][b]Marcar personaje:[/b] Selecciona la interacción "Mark Character for Renaming" (Marcar personaje para renombrar).
- [*][b]Seleccionar Renombrar personaje/dinastía:[/b] Selecciona la interacción "Rename Character" (Renombrar personaje) o "Rename Dynasty" (Renombrar dinastía).
- [*][b]Elegir un nuevo nombre:[/b] Escribe el nuevo nombre en el cuadro de texto y haz clic en "Change Their Name!" (¡Cambiar su nombre!).
+ [*][b]Seleccionar Renombrar personaje/dinastía:[/b] Selecciona la interacción "Rename Character" o "Rename Dynasty".
+ [*][b]Elige un nuevo nombre:[/b] Escribe el nuevo nombre en el cuadro de texto y haz clic en "Change Their Name!".
 [/olist]
-Nota: Lamentablemente, no he encontrado la forma de convertir esto en una sola interacción. Es lo mejor que he podido hacer para que funcione dentro del sistema de moddeo de EU5.
+Nota: Lamentablemente, no pude encontrar una forma de convertir esto en una sola interacción. Es lo mejor que pude hacer para que funcione dentro del sistema de modding de EU5.
 
-[h1]Nota importante sobre el renombrado de dinastías:[/h1]
-Técnicamente no es posible renombrar ninguna dinastía existente. Lo que ocurre en realidad es la fundación de una nueva dinastía a la que se le puede cambiar el nombre y, a continuación, el traslado de todos los personajes a ella. Sin embargo, esto no incluirá a los personajes fallecidos y cambiará el emblema de tu dinastía.
+[h1]Nota sobre los números regnales:[/h1]
+Actualmente, incluso a través de la interacción original para nombrar niños, los números regnales no se aplican correctamente incluso cuando tu heredero tiene el mismo nombre que tu gobernante.
 
-Una vez que tu dinastía haya sido renombrada (o reemplazada por la que permite el renombrado), estas sí podrán renombrarse sin problemas (sin más cambios de emblema ni pérdida de personajes fallecidos).
+Por favor, vota positivamente este [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers-not-working.1867905/]informe de errores en el foro para ayudar a que se solucione.[/url]
 
-Además, existe un límite de 10 dinastías renombradas. Puedo añadir más si se solicita; solo es cuestión de incluirlas una a una. Actualmente, solo la primera dinastía tiene un emblema que yo mismo elegí, y el resto utiliza el mismo emblema genérico. Acepto sugerencias para mejores emblemas para las otras 9 dinastías (puedes enviar la definición o crear un pull request con el nuevo emblema).
+*Sí* funcionarán correctamente con mi mod, pero solo con personajes que hayan sido renombrados usándolo, sin incluir a tu gobernante actual.
+
+Ej., si renombras a tu heredero como "Juan", y luego renombras a tu siguiente heredero también como "Juan", el número regnal pasará a ser correctamente II una vez que el siguiente heredero ascienda al trono.
+
+[i]Técnicamente, si quieres, puedes usar el modo debug para determinar la clave de nombre real de tu gobernante actual y luego renombrar a tu heredero con ella, lo cual también funcionará correctamente (las claves de nombre son diferentes del nombre mostrado, por ejemplo, "Baldwin" es "name_baldwin").[/i]
+
+[h1]Nota importante sobre renombrar dinastías:[/h1]
+Técnicamente no es posible renombrar ninguna dinastía existente. Lo que ocurre en realidad es la fundación de una nueva dinastía a la que se le puede cambiar el nombre, y luego se trasladan todos los personajes a ella. Sin embargo, esto no incluirá a los personajes fallecidos y cambiará el emblema de tu dinastía.
+
+Una vez que tu dinastía sea renombrada (o reemplazada por la renombrable), estas sí podrán renombrarse sin problemas (sin más cambios de emblema ni pérdida de personajes fallecidos).
+
+Además, existe un límite de 10 dinastías renombradas. Puedo añadir más si se solicita; solo es cuestión de incluirlas una a una. Actualmente, solo la primera dinastía tiene un emblema que yo elegí, y el resto utiliza el mismo emblema genérico. Aceptaré cualquier sugerencia para mejorar los emblemas de las otras 9 dinastías (puedes enviar la definición o hacer un pr con el nuevo emblema).
 
 [h1]Localizaciones nativas:[/h1]
 [list]
  [*][b]Inglés:[/b] Primaria
 [/list]
 
-[h1]Localizaciones traducidas por DeepL:[/h1]
+[h1]Localizaciones traducidas con DeepL:[/h1]
 [list]
  [*][b]Chino / 中文[/b]
  [*][b]Francés / Français[/b]
@@ -52,13 +63,13 @@ Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3
 
 [h1]Compatibilidad:[/h1]
 [list]
- [*]No es compatible con logros.
+ [*]No es compatible con Logros.
  [*]Totalmente compatible con partidas guardadas.
  [*]Debería funcionar con cualquier mod.
  [*]Puedo añadir parches de compatibilidad bajo petición.
 [/list]
 
-Además del hilo de sugerencias fijado, también puedes hacer preguntas, reportar errores o proponer sugerencias en el [url=https://discord.gg/cgycfkdfSY]canal #utility-mods del servidor de Discord de la comunidad de EU5[/url]. Y si te interesa participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord como @arealconner. Todas las contribuciones son bienvenidas.
+Además del hilo de sugerencias fijado, también puedes hacer preguntas, reportar errores o hacer sugerencias en el [url=https://discord.gg/cgycfkdfSY]canal #utility-mods del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord como @arealconner. Todas las contribuciones son bienvenidas.
 
 El código fuente y las versiones de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
 

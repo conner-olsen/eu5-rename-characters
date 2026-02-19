@@ -3,37 +3,48 @@
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Simplified Chinese Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]概览：[/h1]
+[h1]概述：[/h1]
 允许你通过右键上下文菜单重命名角色和王朝。
 
-[h1]功能特点：[/h1]
+[h1]功能：[/h1]
 [olist]
  [*][b]允许重命名角色：[/b]你可以通过右键上下文菜单更改任何角色的名字。
- [*][b]允许重命名王朝：[/b]你可以通过点击任何角色的右键上下文菜单来更改任何王朝的名称。
+ [*][b]允许重命名王朝：[/b]你可以通过任何角色的右键上下文菜单更改任何王朝的名称。
 [/olist]
 
 [h1]使用方法：[/h1]
 [olist]
  [*][b]右键点击任何角色：[/b]这将打开角色互动的上下文菜单。
- [*][b]标记角色：[/b]选择“标记角色以重命名”互动。
- [*][b]选择重命名角色/王朝：[/b]选择“重命名角色”或“重命名王朝”互动。
- [*][b]选择新名称：[/b]在文本框中填写新名称，并点击“Change Their Name!”（更改其名称！）。
+ [*][b]标记角色：[/b]选择“Mark Character for Renaming”（标记角色以重命名）互动。
+ [*][b]选择重命名角色/王朝：[/b]选择“Rename Character”（重命名角色）或“Rename Dynasty”（重命名王朝）互动。
+ [*][b]选择新名字：[/b]在文本框中填写新名字，然后点击“Change Their Name!”（更改其姓名！）。
 [/olist]
-注意：遗憾的是，我没能找到将其整合为单一互动的方法。这是我在 EU5 模组系统限制下能做到的最佳效果。
+注意：遗憾的是，我没能找到将其整合为单一互动的方法。这是我在 EU5 模组系统限制内能做到的最佳效果。
+
+[h1]关于称号序数的说明：[/h1]
+目前，即使通过原版的孩子命名互动，即使你的继承人与统治者同名，称号序数（Regnal Numbers）也无法正确应用。
+
+请在论坛上为这个 [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers-not-working.1867905/]错误报告投票，以帮助修复它。[/url]
+
+它们*将*在我的模组中正确运行，但仅限于使用该模组重命名的角色，不包括你当前的统治者。
+
+例如，如果你将继承人重命名为“John”，然后又将下一个继承人也重命名为“John”，那么当下一个继承人登基时，称号序数将正确地变为 II。
+
+[i]从技术上讲，如果你愿意，可以使用调试模式（debug mode）确定当前统治者的实际名称键值（name key），然后将继承人重命名为该键值，这也可以正常工作（名称键值与显示名称不同，例如“Baldwin”是“name_baldwin”）。[/i]
 
 [h1]关于重命名王朝的重要说明：[/h1]
-从技术层面来说，无法直接重命名现有的王朝。实际的操作是建立一个可以重命名的全新王朝，然后将所有角色移动到该王朝中。但是，这不会包括已故的角色，并且会改变你王朝的纹章。
+从技术上讲，无法重命名任何现有的王朝。实际发生的是建立一个可以重命名的全新王朝，然后将所有角色转移到其中。但是，这不会包括已故的角色，并且会改变你王朝的纹章。
 
-一旦你的王朝被重命名（/替换为可重命名的王朝），之后就可以正常进行重命名而不会有问题（不再会改变纹章或丢失已故角色）。
+一旦你的王朝被重命名（或被可重命名的王朝替换），那么之后就可以毫无问题地进行重命名（不再有纹章变化或丢失已故角色的问题）。
 
-此外，重命名王朝的数量限制为 10 个。如果需要，我可以增加更多；这只是逐个添加的问题。目前，只有第一个王朝拥有我选定的纹章，其余的都使用通用的纹章。我乐于接受关于其他 9 个王朝更好纹章的建议（可以发送定义或为新纹章提交 PR）。
+此外，目前限制为 10 个重命名王朝。如果需要，我可以添加更多；这只是逐个添加的问题。目前，只有第一个王朝有我挑选的纹章，其余的都使用相同的通用纹章。我接受任何关于其他 9 个王朝更好纹章的建议（可以发送定义文件或在 GitHub 提交拉取请求）。
 
 [h1]原生本地化：[/h1]
 [list]
- [*][b]English:[/b] 主要语言
+ [*][b]English:[/b] Primary
 [/list]
 
-[h1]DeepL 翻译的本地化：[/h1]
+[h1]DeepL 翻译本地化：[/h1]
 [list]
  [*][b]Chinese / 中文[/b]
  [*][b]French / Français[/b]
@@ -48,17 +59,17 @@
 [/list]
 
 [h1]更新日志：[/h1]
-请参阅[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]创意工坊页面上的更新记录[/url]。
+请查看[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]创意工坊页面上的更新说明[/url]。
 
 [h1]兼容性：[/h1]
 [list]
  [*]不兼容成就。
  [*]完全兼容存档。
- [*]应可与任何模组共同使用。
- [*]我可以根据要求添加兼容性补丁。
+ [*]应可与任何模组协同工作。
+ [*]我可能会根据要求添加兼容性补丁。
 [/list]
 
-除了置顶的建议讨论区外，你还可以在 [url=https://discord.gg/cgycfkdfSY]EU5 社区 Discord 服务器的 #utility-mods 频道[/url]中提问、报告错误或提出建议。如果你有兴趣参与本模组或其他模组的开发，可以在 Discord 上 @arealconner 联系或添加我。欢迎任何形式的贡献。
+除了置顶的建议讨论区外，你还可以在 [url=https://discord.gg/cgycfkdfSY]EU5 社区 Discord 服务器的 #utility-mods 频道[/url]提问、报告 Bug 或提出建议。如果你有兴趣参与本模组或其他模组的开发，可以在 Discord 上私信或添加我 @arealconner。欢迎所有贡献。
 
-模组的源码和开发版本可在 [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] 上找到。
+模组的源码和开发版本可在 [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] 上获取。
 
