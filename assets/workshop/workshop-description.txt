@@ -16,6 +16,17 @@ Allows you to rename characters and dynasties via the right-click context menu.
 [/olist]
 Note: Unfortunately, I could not find a way to make this into a single interaction. This is the best I could do to make it work within the EU5 modding system.
 
+[h1]Note on Regnal Numbers:[/h1]
+Currently, even through the vanilla child naming interaction, regnal numbers are not correctly applied even when your heir has the same name as your ruler.
+
+Please upvote this [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers-not-working.1867905/]bug report on the forum to help get it fixed.[/url]
+
+They *will* work correctly with my mod, but only with characters that have been renamed using it, not including your current ruler.
+
+I.e., if you rename your heir to "John," and then rename your next heir to "John" as well, the regnal number will correctly become II once the next heir takes the throne.
+
+[i]Technically, if you want, you can use debug mode to determine the actual name key of your current ruler and then rename your heir to that, which will also work correctly (name keys are different from the displayed name, i.e. "Baldwin" is "name_baldwin").[/i]
+
 [h1]Important Note on Renaming Dynasties:[/h1]
 It is not technically possible to rename any existing dynasty. What is actually happening is the founding of a new dynasty that can be renamed, then moving all the characters into it. However, this will not include deceased characters, and it will change your dynasty's emblem.
 
