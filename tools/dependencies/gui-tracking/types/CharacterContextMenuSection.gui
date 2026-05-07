@@ -1,0 +1,218 @@
+	type CharacterContextMenuSection = ContextMenuSection {
+		visible = "[Character.IsValid]"
+
+		blockoverride "title_icon" {
+			widget = {
+				size = { 24 24 }
+				character_frame_small = {
+					blockoverride "character_frame_size" {
+						size = { 37 40 }
+						parentanchor = center
+						position = {0 3}
+					}
+					blockoverride "character_frame_estate_visible" {
+						visible = no
+					}
+					blockoverride "character_frame_dynasty_visible" {
+						visible = no
+					}
+					blockoverride "portrait_datacontext" {
+						datacontext = "[Character]"
+					}
+					blockoverride "portrait_position" {position = { 0 0 }}
+					blockoverride "portrait_click" {}
+					blockoverride "rightclick" {}
+				}
+			}
+		}
+
+		blockoverride "title_text" {
+			raw_text = "[Character.GetShortNameWithNoTooltip]"
+		}
+
+		blockoverride "title_right" {
+			button_pin = {
+				size = { 23 23 }
+				visible = "[IsPlayerValid]"
+				onclick = "[ToggleCharacterFav(Character.Self)]"
+				checked = "[IsCharacterFaved(Character.Self)]"
+				tooltipwidget = {
+					LeftClickButtonTooltip = {
+						blockoverride "onclick_text" {
+							text = "[SelectLocalization(IsCharacterFaved(Character.Self), 'UNPIN_OUTLINER', 'PIN_OUTLINER')]"
+						}
+					}
+				}
+			}
+		}
+
+		blockoverride "contextmenu_entries" {
+			block "open_dynasty_entry" {
+				ContextMenuEntry = {
+					visible = "[Character.HasDynasty]"
+
+					blockoverride "onclick" {
+						onclick = "[ShowCharacterInDynasty(Character.Self)]"
+						tooltip_enabled = no
+					}
+
+					blockoverride "entry_icon" {
+						dynasty_shield_small = {
+							datacontext = "[Character.GetDynasty]"
+							blockoverride "click" {}
+							blockoverride "show_as_button" { visible = no }
+							blockoverride "show_as_icon" { visible = yes }
+							blockoverride "tooltip" { tooltip_enabled = no }
+							blockoverride "contextmenu" {}
+						}
+					}
+
+					blockoverride "entry_text" {
+						text = "DYNASTY_OPEN_DYNASTY_VIEW"
+					}
+				}
+			}
+
+			# RCH-CHANGE: Add rename character dialog option
+			block "rch_rename_character_entry" {
+				ContextMenuEntry = {
+					visible = "[And(GetPlayer.HasVariable('rch_marked_character'), Character.IsValid)]"
+
+					blockoverride "onclick" {
+						onclick = "[GetVariableSystem.Set('rch_character_to_rename', Character.GetFirstNameForEditbox)]"
+						onclick = "[ExecuteConsoleCommand('GUI.CreateWidget gui/rch_rename_character_dialog.gui rch_rename_character_dialog')]"
+						tooltip_enabled = no
+					}
+
+					blockoverride "entry_icon_texture" {
+						texture = "gfx/interface/icons/character_interactions/_default.dds"
+					}
+
+					blockoverride "entry_text" {
+						text = "RCH_RENAME_CHARACTER_MENU_ITEM_TEXT"
+					}
+				}
+			}
+
+			# RCH-CHANGE: Add rename dynasty dialog option
+			block "rch_rename_dynasty_entry" {
+				ContextMenuEntry = {
+					visible = "[And(GetPlayer.HasVariable('rch_marked_character'), Character.IsValid)]"
+
+					blockoverride "onclick" {
+						onclick = "[GetVariableSystem.Set('rch_dynasty_to_rename', Character.GetDynasty.GetNameWithNoTooltip)]"
+						onclick = "[ExecuteConsoleCommand('GUI.CreateWidget gui/rch_rename_dynasty_dialog.gui rch_rename_dynasty_dialog')]"
+						tooltip_enabled = no
+					}
+
+					blockoverride "entry_icon_texture" {
+						texture = "gfx/interface/icons/character_interactions/_default.dds"
+					}
+
+					blockoverride "entry_text" {
+						text = "RCH_RENAME_DYNASTY_MENU_ITEM_TEXT"
+					}
+				}
+			}
+
+			ContextMenuEntryListSubSection = {
+				datacontext = "[GetCharacterQuickActions(Character.Self)]"
+				datacontext = "[Pin('character_actions')]"
+				visible = "[DataModelHasItems(QuickCharacterActions.GetActions)]"
+				datamodel = "[QuickCharacterActions.GetActions]"
+				item = {
+					ContextMenuEntry = {
+						datacontext = "[CharacterActionItem.GetUIAction]"
+						visible = "[PinCollection.IsPinned( CharacterActionItem.GetKey )]"
+
+						blockoverride "entry_button" {
+							button = {
+								using = contextmenu_entry_button_template
+								visible = "[CharacterActionItem.HasEffectsInfo]"
+								datacontext = "[Character.GetEducation]"
+
+								blockoverride "onclick" {
+									using = button_action_provider
+									tooltipwidget = {
+										using = ChildEducation_tooltip
+										blockoverride "title_icon_texture" {
+											texture = "[GetEducationIcon(ChildEducation.Self)]"
+										}
+									}
+								}
+
+								blockoverride "entry_icon_texture" {
+									texture = "[GetEducationIcon(ChildEducation.Self)]"
+								}
+
+								blockoverride "entry_text" {
+									text = "[UIActionProvider.GetTitle]"
+								}
+
+								# blockoverride "entry_right" {
+								# 	button_pin = {
+								# 		size = { 23 23 }
+								# 		checked = yes
+								# 		tooltip_enabled = no
+								# 	}
+								# }
+							}
+
+							button = {
+								using = contextmenu_entry_button_template
+								visible = "[Not(CharacterActionItem.HasEffectsInfo)]"
+
+								blockoverride "onclick" {
+									using = button_action_provider
+									tooltipwidget = {
+										ContextualTooltipType = {
+											blockoverride "title_text" {
+												text = "[UIAction.GetTitle]"
+											}
+
+											blockoverride "concept_link" {
+												text = "[Localize(Concatenate(CharacterActionItem.GetKey, '_concept'))]"
+											}
+
+											blockoverride "title_icon" {
+												icon = {
+													using = tooltip_title_icon_size
+													texture = "[CharacterActionItem.GetIcon]"
+												}
+											}
+
+											blockoverride "tooltip_content" {
+												using = action_tooltip_inner_content
+											}
+
+											blockoverride "tooltip_ui_action_block" {
+												TooltipUIActionBlockOld = {
+													visible = "[PdxGuiWidget.HasUIAction]"
+												}
+											}
+										}
+									}
+								}
+
+								blockoverride "entry_icon_texture" {
+									texture = "[CharacterActionItem.GetIcon]"
+								}
+
+								blockoverride "entry_text" {
+									text = "[UIActionProvider.GetTitle]"
+								}
+
+								# blockoverride "entry_right" {
+								# 	button_pin = {
+								# 		size = { 23 23 }
+								# 		checked = yes
+								# 		tooltip_enabled = no
+								# 	}
+								# }
+							}
+						}
+					}
+				}
+			}
+		}
+	}

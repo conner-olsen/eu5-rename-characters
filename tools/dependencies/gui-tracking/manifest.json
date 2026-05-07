@@ -1,0 +1,12 @@
+{
+  "definitions": {
+    "type:CharacterContextMenuSection": {
+      "base_widget": "ContextMenuSection",
+      "mod_file": "in_game/gui/rch_context_menu.gui",
+      "namespace": "ContextMenuSpecificTypes",
+      "tracking_path": "tools/dependencies/gui-tracking/types/CharacterContextMenuSection.gui",
+      "vanilla_file": "in_game/gui/context_menu.gui"
+    }
+  },
+  "version": 1
+}
