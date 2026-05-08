@@ -185,6 +185,14 @@
 
 											blockoverride "tooltip_content" {
 												using = action_tooltip_inner_content
+												blockoverride "conditions_list" {
+													TooltipScrolledRequirementsList = {
+														blockoverride "block_scrollarea" { maximumsize = { -1 300 }}
+														blockoverride "block_title" { text = "game_concept_conditions" }
+														visible = "[And(DataModelHasItems(RequirementsList.GetLines), UIAction.IsEnabled)]"
+														textcontext = "[UIAction.GetConditions]"
+													}
+												}
 											}
 
 											blockoverride "tooltip_ui_action_block" {
