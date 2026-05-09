@@ -1,0 +1,34 @@
+﻿rch_init_storage_chars = {
+	random_country = {
+		rch_create_storage_char = { num = 1 }
+		rch_create_storage_char = { num = 2 }
+		rch_create_storage_char = { num = 3 }
+		rch_create_storage_char = { num = 4 }
+		rch_create_storage_char = { num = 5 }
+		rch_create_storage_char = { num = 6 }
+		rch_create_storage_char = { num = 7 }
+		rch_create_storage_char = { num = 8 }
+		rch_create_storage_char = { num = 9 }
+		rch_create_storage_char = { num = 10 }
+	}
+}
+
+rch_create_storage_char = {
+	if = {
+		limit = { NOT = { exists = character:rch_storage_char_$num$ } }
+		create_character = {
+			first_name = name_birger
+			birth_date = 1.1.1
+			culture = culture:turkish_culture
+			religion = religion:catholic
+			adm = 0
+			dip = 0
+			mil = 0
+			script = rch_storage_char_$num$
+			create_in_limbo = yes
+		}
+		character:rch_storage_char_$num$ = {
+			set_nickname = ""
+		}
+	}
+}

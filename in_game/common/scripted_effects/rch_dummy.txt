@@ -10,4 +10,4 @@ rch_dummy = {
 	set_global_variable = rch_using_renamable_dynasty_8
 	set_global_variable = rch_using_renamable_dynasty_9
 	set_global_variable = rch_using_renamable_dynasty_10
-}
+}
