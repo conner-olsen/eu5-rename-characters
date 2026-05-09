@@ -1,0 +1,54 @@
+countries = {
+	countries = {
+		RC1 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC2 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC3 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC4 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC5 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC6 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC7 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC8 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RC9 = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+		RCA = {
+			capital = stockholm
+			discovered_regions = { scandinavian_region }
+			include = "catholic_abbey"
+		}
+	}
+}
