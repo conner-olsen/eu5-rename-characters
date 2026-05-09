@@ -1,7 +1,7 @@
 ﻿{
   "name": "Rename Characters & Dynasties Dev",
   "id": "rename.characters.dev",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "game_id": "eu5",
   "supported_game_version": "1.2.*",
   "short_description": "Allows you to rename characters and dynasties.",
@@ -10,6 +10,21 @@
     "Utilities",
     "User Interface"
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "rel_type": "dependency",
+      "id": "rename.any.country",
+      "display_name": "Rename Any Country",
+      "resource_type": "mod",
+      "version": "*"
+    },
+    {
+      "rel_type": "dependency",
+      "id": "rac.ht.comp",
+      "display_name": "Rename Any Country + Historical Tweaks Compatibility Patch",
+      "resource_type": "mod",
+      "version": "*"
+    }
+  ],
   "game_custom_data": {}
 }
