@@ -1,0 +1,79 @@
+﻿RC1 = {
+	color = rgb { 41 41 41 }
+	color2 = rgb { 41 41 41 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC2 = {
+	color = rgb { 42 42 42 }
+	color2 = rgb { 42 42 42 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC3 = {
+	color = rgb { 43 43 43 }
+	color2 = rgb { 43 43 43 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC4 = {
+	color = rgb { 44 44 44 }
+	color2 = rgb { 44 44 44 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC5 = {
+	color = rgb { 45 45 45 }
+	color2 = rgb { 45 45 45 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC6 = {
+	color = rgb { 46 46 46 }
+	color2 = rgb { 46 46 46 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC7 = {
+	color = rgb { 47 47 47 }
+	color2 = rgb { 47 47 47 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC8 = {
+	color = rgb { 48 48 48 }
+	color2 = rgb { 48 48 48 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RC9 = {
+	color = rgb { 49 49 49 }
+	color2 = rgb { 49 49 49 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
+
+RCA = {
+	color = rgb { 50 50 50 }
+	color2 = rgb { 50 50 50 }
+	culture_definition = turkish_culture
+	religion_definition = catholic
+	is_historic = yes
+}
