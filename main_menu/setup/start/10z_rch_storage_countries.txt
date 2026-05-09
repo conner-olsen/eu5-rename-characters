@@ -3,52 +3,262 @@ countries = {
 		RC1 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC2 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC3 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC4 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC5 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC6 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC7 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC8 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RC9 = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 		RCA = {
 			capital = stockholm
 			discovered_regions = { scandinavian_region }
-			include = "catholic_abbey"
+			government = {
+				type = monarchy
+				heir_selection = cognatic_primogeniture
+				centralization_vs_decentralization = 0
+				traditionalist_vs_innovative = 0
+				spiritualist_vs_humanist = 0
+				aristocracy_vs_plutocracy = 0
+				serfdom_vs_free_subjects = 0
+				mercantilism_vs_free_trade = 0
+				belligerent_vs_conciliatory = 0
+				quality_vs_quantity = 0
+				offensive_vs_defensive = 0
+				land_vs_naval = 0
+				capital_economy_vs_traditional_economy = 0
+				individualism_vs_communalism = 0
+				outward_vs_inward = 0
+				parliament = { parliament_type = estate_parliament }
+				laws = {
+					marriage_law = monogamous_marriage
+					heir_religion_law = heir_same_religion
+				}
+			}
 		}
 	}
 }
