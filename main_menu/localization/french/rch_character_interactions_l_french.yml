@@ -6,5 +6,5 @@
  rch_mark_character_for_renaming_interaction_desc: "Le [character|e] sera marqué pour être renommé."
  rch_mark_character_for_renaming_interaction_past: "[SCOPE.sCharacter('recipient').GetName] a été marqué pour être renommé."
  rch_mark_character_for_renaming_interaction_act_past: "[SCOPE.sCharacter('recipient').GetName] a été marqué pour être renommé."
- rch_mark_character_for_renaming_text: "Marquer le personnage pour renommage"
- rch_character_marked_for_renaming_text: "Changer le personnage marqué"
+ rch_mark_character_for_renaming_text: "Marquer le personnage à renommer"
+ rch_character_marked_for_renaming_text: "Modifier le personnage marqué"

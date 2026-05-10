@@ -5,6 +5,6 @@
  rch_mark_character_for_renaming_interaction_desc_specific: "[SCOPE.sCharacter('recipient').GetName] yeniden adlandırılmak üzere işaretlenecek. Bunu yaptıktan sonra, karakteri gerçekten yeniden adlandırmak için yeniden adlandırma etkileşimini açın."
  rch_mark_character_for_renaming_interaction_desc: "[character|e] yeniden adlandırılmak üzere işaretlenecek."
  rch_mark_character_for_renaming_interaction_past: "[SCOPE.sCharacter('recipient').GetName] yeniden adlandırılmak üzere işaretlendi."
- rch_mark_character_for_renaming_interaction_act_past: "[SCOPE.sCharacter('recipient').GetName] yeniden adlandırılmak üzere işaretlendi."
- rch_mark_character_for_renaming_text: "Karakteri Yeniden Adlandırmak için İşaretle"
+ rch_mark_character_for_renaming_interaction_act_past: "[SCOPE.sCharacter('recipient').GetName] yeniden adlandırma için işaretlendi."
+ rch_mark_character_for_renaming_text: "Karakteri Yeniden Adlandırmak İçin İşaretle"
  rch_character_marked_for_renaming_text: "İşaretli Karakteri Değiştir"

@@ -1,4 +1,5 @@
 ﻿l_english:
+ # NO-TRANSLATE BELOW
  rch_renameable_dynasty_1: "[GetCountry('RC1').GetMapName]"
  rch_renameable_dynasty_2: "[GetCountry('RC2').GetMapName]"
  rch_renameable_dynasty_3: "[GetCountry('RC3').GetMapName]"

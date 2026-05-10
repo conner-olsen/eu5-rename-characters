@@ -1,75 +1,74 @@
 ===WORKSHOP_TITLE===
-Renomear Personagens & Dinastias / Rename Characters & Dynasties
+Renomear Personagens e Dinastias / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Portuguese (Brazil) Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Visão Geral:[/h1]
-Permite renomear personagens e dinastias através do menu de contexto do botão direito.
+Permite renomear personagens e dinastias através do menu de contexto do clique direito.
 
 [h1]Funcionalidades:[/h1]
 [olist]
- [*][b]Permitir Renomear Personagens:[/b] Você pode alterar o nome de qualquer personagem através do menu de contexto do botão direito.
- [*][b]Permitir Renomear Dinastias:[/b] Você pode alterar o nome de qualquer dinastia através do menu de contexto do botão direito em qualquer personagem.
+ [*][b]Permitir Renomear Personagens:[/b] Você pode alterar o nome de qualquer personagem através do menu de contexto do clique direito.
+ [*][b]Permitir Renomear Dinastias:[/b] Você pode alterar o nome de qualquer dinastia através do menu de contexto do clique direito em qualquer personagem.
 [/olist]
 
 [h1]Como Usar:[/h1]
 [olist]
  [*][b]Clique com o Botão Direito em Qualquer Personagem:[/b] Isso abrirá o menu de contexto para interações de personagem.
- [*][b]Marcar Personagem:[/b] Selecione a interação "Mark Character for Renaming" (Marcar Personagem para Renomear).
- [*][b]Selecionar Renomear Personagem/Dinastia:[/b] Selecione a interação "Rename Character" (Renomear Personagem) ou "Rename Dynasty" (Renomear Dinastia).
- [*][b]Escolha um Novo Nome:[/b] Preencha a caixa de texto com o novo nome e clique em "Change Their Name!" (Alterar o Nome Deles!).
+ [*][b]Marcar Personagem:[/b] Selecione a interação "Mark Character for Renaming" (Marcar Personagem para Renomeação).
+ [*][b]Selecionar Renomear Personagem/Dinastia:[/b] Selecione a interação "Rename Character" ou "Rename Dynasty".
+ [*][b]Escolher um Novo Nome:[/b] Preencha a caixa de texto com o novo nome e clique em "Change Their Name!".
 [/olist]
-Nota: Infelizmente, não encontrei uma maneira de transformar isso em uma única interação. Isso é o melhor que pude fazer para que funcione dentro do sistema de modding do EU5.
+Nota: Infelizmente, não consegui encontrar uma maneira de transformar isso em uma única interação. Isso é o melhor que pude fazer para que funcionasse dentro do sistema de modding do EU5.
 
 [h1]Nota sobre Números Regais:[/h1]
-Atualmente, mesmo através da interação padrão de nomeação de crianças, os números regais não são aplicados corretamente, mesmo quando seu herdeiro tem o mesmo nome do seu governante.
+Atualmente, mesmo através da interação padrão de nomear crianças, os números regais não são aplicados corretamente quando seu herdeiro tem o mesmo nome que seu governante. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]A Paradox já confirmou o relatório de bug sobre isso aqui.[/url]
 
-Por favor, vote positivamente neste [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers-not-working.1867905/]relato de bug no fórum para ajudar a corrigi-lo.[/url]
+Eles *irão* funcionar corretamente com o meu mod, mas apenas com personagens que foram renomeados usando-o, não incluindo seu governante atual.
 
-Eles *irão* funcionar corretamente com o meu mod, mas apenas com personagens que foram renomeados usando ele, não incluindo seu governante atual.
+Ou seja, se você renomear seu herdeiro para "John", e depois renomear seu próximo herdeiro para "John" também, o número regal se tornará II corretamente assim que o próximo herdeiro assumir o trono.
 
-Ex: se você renomear seu herdeiro para "João" e depois renomear seu próximo herdeiro para "João" também, o número regal se tornará corretamente II assim que o próximo herdeiro assumir o trono.
-
-[i]Tecnicamente, se desejar, você pode usar o modo de depuração (debug mode) para determinar a chave de nome (name key) real do seu governante atual e então renomear seu herdeiro para isso, o que também funcionará corretamente (chaves de nome são diferentes do nome exibido, ex: "Baldwin" é "name_baldwin").[/i]
+[i]Se você quiser que o número regal correto apareça imediatamente, você pode usar o modo debug para determinar a chave de nome real (name key) do seu governante atual e então renomear seu herdeiro para ela, o que também funcionará corretamente (chaves de nome são diferentes do nome exibido, ex: "Baldwin" é "name_baldwin").[/i]
 
 [h1]Nota Importante sobre Renomear Dinastias:[/h1]
-Tecnicamente não é possível renomear nenhuma dinastia existente. O que realmente acontece é a fundação de uma nova dinastia que pode ser renomeada, movendo todos os personagens para ela. No entanto, isso não incluirá personagens falecidos e mudará o emblema da sua dinastia.
+Tecnicamente, não é possível renomear nenhuma dinastia existente. O que realmente acontece é a fundação de uma nova dinastia que pode ser renomeada, movendo todos os personagens para ela. No entanto, isso não incluirá personagens falecidos e alterará o emblema da sua dinastia.
 
-Assim que sua dinastia for renomeada (ou substituída pela renomeável), elas poderão ser renomeadas sem problemas (sem mais mudanças de emblema ou perda de personagens falecidos).
+Uma vez que sua dinastia seja renomeada (ou substituída pela renomeável), estas podem de fato ser renomeadas sem problemas (sem mais mudanças de emblema ou perda de personagens falecidos).
 
-Além disso, há um limite de 10 dinastias renomeadas. Posso adicionar mais se solicitado; é apenas uma questão de inseri-las uma de cada vez. Atualmente, apenas a primeira dinastia tem um emblema que eu escolhi, e o restante usa o mesmo emblema genérico. Aceitarei sugestões para emblemas melhores nas outras 9 dinastias (envie a definição ou faça um PR com o novo emblema).
+Além disso, há um limite de 10 dinastias renomeadas. Posso adicionar mais se solicitado; é apenas uma questão de colocá-las uma por uma. Atualmente, apenas a primeira dinastia tem um emblema que eu escolhi, e as demais usam o mesmo emblema genérico. Aceito sugestões para emblemas melhores para as outras 9 dinastias (envie a definição ou faça um pull request com o novo emblema).
 
 [h1]Localizações Nativas:[/h1]
 [list]
- [*][b]English:[/b] Primary
+ [*][b]Inglês:[/b] Primário
 [/list]
 
-[h1]Localizações Traduzidas por DeepL:[/h1]
+[h1]Localizações Traduzidas via DeepL:[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]Chinês / 中文[/b]
+ [*][b]Francês / Français[/b]
+ [*][b]Alemão / Deutsch[/b]
+ [*][b]Japonês / 日本語[/b]
+ [*][b]Coreano / 한국어[/b]
+ [*][b]Polonês / Polski[/b]
+ [*][b]Português (Brasil)[/b]
+ [*][b]Russo / Русский[/b]
+ [*][b]Espanhol / Español[/b]
+ [*][b]Turco / Türkçe[/b]
 [/list]
 
 [h1]Registro de Alterações:[/h1]
-Veja as [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Notas de Alteração na página do workshop[/url].
+Veja as [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Notas de Alteração na página da Oficina[/url].
 
 [h1]Compatibilidade:[/h1]
 [list]
- [*]Não compatível com Conquistas (Achievements).
- [*]Totalmente compatível com jogos salvos (save games).
+ [*]Não é compatível com Conquistas.
+ [*]Totalmente compatível com jogos salvos.
  [*]Deve funcionar com qualquer mod.
  [*]Posso adicionar patches de compatibilidade mediante solicitação.
+ [*]Não funcionará em jogos ironman ou multijogador.
 [/list]
 
-Além da discussão fixada para sugestões, você também pode fazer perguntas, relatar bugs ou dar sugestões no [url=https://discord.gg/cgycfkdfSY]canal #utility-mods do servidor EU5 Community no Discord[/url]. E se estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou me adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
+Além da discussão de sugestões fixada, você também pode fazer perguntas, relatar bugs ou dar sugestões no [url=https://discord.gg/cgycfkdfSY]canal #utility-mods do servidor de Discord da Comunidade EU5[/url]. E se você estiver interessado em participar do desenvolvimento deste ou de um dos meus outros mods, você pode me marcar ou me adicionar no Discord @arealconner. Todas as contribuições são bem-vindas.
 
-As versões de código-fonte e de desenvolvimento do mod estão disponíveis no [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
+O código-fonte e as versões de desenvolvimento do mod estão disponíveis no [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
 
