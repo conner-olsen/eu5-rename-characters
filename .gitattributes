@@ -1,11 +1,9 @@
 # Auto detect text files and perform LF normalization
-* text=auto eol=crlf
+* text=auto eol=lf
 
 # Force LF for all shell scripts
 *.sh text eol=lf
 
-# Don't normalize line endings for game files
-in_game/** -text
-main_menu/** -text
-loading_screen/** -text
-tools/dependencies/gui-tracking/** -text
+# Windows batch files require CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
