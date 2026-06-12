@@ -1,5 +1,5 @@
 ===WORKSHOP_TITLE===
-인물 및 왕조 이름 변경 / Rename Characters & Dynasties
+인물 및 가문 이름 변경 / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Korean Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
