@@ -1,7 +1,7 @@
 ﻿{
   "name": "Rename Characters & Dynasties Dev",
   "id": "rename.characters.dev",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "game_id": "eu5",
   "supported_game_version": "1.3.*",
   "rch_last_updated_game_version": "1.3.6",
@@ -9,7 +9,8 @@
   "tags": [
     "Characters",
     "Utilities",
-    "User Interface"
+    "User Interface",
+    "1.3"
   ],
   "relationships": [
     {
