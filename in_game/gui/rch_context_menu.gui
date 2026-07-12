@@ -99,9 +99,14 @@
 					visible = "[And(GetPlayer.HasVariable('rch_marked_character'), Character.IsValid)]"
 
 					blockoverride "onclick" {
+						# RC1 exists only on saves started with the mod
+						enabled = "[GetCountry('RC1').IsValid]"
+
 						onclick = "[GetVariableSystem.Set('rch_dynasty_to_rename', Character.GetDynasty.GetNameWithNoTooltip)]"
 						onclick = "[ExecuteConsoleCommand('GUI.CreateWidget gui/rch_rename_dynasty_dialog.gui rch_rename_dynasty_dialog')]"
-						tooltip_enabled = no
+
+						tooltip_enabled = "[Not(GetCountry('RC1').IsValid)]"
+						tooltip = "RCH_RENAME_DYNASTY_DISABLED_TT"
 					}
 
 					blockoverride "entry_icon_texture" {

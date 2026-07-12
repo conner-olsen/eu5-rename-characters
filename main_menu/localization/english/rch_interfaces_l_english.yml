@@ -17,3 +17,4 @@
  RCH_RENAME_DYNASTY_TEXT: "Rename Dynasty"
  RCH_EDIT_DYNASTY_NAME: "We may rename our [dynasty|e] to anything we please. It doth reflect poorly upon thine own dynasty shouldst thou choose a name too diminutive."
  RCH_CHANGE_DYNASTY_NAME_TITLE: "$RCH_RENAME_DYNASTY_TEXT$"
+ RCH_RENAME_DYNASTY_DISABLED_TT: "Renaming dynasties requires a save created with this mod enabled."
