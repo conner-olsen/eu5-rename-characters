@@ -3,39 +3,39 @@ Renombrar Personajes y Dinastías / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated Spanish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Resumen:[/h1]
-Te permite renombrar personajes y dinastías a través del menú contextual del clic derecho.
+[h1]Descripción general:[/h1]
+Permite renombrar personajes y dinastías a través del menú contextual del botón derecho.
 
 [h1]Características:[/h1]
 [olist]
- [*][b]Permitir renombrar personajes:[/b] Puedes cambiar el nombre de cualquier personaje a través del menú contextual del clic derecho.
- [*][b]Permitir renombrar dinastías:[/b] Puedes cambiar el nombre de cualquier dinastía a través del menú contextual del clic derecho sobre cualquier personaje.
+ [*][b]Permitir renombrar personajes:[/b] Puedes cambiar el nombre de cualquier personaje a través del menú contextual del botón derecho.
+ [*][b]Permitir renombrar dinastías:[/b] Puedes cambiar el nombre de cualquier dinastía a través del menú contextual del botón derecho en cualquier personaje.
 [/olist]
 
 [h1]Instrucciones de uso:[/h1]
 [olist]
- [*][b]Haz clic derecho en cualquier personaje:[/b] Esto abrirá el menú contextual para las interacciones de personaje.
- [*][b]Marcar personaje:[/b] Selecciona la interacción "Marcar personaje para renombrar".
- [*][b]Seleccionar Renombrar personaje/dinastía:[/b] Selecciona la interacción "Renombrar personaje" o "Renombrar dinastía".
- [*][b]Elegir un nuevo nombre:[/b] Escribe el nuevo nombre en el cuadro de texto y haz clic en "¡Cambiar su nombre!".
+ [*][b]Clic derecho en cualquier personaje:[/b] Esto abrirá el menú contextual para las interacciones de personajes.
+ [*][b]Marcar personaje:[/b] Selecciona la interacción "Mark Character for Renaming" (Marcar personaje para renombrar).
+ [*][b]Seleccionar Renombrar personaje/dinastía:[/b] Selecciona la interacción "Rename Character" o "Rename Dynasty".
+ [*][b]Elegir un nuevo nombre:[/b] Escribe el nuevo nombre en el cuadro de texto y haz clic en "Change Their Name!".
 [/olist]
-Nota: Lamentablemente, no pude encontrar la forma de convertir esto en una sola interacción. Esto es lo mejor que pude hacer para que funcione dentro del sistema de modding de EU5.
+Nota: Lamentablemente, no he encontrado la forma de convertir esto en una sola interacción. Esto es lo mejor que he podido hacer para que funcione dentro del sistema de modding de EU5.
 
 [h1]Nota sobre los números regnales:[/h1]
-Actualmente, incluso a través de la interacción original de nombrar hijos, los números regnales no se aplican correctamente cuando tu heredero tiene el mismo nombre que tu gobernante. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox ya ha confirmado el informe de error sobre esto aquí.[/url]
+Actualmente, incluso a través de la interacción original del juego para nombrar hijos, los números regnales no se aplican correctamente cuando tu heredero tiene el mismo nombre que tu gobernante. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox ya ha confirmado el informe de error sobre este tema aquí.[/url]
 
-*Funcionarán* correctamente con mi mod, pero solo con personajes que hayan sido renombrados usándolo, sin incluir a tu gobernante actual.
+*Sí* funcionarán correctamente con mi mod, pero solo con personajes que hayan sido renombrados usándolo, sin incluir a tu gobernante actual.
 
-P. ej., si renombras a tu heredero como "Juan" y luego renombras a tu siguiente heredero también como "Juan", el número regnal se convertirá correctamente en II una vez que el siguiente heredero suba al trono.
+P. ej., si renombras a tu heredero como "John", y luego renombras a tu siguiente heredero también como "John", el número regnal pasará a ser correctamente II una vez que el siguiente heredero suba al trono.
 
-[i]Si quieres que aparezca el número regnal correcto de inmediato, puedes usar el modo debug para determinar la clave de nombre real de tu gobernante actual y luego renombrar a tu heredero con ella, lo cual también funcionará correctamente (las claves de nombre son diferentes del nombre mostrado, p. ej., "Baldwin" es "name_baldwin").[/i]
+[i]Si quieres que aparezca el número regnal correcto de inmediato, puedes usar el modo debug para determinar la clave de nombre (name key) real de tu gobernante actual y luego renombrar a tu heredero con ella, lo cual también funcionará correctamente (las claves de nombre son diferentes del nombre mostrado, p. ej. "Baldwin" es "name_baldwin").[/i]
 
-[h1]Nota importante sobre el cambio de nombre de dinastías:[/h1]
-Técnicamente no es posible renombrar ninguna dinastía existente. Lo que ocurre en realidad es la fundación de una nueva dinastía que sí se puede renombrar, y luego se trasladan todos los personajes a ella. Sin embargo, esto no incluirá a los personajes fallecidos y cambiará el emblema de tu dinastía.
+[h1]Nota importante sobre el renombrado de dinastías:[/h1]
+Técnicamente no es posible renombrar ninguna dinastía existente. Lo que realmente sucede es la fundación de una nueva dinastía que se puede renombrar, y luego se trasladan todos los personajes a ella. Sin embargo, esto no incluirá a los personajes fallecidos y cambiará el emblema de tu dinastía.
 
-Una vez que tu dinastía haya sido renombrada (o reemplazada por la renombrable), estas podrán renombrarse sin problemas (no habrá más cambios de emblema ni pérdida de personajes fallecidos).
+Una vez que tu dinastía haya sido renombrada (o reemplazada por la renombrable), estas sí podrán renombrarse sin problemas (sin más cambios de emblema ni pérdida de personajes fallecidos).
 
-Además, hay un límite de 10 dinastías renombradas. Puedo añadir más si se solicita; solo es cuestión de añadirlas una por una. Actualmente, solo la primera dinastía tiene un emblema que yo mismo elegí, y el resto utiliza el mismo emblema genérico. Aceptaré cualquier sugerencia de mejores emblemas para las otras 9 dinastías (puedes enviar la definición o hacer un PR con el nuevo emblema).
+Además, hay un límite de 10 dinastías renombradas. Puedo añadir más si se solicita; es solo cuestión de ir añadiéndolas una a una. Actualmente, solo la primera dinastía tiene un emblema que yo mismo elegí, y el resto usa el mismo emblema genérico. Aceptaré cualquier sugerencia de emblemas mejores para las otras 9 dinastías (puedes enviar la definición o hacer un PR con el nuevo emblema).
 
 [h1]Localizaciones nativas:[/h1]
 [list]
@@ -61,14 +61,14 @@ Consulta las [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3
 
 [h1]Compatibilidad:[/h1]
 [list]
- [*]No es compatible con logros.
+ [*]Compatible con logros.
  [*]Totalmente compatible con partidas guardadas.
  [*]Debería funcionar con cualquier mod.
- [*]Puedo añadir parches de compatibilidad a petición.
- [*]No funcionará [b]no[/b] en partidas Ironman o multijugador.
+ [*]Puedo añadir parches de compatibilidad bajo petición.
+ [*][b]No[/b] funcionará en partidas ironman o multijugador.
 [/list]
 
-Además del hilo de sugerencias fijado, también puedes hacer cualquier pregunta, informar de errores o hacer sugerencias en el [url=https://discord.gg/cgycfkdfSY]canal #utility-mods del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en participar en el desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord @arealconner. Todas las contribuciones son bienvenidas.
+Además del hilo de sugerencias fijado, también puedes hacer preguntas, informar de errores o hacer sugerencias en el [url=https://discord.gg/cgycfkdfSY]canal #utility-mods del servidor de Discord de la comunidad de EU5[/url]. Y si estás interesado en unirte al desarrollo de este o de alguno de mis otros mods, puedes mencionarme o añadirme en Discord como @arealconner. Todas las contribuciones son bienvenidas.
 
-Las versiones de fuente y de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
+Las versiones de código fuente y de desarrollo del mod están disponibles en [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
 

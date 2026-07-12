@@ -4,71 +4,71 @@
 [i]You are on the DeepL-Generated Simplified Chinese Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]概述：[/h1]
-允许你通过右键菜单重命名人物和王朝。
+允许您通过右键菜单重命名人物和王朝。
 
-[h1]功能：[/h1]
+[h1]特色：[/h1]
 [olist]
- [*][b]允许重命名人物：[/b]你可以通过右键菜单更改任何人物的名字。
- [*][b]允许重命名王朝：[/b]你可以通过对任何人物点击右键来更改其所属王朝的名称。
+ [*][b]允许重命名人物：[/b]您可以通过右键菜单更改任何人物的名字。
+ [*][b]允许重命名王朝：[/b]您可以通过任何人物的右键菜单更改任何王朝的名称。
 [/olist]
 
 [h1]使用方法：[/h1]
 [olist]
- [*][b]右键点击任何人物：[/b]这将打开人物互动的上下文菜单。
- [*][b]标记人物：[/b]选择“标记人物以重命名 (Mark Character for Renaming)”互动。
- [*][b]选择重命名人物/王朝：[/b]选择“重命名人物 (Rename Character)”或“重命名王朝 (Rename Dynasty)”互动。
- [*][b]选择新名字：[/b]在文本框中填写新名字，然后点击“Change Their Name!”。
+ [*][b]右键点击任何人物：[/b]这将打开人物互动的菜单。
+ [*][b]标记人物：[/b]选择“标记人物以重命名（Mark Character for Renaming）”互动。
+ [*][b]选择重命名人物/王朝：[/b]选择“重命名人物（Rename Character）”或“重命名王朝（Rename Dynasty）”互动。
+ [*][b]选择一个新名字：[/b]在文本框中填写新名字，然后点击“更改他们的名字！（Change Their Name!）”。
 [/olist]
-注意：遗憾的是，我无法将其合并为一个单一互动。这是在 EU5 模组系统中实现该功能的最佳方案。
+注：很遗憾，我没能找到将其整合为单一互动的方法。为了使其在 EU5 的模组系统中运行，这是我目前能做到的最优解。
 
-[h1]关于君主序号的说明：[/h1]
-目前，即使通过原版的孩子命名互动，当你的继承人与统治者同名时，君主序号也无法正确应用。[url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox 已在此处确认了该 Bug 报告。[/url]
+[h1]关于头衔序号的说明：[/h1]
+目前，即使通过原版的孩子命名互动，当您的继承人与统治者同名时，头衔序号也无法正确应用。[url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]P社已经在此确认了该错误报告。[/url]
 
-它们*会*在我的模组中正常运作，但仅适用于使用该模组重命名的人物，不包括当前的统治者。
+它们*会*在我的模组中正确运行，但仅限于使用本模组重命名的人物，不包括您当前的统治者。
 
-例如，如果你将继承人重命名为“John”，然后又将下一个继承人也重命名为“John”，那么在下一个继承人登基后，君主序号将正确变为 II。
+也就是说，如果您将继承人重命名为“John”，然后又将下一位继承人也重命名为“John”，那么在下一位继承人即位后，头衔序号将正确地变为 II。
 
-[i]如果你希望立即显示正确的君主序号，可以使用调试模式 (debug mode) 确定当前统治者的实际名称键 (name key)，然后将继承人重命名为该键，这样也能正常工作（名称键与显示名称不同，例如“Baldwin”是“name_baldwin”）。[/i]
+[i]如果您想让正确的序号立即出现，可以使用调试模式（debug mode）来确定当前统治者的实际名称键值（name key），然后将您的继承人重命名为该键值，这样也能奏效（名称键值与显示名称不同，例如“Baldwin”的键值是“name_baldwin”）。[/i]
 
 [h1]关于重命名王朝的重要说明：[/h1]
-从技术上讲，重命名任何现有王朝是不可能的。实际发生的是建立了一个可以重命名的全新王朝，然后将所有人物转移到其中。但是，这将不包括已故的人物，并且会更改你的王朝纹章。
+从技术上讲，不可能重命名任何现有的王朝。实际发生的是建立一个可以重命名的全新王朝，然后将所有人物转移到其中。不过，这不会包括已故人物，且会改变您的王朝纹章。
 
-一旦你的王朝被重命名（/替换为可重命名的王朝），此后就可以毫无问题地重命名（不再有纹章变化或已故人物丢失）。
+一旦您的王朝被重命名（或被替换为可重命名的王朝），此后就可以毫无问题地进行重命名（不再有纹章变化或已故人物丢失）。
 
-此外，重命名王朝的数量上限为 10 个。如果需要，我可以添加更多；这只是逐一添加的问题。目前，只有第一个王朝有我挑选的纹章，其余的都使用相同的通用纹章。我欢迎任何关于其他 9 个王朝更好纹章的建议（发送定义或为新纹章提交 PR）。
+此外，重命名王朝的数量限制为 10 个。如果需要，我可以增加更多；这只是逐个添加的问题。目前，只有第一个王朝有我挑选的纹章，其余的都使用相同的通用纹章。我欢迎对其他 9 个王朝使用更好纹章的任何建议（可以发送定义，或提交带有新纹章的 PR）。
 
 [h1]原生本地化：[/h1]
 [list]
- [*][b]English:[/b] Primary
+ [*][b]英语 (English):[/b] 主要
 [/list]
 
 [h1]DeepL 翻译本地化：[/h1]
 [list]
- [*][b]Chinese / 中文[/b]
- [*][b]French / Français[/b]
- [*][b]German / Deutsch[/b]
- [*][b]Japanese / 日本語[/b]
- [*][b]Korean / 한국어[/b]
- [*][b]Polish / Polski[/b]
- [*][b]Portuguese (Brazil) / Português (Brasil)[/b]
- [*][b]Russian / Русский[/b]
- [*][b]Spanish / Español[/b]
- [*][b]Turkish / Türkçe[/b]
+ [*][b]中文 / Chinese[/b]
+ [*][b]法语 / Français[/b]
+ [*][b]德语 / Deutsch[/b]
+ [*][b]日语 / 日本語[/b]
+ [*][b]韩语 / 한국어[/b]
+ [*][b]波兰语 / Polski[/b]
+ [*][b]葡萄牙语（巴西） / Português (Brasil)[/b]
+ [*][b]俄语 / Русский[/b]
+ [*][b]西班牙语 / Español[/b]
+ [*][b]土耳其语 / Türkçe[/b]
 [/list]
 
 [h1]更新日志：[/h1]
-参见 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]创意工坊页面上的更新说明[/url]。
+请参阅[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]创意工坊页面上的更改日志[/url]。
 
 [h1]兼容性：[/h1]
 [list]
- [*]不兼容成就。
+ [*]兼容成就。
  [*]完全兼容存档。
  [*]应该兼容任何模组。
- [*]我可以根据要求添加兼容性补丁。
+ [*]我可能会根据要求添加兼容性补丁。
  [*]将[b]不能[/b]在铁人模式或多人游戏中使用。
 [/list]
 
-除了置顶的建议讨论外，你还可以在 [url=https://discord.gg/cgycfkdfSY]EU5 社区 Discord 服务器的 #utility-mods 频道[/url]提出任何问题、报告 Bug 或提出建议。如果你有兴趣参与此模组或我其他模组的开发，可以在 Discord 上 @arealconner 艾特我或添加我为好友。欢迎所有贡献。
+除了置顶的建议讨论区外，您还可以在 [url=https://discord.gg/cgycfkdfSY]EU5 社区 Discord 服务器的 #utility-mods 频道[/url]提出任何问题、报告错误或提出建议。如果您有兴趣参与本模组或我其他模组的开发，可以在 Discord 上 @arealconner 联系我。欢迎任何形式的贡献。
 
-该模组的源码和开发版本可在 [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] 上获取。
+模组的源代码和开发版本可在 [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] 上获得。
 

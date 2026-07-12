@@ -3,46 +3,46 @@ Charaktere & Dynastien umbenennen / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated German Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Überblick:[/h1]
-Ermöglicht das Umbenennen von Charakteren und Dynastien über das Rechtsklick-Kontextmenü.
+[h1]Übersicht:[/h1]
+Ermöglicht es dir, Charaktere und Dynastien über das Rechtsklick-Kontextmenü umzubenennen.
 
 [h1]Features:[/h1]
 [olist]
- [*][b]Umbenennen von Charakteren erlauben:[/b] Du kannst den Namen eines jeden Charakters über das Rechtsklick-Kontextmenü ändern.
- [*][b]Umbenennen von Dynastien erlauben:[/b] Du kannst den Namen jeder Dynastie über das Rechtsklick-Kontextmenü eines beliebigen Charakters ändern.
+ [*][b]Umbenennen von Charakteren erlauben:[/b] Du kannst den Namen jedes Charakters über das Rechtsklick-Kontextmenü ändern.
+ [*][b]Umbenennen von Dynastien erlauben:[/b] Du kannst den Namen jeder Dynastie über das Rechtsklick-Kontextmenü bei jedem beliebigen Charakter ändern.
 [/olist]
 
 [h1]Verwendung:[/h1]
 [olist]
- [*][b]Rechtsklick auf einen beliebigen Charakter:[/b] Dies öffnet das Kontextmenü für Charakterinteraktionen.
+ [*][b]Rechtsklick auf einen Charakter:[/b] Dies öffnet das Kontextmenü für Charakterinteraktionen.
  [*][b]Charakter markieren:[/b] Wähle die Interaktion „Charakter zum Umbenennen markieren“.
  [*][b]Charakter/Dynastie umbenennen auswählen:[/b] Wähle die Interaktion „Charakter umbenennen“ oder „Dynastie umbenennen“.
- [*][b]Einen neuen Namen wählen:[/b] Gib den neuen Namen in das Textfeld ein und klicke auf „Ihren Namen ändern!“.
+ [*][b]Einen neuen Namen wählen:[/b] Gib den neuen Namen in das Textfeld ein und klicke auf „Namen ändern!“.
 [/olist]
-Hinweis: Leider konnte ich keinen Weg finden, dies in einer einzigen Interaktion zusammenzufassen. Dies ist die beste Lösung, um es innerhalb des EU5-Modding-Systems funktionsfähig zu machen.
+Hinweis: Leider konnte ich keinen Weg finden, dies in einer einzigen Interaktion umzusetzen. Dies ist die beste Lösung, um es innerhalb des EU5-Modding-Systems zum Laufen zu bringen.
 
 [h1]Hinweis zu Herrschernummern:[/h1]
-Derzeit werden Herrschernummern selbst durch die Standard-Namensvergabe für Kinder nicht korrekt angewendet, wenn dein Erbe denselben Namen wie dein Herrscher trägt. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox hat den Fehlerbericht dazu bereits hier bestätigt.[/url]
+Derzeit werden Herrschernummern (selbst über die Standard-Interaktion zur Namensgebung von Kindern) nicht korrekt angewendet, wenn dein Erbe denselben Namen wie dein Herrscher hat. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox hat den entsprechenden Bug-Bericht hier bereits bestätigt.[/url]
 
-Mit meiner Mod werden sie korrekt funktionieren, aber nur bei Charakteren, die damit umbenannt wurden (dein aktueller Herrscher ausgenommen).
+Mit meiner Mod werden sie *korrekt* funktionieren, aber nur bei Charakteren, die mit ihr umbenannt wurden (dein aktueller Herrscher ist davon ausgeschlossen).
 
-D. h., wenn du deinen Erben in „John“ umbenennst und deinen nächsten Erben ebenfalls „John“ nennst, wird die Herrschernummer korrekt zu II, sobald der nächste Erbe den Thron besteigt.
+Das heißt: Wenn du deinen Erben in „John“ umbenennst und deinen nächsten Erben ebenfalls „John“ nennst, wird die Herrschernummer korrekt zu „II“, sobald der nächste Erbe den Thron besteigt.
 
-[i]Wenn du möchtest, dass die korrekte Herrschernummer sofort erscheint, kannst du den Debug-Modus verwenden, um den tatsächlichen Namensschlüssel (Name Key) deines aktuellen Herrschers zu ermitteln und deinen Erben danach zu benennen, was ebenfalls korrekt funktionieren wird (Namensschlüssel unterscheiden sich vom Anzeigenamen, z. B. ist „Baldwin“ eigentlich „name_baldwin“).[/i]
+[i]Wenn du möchtest, dass die korrekte Herrschernummer sofort erscheint, kannst du den Debug-Modus verwenden, um den tatsächlichen Namens-Key deines aktuellen Herrschers zu ermitteln und deinen Erben danach zu benennen (Namens-Keys unterscheiden sich vom Anzeigenamen, z. B. ist „Baldwin“ eigentlich „name_baldwin“).[/i]
 
 [h1]Wichtiger Hinweis zum Umbenennen von Dynastien:[/h1]
-Technisch gesehen ist es nicht möglich, eine bestehende Dynastie umzubenennen. Was tatsächlich passiert, ist die Gründung einer neuen, umbenennbaren Dynastie, in die dann alle Charaktere verschoben werden. Dies schließt jedoch keine verstorbenen Charaktere ein und ändert das Wappen deiner Dynastie.
+Es ist technisch nicht möglich, eine bestehende Dynastie direkt umzubenennen. Was tatsächlich passiert, ist die Gründung einer neuen Dynastie, die umbenannt werden kann, woraufhin alle Charaktere in diese verschoben werden. Dies schließt jedoch keine verstorbenen Charaktere ein und ändert das Wappen deiner Dynastie.
 
-Sobald deine Dynastie umbenannt (bzw. durch die umbenennbare ersetzt) wurde, können diese ohne Probleme umbenannt werden (keine weiteren Wappenänderungen oder Verlust verstorbener Charaktere mehr).
+Sobald deine Dynastie umbenannt (bzw. durch die umbenennbare Version ersetzt) wurde, kann sie ohne weitere Probleme umbenannt werden (keine weiteren Wappenänderungen oder Verlust verstorbener Charaktere mehr).
 
-Außerdem gibt es ein Limit von 10 umbenannten Dynastien. Ich kann auf Anfrage weitere hinzufügen; es ist nur eine Frage des schrittweisen Hinzufügens. Derzeit hat nur die erste Dynastie ein von mir ausgewähltes Wappen, der Rest verwendet dasselbe generische Wappen. Ich nehme gerne Vorschläge für bessere Wappen für die anderen 9 Dynastien entgegen (sende mir entweder die Definition oder erstelle einen PR mit dem neuen Wappen).
+Außerdem gibt es ein Limit von 10 umbenannten Dynastien. Auf Anfrage kann ich mehr hinzufügen; es ist lediglich eine Frage des manuellen Einfügens. Derzeit hat nur die erste Dynastie ein von mir ausgewähltes Wappen, der Rest verwendet dasselbe generische Wappen. Ich nehme gerne Vorschläge für bessere Wappen für die anderen 9 Dynastien entgegen (sende mir entweder die Definition oder erstelle einen Pull-Request mit dem neuen Wappen).
 
-[h1]Muttersprachliche Lokalisierungen:[/h1]
+[h1]Native Lokalisierungen:[/h1]
 [list]
  [*][b]Englisch:[/b] Primär
 [/list]
 
-[h1]Per DeepL übersetzte Lokalisierungen:[/h1]
+[h1]Mit DeepL übersetzte Lokalisierungen:[/h1]
 [list]
  [*][b]Chinesisch / 中文[/b]
  [*][b]Französisch / Français[/b]
@@ -61,14 +61,14 @@ Siehe die [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666
 
 [h1]Kompatibilität:[/h1]
 [list]
- [*]Nicht kompatibel mit Errungenschaften.
- [*]Vollständig kompatibel mit Spielständen.
+ [*]Achievement-kompatibel.
+ [*]Vollständig spielstandkompatibel.
  [*]Sollte mit jeder Mod funktionieren.
- [*]Ich kann auf Anfrage Kompatibilitäts-Patches hinzufügen.
- [*]Funktioniert [b]nicht[/b] in Ironman- oder Mehrspieler-Spielen.
+ [*]Auf Anfrage kann ich Kompatibilitäts-Patches hinzufügen.
+ [*]Funktioniert [b]nicht[/b] in Ironman- oder Mehrspieler-Partien.
 [/list]
 
-Zusätzlich zur angepinnten Diskussionsrunde für Vorschläge kannst du im [url=https://discord.gg/cgycfkdfSY]#utility-mods Channel des EU5 Community Discord-Servers[/url] Fragen stellen, Bugs melden oder Vorschläge machen. Wenn du an der Entwicklung dieser oder einer meiner anderen Mods teilnehmen möchtest, kannst du mich auf Discord unter @arealconner anschreiben oder hinzufügen. Alle Beiträge sind willkommen.
+Zusätzlich zur angepinnten Diskussion für Vorschläge kannst du auch Fragen stellen, Fehler melden oder Vorschläge im [url=https://discord.gg/cgycfkdfSY]#utility-mods-Kanal des EU5 Community Discord-Servers[/url] machen. Und wenn du daran interessiert bist, an der Entwicklung dieser oder einer meiner anderen Mods mitzuwirken, kannst du mich auf Discord unter @arealconner anschreiben oder hinzufügen. Alle Beiträge sind willkommen.
 
-Die Quell- und Entwicklerversionen der Mod sind auf [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] verfügbar.
+Die Quell- und Entwicklungsversionen der Mod sind auf [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] verfügbar.
 

@@ -4,45 +4,45 @@ Karakterleri ve Hanedanları Yeniden Adlandır / Rename Characters & Dynasties
 [i]You are on the DeepL-Generated Turkish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Genel Bakış:[/h1]
-Karakterleri ve hanedanları sağ tık bağlam menüsü aracılığıyla yeniden adlandırmanıza olanak tanır.
+Sağ tık bağlam menüsü aracılığıyla karakterleri ve hanedanları yeniden adlandırmanıza olanak tanır.
 
 [h1]Özellikler:[/h1]
 [olist]
- [*][b]Karakterleri Yeniden Adlandırmaya İzin Ver:[/b] Herhangi bir karakterin adını sağ tık bağlam menüsü üzerinden değiştirebilirsiniz.
+ [*][b]Karakterleri Yeniden Adlandırmaya İzin Ver:[/b] Herhangi bir karakterin adını sağ tık bağlam menüsü aracılığıyla değiştirebilirsiniz.
  [*][b]Hanedanları Yeniden Adlandırmaya İzin Ver:[/b] Herhangi bir karakter üzerindeki sağ tık bağlam menüsü aracılığıyla herhangi bir hanedanın adını değiştirebilirsiniz.
 [/olist]
 
-[h1]Kullanımı:[/h1]
+[h1]Kullanım:[/h1]
 [olist]
- [*][b]Herhangi Bir Karaktere Sağ Tıklayın:[/b] Bu, karakter etkileşimleri için bağlam menüsünü açacaktır.
- [*][b]Karakteri İşaretle:[/b] "Karakteri Yeniden Adlandırmak İçin İşaretle" etkileşimini seçin.
- [*][b]Karakteri/Hanedanı Yeniden Adlandır'ı Seçin:[/b] "Karakteri Yeniden Adlandır" veya "Hanedanı Yeniden Adlandır" etkileşimini seçin.
- [*][b]Yeni Bir İsim Seçin:[/b] Metin kutusuna yeni ismi yazın ve "İsimlerini Değiştir!" butonuna tıklayın.
+ [*][b]Herhangi Bir Karakterin Üzerine Sağ Tıklayın:[/b] Bu, karakter etkileşimleri için bağlam menüsünü açacaktır.
+ [*][b]Karakteri İşaretle:[/b] "Mark Character for Renaming" (Karakteri Yeniden Adlandırmak İçin İşaretle) etkileşimini seçin.
+ [*][b]Karakteri/Hanedanı Yeniden Adlandır Seçeneğini Seçin:[/b] "Rename Character" veya "Rename Dynasty" etkileşimini seçin.
+ [*][b]Yeni Bir İsim Seçin:[/b] Metin kutusunu yeni isimle doldurun ve "Change Their Name!" butonuna tıklayın.
 [/olist]
-Not: Maalesef bunu tek bir etkileşime dönüştürmenin bir yolunu bulamadım. EU5 modlama sistemi içinde çalışmasını sağlamak için yapabildiğim en iyi şey bu.
+Not: Maalesef bunu tek bir etkileşim haline getirmenin bir yolunu bulamadım. EU5 modlama sistemi dahilinde çalışmasını sağlamak için yapabileceğimin en iyisi buydu.
 
 [h1]Hükümdar Numaraları Hakkında Not:[/h1]
-Şu anda, orijinal çocuk adlandırma etkileşiminde bile, varisiniz hükümdarınızla aynı isme sahip olduğunda hükümdar numaraları doğru şekilde uygulanmamaktadır. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox bu konudaki hata raporunu burada zaten onayladı.[/url]
+Şu anda, oyunun orijinal çocuk adlandırma etkileşimi üzerinden bile, varisiniz hükümdarınızla aynı isme sahip olduğunda hükümdar numaraları doğru şekilde uygulanmıyor. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox bu konudaki hata raporunu burada onayladı.[/url]
 
-Mevcut hükümdarınız hariç olmak üzere, bu mod kullanılarak yeniden adlandırılan karakterlerle hükümdar numaraları *doğru* çalışacaktır.
+Benim modumla birlikte bu numaralar doğru şekilde *çalışacaktır*, ancak sadece mod kullanılarak yeniden adlandırılmış karakterler için geçerlidir (mevcut hükümdarınız dahil değildir).
 
-Yani, varisinizin adını "John" olarak değiştirirseniz ve ardından bir sonraki varisinizin adını da "John" yaparsanız, sonraki varis tahta geçtiğinde hükümdar numarası doğru bir şekilde II olacaktır.
+Örneğin, varisinizin adını "John" olarak değiştirirseniz ve ardından sonraki varisinizin adını da "John" yaparsanız, bir sonraki varis tahta geçtiğinde hükümdar numarası doğru bir şekilde II olacaktır.
 
-[i]Doğru hükümdar numarasının hemen görünmesini istiyorsanız, mevcut hükümdarınızın gerçek isim anahtarını belirlemek için hata ayıklama (debug) modunu kullanabilir ve ardından varisinizi bu isme göre yeniden adlandırabilirsiniz; bu da doğru şekilde çalışacaktır (isim anahtarları görüntülenen isimden farklıdır, örneğin "Baldwin", "name_baldwin" şeklindedir).[/i]
+[i]Doğru hükümdar numarasının hemen görünmesini istiyorsanız, mevcut hükümdarınızın gerçek isim anahtarını belirlemek için hata ayıklama (debug) modunu kullanabilir ve ardından varisinizi bu anahtara göre yeniden adlandırabilirsiniz; bu da doğru şekilde çalışacaktır (isim anahtarları görüntülenen isimden farklıdır, örneğin "Baldwin" ismi "name_baldwin" şeklindedir).[/i]
 
 [h1]Hanedanları Yeniden Adlandırma Hakkında Önemli Not:[/h1]
-Mevcut herhangi bir hanedanı yeniden adlandırmak teknik olarak mümkün değildir. Gerçekte olan şey, yeniden adlandırılabilen yeni bir hanedanın kurulması ve ardından tüm karakterlerin bu hanedana taşınmasıdır. Ancak bu, ölen karakterleri kapsamaz ve hanedanınızın amblemini değiştirir.
+Teknik olarak mevcut herhangi bir hanedanı yeniden adlandırmak mümkün değildir. Aslında olan şey, yeniden adlandırılabilen yeni bir hanedan kurmak ve ardından tüm karakterleri oraya taşımaktır. Ancak bu, ölmüş karakterleri kapsamayacak ve hanedanınızın amblemini değiştirecektir.
 
-Hanedanınız yeniden adlandırıldıktan (yeniden adlandırılabilir olanla değiştirildikten) sonra, bunlar artık sorunsuz bir şekilde yeniden adlandırılabilir (artık amblem değişikliği olmaz veya ölen karakterler kaybolmaz).
+Hanedanınız yeniden adlandırıldıktan (veya yeniden adlandırılabilir olanla değiştirildikten) sonra, bunlar artık sorunsuz bir şekilde yeniden adlandırılabilir (artık amblem değişikliği olmaz veya ölmüş karakterler kaybolmaz).
 
-Ayrıca, 10 yeniden adlandırılmış hanedan sınırı vardır. İstenirse daha fazlasını ekleyebilirim; bu sadece onları tek tek ekleme meselesidir. Şu anda sadece ilk hanedanın benim seçtiğim bir amblemi var, geri kalanlar ise aynı genel amblemi kullanıyor. Diğer 9 hanedan için daha iyi amblem önerilerinizi kabul ediyorum (ya tanımı gönderin ya da yeni amblemle bir PR oluşturun).
+Ayrıca, yeniden adlandırılmış hanedan limiti 10'dur. Talep edilirse daha fazlasını ekleyebilirim; bu sadece onları tek tek ekleme meselesidir. Şu anda sadece ilk hanedanın benim seçtiğim bir amblemi var, geri kalanlar ise aynı jenerik amblemi kullanıyor. Diğer 9 hanedan için daha iyi amblem önerilerine açığım (tanımı gönderebilir veya yeni amblemle bir PR oluşturabilirsiniz).
 
 [h1]Orijinal Yerelleştirmeler:[/h1]
 [list]
  [*][b]İngilizce:[/b] Birincil
 [/list]
 
-[h1]DeepL ile Çevrilen Yerelleştirmeler:[/h1]
+[h1]DeepL ile Çevrilmiş Yerelleştirmeler:[/h1]
 [list]
  [*][b]Çince / 中文[/b]
  [*][b]Fransızca / Français[/b]
@@ -57,18 +57,18 @@ Ayrıca, 10 yeniden adlandırılmış hanedan sınırı vardır. İstenirse daha
 [/list]
 
 [h1]Değişiklik Günlüğü:[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Workshop sayfasındaki Değişiklik Notlarına[/url] göz atın.
+Workshop sayfasındaki [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Değişiklik Notlarına[/url] göz atın.
 
 [h1]Uyumluluk:[/h1]
 [list]
- [*]Başarımlar (Achievement) ile uyumlu değildir.
- [*]Kayıtlı oyunlarla tam uyumludur.
+ [*]Başarımlarla Uyumlu.
+ [*]Kayıtlı oyunlarla tam uyumlu.
  [*]Herhangi bir modla çalışmalıdır.
- [*]İstek üzerine uyumluluk yamaları ekleyebilirim.
+ [*]Talep üzerine uyumluluk yamaları ekleyebilirim.
  [*]Ironman veya çok oyunculu oyunlarda [b]çalışmaz[/b].
 [/list]
 
-Sabitlenen öneriler tartışmasına ek olarak, her türlü soruyu sorabilir, hataları bildirebilir veya [url=https://discord.gg/cgycfkdfSY]EU5 Topluluğu discord sunucusundaki #utility-mods kanalında[/url] önerilerde bulunabilirsiniz. Ayrıca bu modun veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord'da @arealconner adresinden bana ping atabilir veya ekleyebilirsiniz. Tüm katkılara açığım.
+Sabitlenmiş öneriler tartışmasına ek olarak, [url=https://discord.gg/cgycfkdfSY]EU5 Community Discord sunucusunun #utility-mods kanalı[/url] üzerinden de sorularınızı sorabilir, hataları bildirebilir veya önerilerde bulunabilirsiniz. Ve eğer bu veya diğer modlarımdan birinin geliştirilmesine katılmak isterseniz, Discord üzerinden bana @arealconner kullanıcı adıyla ulaşabilir veya ekleyebilirsiniz. Her türlü katkı memnuniyetle karşılanır.
 
 Modun kaynak ve geliştirme sürümleri [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub[/url] üzerinde mevcuttur.
 
