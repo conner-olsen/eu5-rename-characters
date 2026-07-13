@@ -16,3 +16,4 @@
  RCH_RENAME_DYNASTY_TEXT: "重命名王朝"
  RCH_EDIT_DYNASTY_NAME: "我们可以随心所欲地重新命名我们的[dynasty|e]。但若你所择之名过于微末，恐将令你的王朝蒙羞。"
  RCH_CHANGE_DYNASTY_NAME_TITLE: "$RCH_RENAME_DYNASTY_TEXT$"
+ RCH_RENAME_DYNASTY_DISABLED_TT: "重命名王朝需要使用在启用此模组的情况下创建的存档。"

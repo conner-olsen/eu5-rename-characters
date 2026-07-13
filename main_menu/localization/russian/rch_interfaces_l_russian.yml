@@ -16,3 +16,4 @@
  RCH_RENAME_DYNASTY_TEXT: "Переименовать династию"
  RCH_EDIT_DYNASTY_NAME: "Мы можем переименовать [dynasty|e] как нам заблагорассудится. Однако выбор слишком ничтожного имени может бросить тень на твою собственную династию."
  RCH_CHANGE_DYNASTY_NAME_TITLE: "$RCH_RENAME_DYNASTY_TEXT$"
+ RCH_RENAME_DYNASTY_DISABLED_TT: "Переименование династий требует сохранения, созданного с включённым модом."

@@ -3,7 +3,7 @@ Renommer les Personnages et Dynasties / Rename Characters & Dynasties
 ===WORKSHOP_DESCRIPTION===
 [i]You are on the DeepL-Generated French Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
-[h1]Aperçu :[/h1]
+[h1]Vue d'ensemble :[/h1]
 Permet de renommer les personnages et les dynasties via le menu contextuel du clic droit.
 
 [h1]Caractéristiques :[/h1]
@@ -14,38 +14,38 @@ Permet de renommer les personnages et les dynasties via le menu contextuel du cl
 
 [h1]Utilisation :[/h1]
 [olist]
- [*][b]Clic droit sur n'importe quel personnage :[/b] Cela ouvrira le menu contextuel des interactions de personnage.
- [*][b]Marquer le personnage :[/b] Sélectionnez l'interaction « Mark Character for Renaming ».
- [*][b]Sélectionner Renommer le personnage/la dynastie :[/b] Sélectionnez l'interaction « Rename Character » ou « Rename Dynasty ».
- [*][b]Choisir un nouveau nom :[/b] Remplissez la zone de texte avec le nouveau nom et cliquez sur « Change Their Name! ».
+ [*][b]Clic droit sur n'importe quel personnage :[/b] Cela ouvrira le menu contextuel pour les interactions de personnage.
+ [*][b]Marquer le personnage :[/b] Sélectionnez l'interaction "Marquer le personnage pour renommage".
+ [*][b]Sélectionner Renommer Personnage/Dynastie :[/b] Sélectionnez l'interaction "Renommer le personnage" ou "Renommer la dynastie".
+ [*][b]Choisir un nouveau nom :[/b] Remplissez la zone de texte avec le nouveau nom et cliquez sur "Changer leur nom !".
 [/olist]
-Note : Malheureusement, je n'ai pas trouvé de moyen d'en faire une interaction unique. C'est le mieux que j'ai pu faire pour que cela fonctionne avec le système de modding d'EU5.
+Note : Malheureusement, je n'ai pas trouvé le moyen d'en faire une interaction unique. C'est le mieux que j'ai pu faire pour que cela fonctionne avec le système de modding d'EU5.
 
 [h1]Note sur les numéros de règne :[/h1]
-Actuellement, même via l'interaction de nommage d'enfant de base (vanilla), les numéros de règne ne sont pas correctement appliqués lorsque votre héritier porte le même nom que votre souverain. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox a déjà confirmé le rapport de bug à ce sujet ici.[/url]
+Actuellement, même via l'interaction de nommage d'enfant de base (vanilla), les numéros de règne ne sont pas correctement appliqués lorsque votre héritier a le même nom que votre souverain. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox a déjà confirmé le rapport de bug à ce sujet ici.[/url]
 
-Ils *fonctionneront* correctement avec mon mod, mais uniquement avec les personnages qui ont été renommés en l'utilisant, à l'exception de votre souverain actuel.
+Ils *fonctionneront* correctement avec mon mod, mais seulement avec les personnages qui ont été renommés en l'utilisant, à l'exclusion de votre souverain actuel.
 
-Par exemple, si vous renommez votre héritier en « John », puis que vous renommez également votre héritier suivant en « John », le numéro de règne deviendra correctement II une fois que l'héritier suivant montera sur le trône.
+Par exemple, si vous renommez votre héritier en "John", puis que vous renommez votre héritier suivant en "John" également, le numéro de règne deviendra correctement II une fois que l'héritier suivant montera sur le trône.
 
-[i]Si vous souhaitez que le numéro de règne correct apparaisse immédiatement, vous pouvez utiliser le mode debug pour déterminer la clé de nom (name key) réelle de votre souverain actuel, puis renommer votre héritier avec celle-ci, ce qui fonctionnera également correctement (les clés de noms sont différentes du nom affiché, par exemple « Baldwin » est « name_baldwin »).[/i]
+[i]Si vous voulez que le numéro de règne correct apparaisse immédiatement, vous pouvez utiliser le mode debug pour déterminer la clé de nom réelle de votre souverain actuel et renommer votre héritier avec celle-ci, ce qui fonctionnera également correctement (les clés de nom sont différentes du nom affiché, par exemple "Baldwin" est "name_baldwin").[/i]
 
 [h1]Note importante sur le renommage des dynasties :[/h1]
-Il n'est techniquement pas possible de renommer une dynastie existante. Ce qui se passe réellement, c'est la fondation d'une nouvelle dynastie qui peut être renommée, puis le transfert de tous les personnages vers celle-ci. Cependant, cela n'inclura pas les personnages décédés et modifiera l'emblème de votre dynastie.
+Il n'est techniquement pas possible de renommer une dynastie existante. Ce qui se passe réellement est la fondation d'une nouvelle dynastie qui peut être renommée, puis le déplacement de tous les personnages vers celle-ci. Cependant, cela n'inclura pas les personnages décédés et cela changera l'emblème de votre dynastie.
 
-Une fois que votre dynastie est renommée (ou remplacée par celle renommable), celle-ci peut alors être renommée sans problème (plus de changement d'emblème ni de perte de personnages décédés).
+Une fois que votre dynastie est renommée (/remplacée par celle renommable), celle-ci peut alors être renommée sans problème (plus de changements d'emblème ou de perte de personnages décédés).
 
-De plus, il y a une limite de 10 dynasties renommées. Je peux en ajouter d'autres sur demande ; il s'agit simplement de les ajouter une par une. Actuellement, seule la première dynastie possède un emblème que j'ai choisi, les autres utilisant le même emblème générique. J'accepterai toute suggestion de meilleurs emblèmes pour les 9 autres dynasties (soit en envoyant la définition, soit en faisant une PR avec le nouvel emblème).
+De plus, il y a une limite de 10 dynasties renommées. Je peux en ajouter plus si demandé ; c'est juste une question de les intégrer une par une. Actuellement, seule la première dynastie a un emblème que j'ai choisi, et les autres utilisent le même emblème générique. J'accepte toute suggestion pour de meilleurs emblèmes pour les 9 autres dynasties (soit en envoyant la définition, soit en faisant une pull request avec le nouvel emblème).
 
 [h1]Localisations natives :[/h1]
 [list]
- [*][b]Anglais :[/b] Primaire
+ [*][b]Anglais :[/b] Principal
 [/list]
 
 [h1]Localisations traduites par DeepL :[/h1]
 [list]
  [*][b]Chinois / 中文[/b]
- [*][b]Français / Français[/b]
+ [*][b]Français[/b]
  [*][b]Allemand / Deutsch[/b]
  [*][b]Japonais / 日本語[/b]
  [*][b]Coréen / 한국어[/b]
@@ -57,18 +57,19 @@ De plus, il y a une limite de 10 dynasties renommées. Je peux en ajouter d'autr
 [/list]
 
 [h1]Journal des modifications :[/h1]
-Consultez les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]notes de version sur la page du workshop[/url].
+Consultez les [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Notes de mise à jour sur la page du workshop[/url].
 
 [h1]Compatibilité :[/h1]
 [list]
  [*]Compatible avec les succès (Achievements).
- [*]Entièrement compatible avec les sauvegardes en cours.
+ [*]Le renommage des personnages est compatible avec les sauvegardes en cours, mais le renommage des dynasties nécessite une sauvegarde créée avec le mod activé.
  [*]Devrait fonctionner avec n'importe quel mod.
- [*]Je peux ajouter des patchs de compatibilité sur demande.
- [*]Ne fonctionnera [b]pas[/b] en mode ironman ou en multijoueur.
+ [*][b]Ordre de chargement :[/b] Chargez ce mod en dernier, en dessous de Rename Any Country, Historical Tweaks, et le patch de compatibilité Rename Any Country + Historical Tweaks (si vous utilisez l'un ou l'autre). Cela devrait déjà être ordonné automatiquement.
+ [*]Je pourrai ajouter des patchs de compatibilité sur demande.
+ [*]Ne fonctionnera [b]pas[/b] dans les parties en ironman ou en multijoueur.
 [/list]
 
-En plus de la discussion épinglée sur les suggestions, vous pouvez également poser des questions, signaler des bugs ou faire des suggestions dans le [url=https://discord.gg/cgycfkdfSY]canal #utility-mods du serveur Discord de la communauté EU5[/url]. Et si vous souhaitez participer au développement de ce mod ou d'un de mes autres mods, vous pouvez me mentionner ou m'ajouter sur Discord @arealconner. Toutes les contributions sont les bienvenues.
+En plus de la discussion épinglée pour les suggestions, vous pouvez également poser des questions, signaler des bugs ou faire des suggestions dans le canal [url=https://discord.gg/cgycfkdfSY]#utility-mods du serveur Discord de la communauté EU5[/url]. Et si vous êtes intéressé à participer au développement de ce mod ou de l'un de mes autres mods, vous pouvez me pinger ou m'ajouter sur Discord @arealconner. Toutes les contributions sont les bienvenues.
 
 Les versions source et de développement du mod sont disponibles sur [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
 

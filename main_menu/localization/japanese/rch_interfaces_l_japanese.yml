@@ -16,3 +16,4 @@
  RCH_RENAME_DYNASTY_TEXT: "王朝名を変更"
  RCH_EDIT_DYNASTY_NAME: "我らは[dynasty|e]を望むままの名に改めることができる。あまりに矮小な名を選べば、そなた自身の王朝の品位を損なうことになろう。"
  RCH_CHANGE_DYNASTY_NAME_TITLE: "$RCH_RENAME_DYNASTY_TEXT$"
+ RCH_RENAME_DYNASTY_DISABLED_TT: "王朝名を変更するには、このModを有効にした状態で作成されたセーブデータが必要です。"

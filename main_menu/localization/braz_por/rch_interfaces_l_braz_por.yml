@@ -16,3 +16,4 @@
  RCH_RENAME_DYNASTY_TEXT: "Renomear Dinastia"
  RCH_EDIT_DYNASTY_NAME: "Podemos renomear nosso [dynasty|e] como bem desejarmos. Refletirá mal sobre vossa própria dinastia se escolherdes um nome insignificante demais."
  RCH_CHANGE_DYNASTY_NAME_TITLE: "$RCH_RENAME_DYNASTY_TEXT$"
+ RCH_RENAME_DYNASTY_DISABLED_TT: "Renomear dinastias exige um jogo salvo criado com este mod ativado."

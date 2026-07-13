@@ -4,40 +4,40 @@ Zmiana nazw postaci i dynastii / Rename Characters & Dynasties
 [i]You are on the DeepL-Generated Polish Page. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=$item-id$&l=english]Click here for the Native English Page.[/url][/i]
 
 [h1]Przegląd:[/h1]
-Pozwala na zmianę imion postaci oraz nazw dynastii poprzez menu kontekstowe prawego przycisku myszy.
+Pozwala na zmianę imion postaci i nazw dynastii poprzez menu kontekstowe prawego przycisku myszy.
 
 [h1]Cechy:[/h1]
 [olist]
- [*][b]Zmiana imion postaci:[/b] Możesz zmienić imię dowolnej postaci za pomocą menu kontekstowego prawego przycisku myszy.
- [*][b]Zmiana nazw dynastii:[/b] Możesz zmienić nazwę dowolnej dynastii poprzez menu kontekstowe dowolnej postaci.
+ [*][b]Możliwość zmiany imion postaci:[/b] Możesz zmienić imię dowolnej postaci za pomocą menu kontekstowego otwieranego prawym przyciskiem myszy.
+ [*][b]Możliwość zmiany nazw dynastii:[/b] Możesz zmienić nazwę dowolnej dynastii poprzez menu kontekstowe dowolnej postaci.
 [/olist]
 
-[h1]Jak używać:[/h1]
+[h1]Instrukcja obsługi:[/h1]
 [olist]
- [*][b]Kliknij prawym przyciskiem myszy na dowolną postać:[/b] Otworzy to menu kontekstowe interakcji z postacią.
- [*][b]Oznacz postać:[/b] Wybierz interakcję „Mark Character for Renaming” (Oznacz postać do zmiany nazwy).
- [*][b]Wybierz zmianę imienia/dynastii:[/b] Wybierz interakcję „Rename Character” lub „Rename Dynasty”.
+ [*][b]Kliknij prawym przyciskiem myszy na dowolną postać:[/b] To otworzy menu kontekstowe interakcji z postacią.
+ [*][b]Oznacz postać:[/b] Wybierz interakcję „Mark Character for Renaming”.
+ [*][b]Wybierz Rename Character/Dynasty:[/b] Wybierz interakcję „Rename Character” lub „Rename Dynasty”.
  [*][b]Wybierz nową nazwę:[/b] Wpisz nową nazwę w polu tekstowym i kliknij „Change Their Name!”.
 [/olist]
-Uwaga: Niestety nie znalazłem sposobu, aby uczynić to pojedynczą interakcją. To najlepsze, co mogłem zrobić, aby system działał w ramach modowania EU5.
+Uwaga: Niestety nie znalazłem sposobu, aby połączyć to w jedną interakcję. To najlepsze rozwiązanie, jakie udało mi się wypracować w ramach systemu modowania EU5.
 
-[h1]Uwaga dotycząca liczebników królewskich:[/h1]
-Obecnie, nawet w przypadku podstawowej interakcji nazywania dziecka, liczebniki królewskie nie są poprawnie nadawane, gdy następca ma to samo imię co władca. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox potwierdził już to zgłoszenie błędu tutaj.[/url]
+[h1]Uwaga dotycząca liczebników panowania:[/h1]
+Obecnie, nawet poprzez podstawową interakcję nadawania imion dzieciom, liczebniki panowania nie są poprawnie stosowane, gdy spadkobierca ma to samo imię co władca. [url=https://forum.paradoxplaza.com/forum/threads/regnal-numbers.1894770]Paradox potwierdził już zgłoszenie błędu w tej sprawie tutaj.[/url]
 
-W moim modzie będą one działać poprawnie, ale tylko w przypadku postaci, których imiona zostały zmienione przy jego użyciu (nie dotyczy to obecnego władcy).
+Będą one działać poprawnie z moim modem, ale tylko w przypadku postaci, których imiona zostały zmienione za jego pomocą (z wyłączeniem obecnego władcy).
 
-Tzn. jeśli zmienisz imię następcy na „John”, a następnie zmienisz imię kolejnego następcy również na „John”, liczebnik poprawnie zmieni się na II, gdy ten drugi zasiądzie na tronie.
+Np. jeśli zmienisz imię swojego spadkobiercy na „John”, a następnie imię kolejnego spadkobiercy również na „John”, liczebnik panowania poprawnie zmieni się na II, gdy tylko kolejny spadkobierca zasiądzie na tronie.
 
-[i]Jeśli chcesz, aby poprawny liczebnik pojawił się natychmiast, możesz użyć trybu debugowania, aby sprawdzić rzeczywisty klucz imienia (name key) swojego obecnego władcy i zmienić imię następcy na ten klucz – to również zadziała (klucze imion różnią się od wyświetlanej nazwy, np. „Baldwin” to „name_baldwin”).[/i]
+[i]Jeśli chcesz, aby poprawny liczebnik panowania pojawił się natychmiast, możesz użyć trybu debugowania, aby sprawdzić klucz nazwy (name key) obecnego władcy, a następnie zmienić imię spadkobiercy na ten klucz (klucze nazw różnią się od wyświetlanych imion, np. „Baldwin” to „name_baldwin”).[/i]
 
 [h1]Ważna uwaga dotycząca zmiany nazw dynastii:[/h1]
-Technicznie nie jest możliwa zmiana nazwy istniejącej dynastii. To, co faktycznie się dzieje, to założenie nowej dynastii, której nazwę można edytować, a następnie przeniesienie do niej wszystkich postaci. Nie obejmie to jednak zmarłych postaci i zmieni herb dynastii.
+Technicznie nie jest możliwe zmiana nazwy istniejącej dynastii. W rzeczywistości dochodzi do założenia nowej dynastii, którą można nazwać, a następnie przeniesienia do niej wszystkich postaci. Nie obejmie to jednak zmarłych postaci i zmieni herb dynastii.
 
-Gdy Twoja dynastia zostanie już zmieniona (zastąpiona tą z możliwością edycji), będzie można ją zmieniać bez problemów (bez kolejnych zmian herbu czy utraty zmarłych postaci).
+Gdy dynastia zostanie już zmieniona (zastąpiona tą z możliwością edycji), można ją odtąd zmieniać bez problemów (bez dalszych zmian herbu czy utraty zmarłych postaci).
 
-Istnieje również limit 10 zmienionych dynastii. Mogę dodać ich więcej na życzenie; to tylko kwestia dodawania ich po kolei. Obecnie tylko pierwsza dynastia posiada wybrany przeze mnie herb, reszta używa tego samego, generycznego herbu. Chętnie przyjmę sugestie dotyczące lepszych herbów dla pozostałych 9 dynastii (możesz wysłać definicję lub stworzyć pull request z nowym herbem).
+Istnieje również limit 10 zmienionych dynastii. Mogę dodać więcej na życzenie; to tylko kwestia dodawania ich po kolei. Obecnie tylko pierwsza dynastia ma wybrany przeze mnie herb, a pozostałe używają tego samego, generycznego herbu. Przyjmę wszelkie sugestie dotyczące lepszych herbów dla pozostałych 9 dynastii (wyślij definicję lub stwórz pull request z nowym herbem).
 
-[h1]Rodzime lokalizacje:[/h1]
+[h1]Natywne lokalizacje:[/h1]
 [list]
  [*][b]Angielski:[/b] Podstawowa
 [/list]
@@ -50,25 +50,26 @@ Istnieje również limit 10 zmienionych dynastii. Mogę dodać ich więcej na ż
  [*][b]Japoński / 日本語[/b]
  [*][b]Koreański / 한국어[/b]
  [*][b]Polski / Polski[/b]
- [*][b]Portugalski (Brazylijski) / Português (Brasil)[/b]
+ [*][b]Portugalski (Brazylia) / Português (Brasil)[/b]
  [*][b]Rosyjski / Русский[/b]
  [*][b]Hiszpański / Español[/b]
  [*][b]Turecki / Türkçe[/b]
 [/list]
 
 [h1]Dziennik zmian:[/h1]
-Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]Change Notes na stronie warsztatu[/url].
+Zobacz [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3666710780]listę zmian na stronie warsztatu[/url].
 
 [h1]Kompatybilność:[/h1]
 [list]
  [*]Kompatybilny z osiągnięciami.
- [*]W pełni kompatybilny z zapisami gry.
+ [*]Zmiana imion postaci jest kompatybilna z zapisanymi grami, ale zmiana nazw dynastii wymaga zapisu utworzonego z włączonym modem.
  [*]Powinien działać z każdym modem.
- [*]Mogę dodać patche kompatybilności na życzenie.
- [*]Mod [b]nie[/b] będzie działać w trybie ironman ani w grach wieloosobowych.
+ [*][b]Kolejność wczytywania:[/b] Wczytuj ten mod jako ostatni, poniżej Rename Any Country, Historical Tweaks oraz patcha kompatybilności Rename Any Country + Historical Tweaks (jeśli ich używasz). Powinno to zostać ustawione automatycznie.
+ [*]Mogę dodać patche kompatybilności na prośbę użytkowników.
+ [*][b]Nie[/b] będzie działać w trybie ironman ani w grach wieloosobowych.
 [/list]
 
-Oprócz przypiętej dyskusji o sugestiach, możesz również zadawać pytania, zgłaszać błędy lub przedstawiać sugestie na kanale [url=https://discord.gg/cgycfkdfSY]#utility-mods na serwerze Discord społeczności EU5[/url]. Jeśli jesteś zainteresowany dołączeniem do prac nad tym lub innym z moich modów, możesz mnie oznaczyć lub dodać na Discordzie: @arealconner. Każdy wkład jest mile widziany.
+Oprócz przypiętej dyskusji na temat sugestii, możesz również zadawać pytania, zgłaszać błędy lub przesyłać sugestie na [url=https://discord.gg/cgycfkdfSY]kanale #utility-mods serwera Discord społeczności EU5[/url]. Jeśli jesteś zainteresowany/-a udziałem w rozwoju tego lub innych moich modów, możesz mnie oznaczyć lub dodać na Discordzie: @arealconner. Każdy wkład jest mile widziany.
 
-Wersja źródłowa i deweloperska moda dostępna jest na [url=https://github.com/conner-olsen/eu5-rename-characters]GitHub.[/url]
+Wersje źródłowe i deweloperskie moda są dostępne na [url=https://github.com/conner-olsen/eu5-rename-characters]GitHubie.[/url]
 

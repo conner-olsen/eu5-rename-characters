@@ -16,3 +16,4 @@
  RCH_RENAME_DYNASTY_TEXT: "Zmień nazwę dynastii"
  RCH_EDIT_DYNASTY_NAME: "Możemy zmienić imię naszego [dynasty|e] na jakiekolwiek zechcemy. Przyniesie to jednak ujmę twej własnej dynastii, jeśli wybierzesz imię zbyt błahe."
  RCH_CHANGE_DYNASTY_NAME_TITLE: "$RCH_RENAME_DYNASTY_TEXT$"
+ RCH_RENAME_DYNASTY_DISABLED_TT: "Zmiana nazw dynastii wymaga zapisu gry utworzonego z włączonym tym modem."

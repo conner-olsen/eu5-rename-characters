@@ -16,3 +16,4 @@
  RCH_RENAME_DYNASTY_TEXT: "Hanedanı Yeniden Adlandır"
  RCH_EDIT_DYNASTY_NAME: "[dynasty|e] ismini dilediğimiz gibi değiştirebiliriz. Çok sönük bir isim seçmen, kendi hanedanına gölge düşürecektir."
  RCH_CHANGE_DYNASTY_NAME_TITLE: "$RCH_RENAME_DYNASTY_TEXT$"
+ RCH_RENAME_DYNASTY_DISABLED_TT: "Hanedanları yeniden adlandırmak için bu mod etkinken oluşturulmuş bir kayıt gereklidir."
