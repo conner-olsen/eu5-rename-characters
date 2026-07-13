@@ -12,12 +12,13 @@ rch_dummy = {
 	set_global_variable = rch_using_renamable_dynasty_10
 }
 
-# rac_custom_name_set is referenced by rch_country_name_construction for cross-mod
-# compat with eu5-rename-any-country. Dead branch silences the false "never set" warning
-# when that mod isn't loaded.
+# rch_country_name_construction reads these cross-mod variables: rac_custom_name_set
+# (set by eu5-rename-any-country) and rac_ht_custom_name_set (set by its Historical Tweaks
+# patch). Dead branch silences the false "never set" warning when those mods aren't loaded.
 rch_dummy_rac_compat = {
 	if = {
 		limit = { always = no }
 		set_variable = rac_custom_name_set
+		set_variable = rac_ht_custom_name_set
 	}
 }

@@ -15,7 +15,7 @@
 				tag = RC9
 				tag = RCA
 				has_variable = rac_custom_name_set
-				has_reform = government_reform:ht_custom_name_noprefix
+				has_variable = rac_ht_custom_name_set
 				AND = {
 					tag = PAP
 					has_reform = government_reform:papacy_reform
